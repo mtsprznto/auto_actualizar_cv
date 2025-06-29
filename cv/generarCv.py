@@ -26,15 +26,7 @@ def generar_cv(proyectos_destacados: list):
         "Técnico Administración de Empresas RRHH, Colegio Felmer Niklitschek, 2017"
     ])
 
-    # Proyectos
-    pdf.section_title("Proyectos Destacados")
-    pdf.multi_section([
-        "Academ – Plataforma educativa full stack. [academ-prod.vercel.app]",
-        "Gestpass – Gestor de contraseñas con cifrado. [gestpass.vercel.app]",
-        "CabañasPv – Web de arriendo de propiedades. [cabanaspv.vercel.app]",
-        "Ecommerce-Coffe – Tienda online simulada (Front y Back). [coffedream.vercel.app]",
-        "Portafolio Minimalista y otros landings desarrollados con React, Next.js y Tailwind CSS."
-    ])
+
     # Proyectos
     pdf.section_title("Proyectos Destacados")
     pdf.multi_section(proyectos_destacados)

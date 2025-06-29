@@ -24,9 +24,16 @@ def formatear_proyecto(repo: dict={}) -> str:
     url = repo.get("html_url", "")
     actualizado = repo.get("updated_at", "").split("T")[0]
 
+
+    nombre = str(nombre).upper()
+    descripcion = str(descripcion)
+    lenguaje = str(lenguaje)
+    actualizado = str(actualizado)
+    url = str(url)
+
     return (
         f"{nombre} ({lenguaje})\n"
         f"{descripcion}\n"
-        f"📅 {actualizado}\n"
-        f"🔗 {url}\n"
+        f"{actualizado}\n"
+        f"{url}\n\n"
     )

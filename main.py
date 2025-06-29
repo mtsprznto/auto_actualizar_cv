@@ -26,17 +26,10 @@ def main():
 
 
         for repo in sorted(repositories, key=lambda x: x['updated_at'], reverse=True):
-            # print(f"Name: {repo['name']}")
-            # print(f"Description: {repo.get('description', 'No description')}")
-            # print(f"Language: {repo.get('language', 'Not specified')}")
-            # print(f"Stars: {repo['stargazers_count']} | Forks: {repo['forks_count']} | Updated: {repo['updated_at'].split('T')[0]}")
-            # print(f"URL: {repo['html_url']}")
-            # print("-" * 80)
-
             print(formatear_proyecto(repo))
         
         proyectos_cv = [formatear_proyecto(r) for r in sorted(repositories, key=lambda x: x['updated_at'], reverse=True)]
-        generar_cv(proyectos_cv[:5])
+        generar_cv(proyectos_cv[:8])
         # Save repositories to a JSON file for further processing
         guardar_json_repositorios(repositories)
         
