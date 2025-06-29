@@ -30,3 +30,13 @@ class PDF(FPDF):
         self.multi_cell(0, 6, limpiar_texto(text))
         self.ln(2)
 
+    def proyectos_dinamicos(self, repos: list, max_items=5):
+        self.section_title("Proyectos Relevantes (Automáticos)")
+        self.set_font("Arial", "", 10)
+
+        for i, repo in enumerate(repos[:max_items]):
+            texto = formatear_proyecto(repo)
+            self.multi_cell(0, 6, limpiar_texto(texto))
+            self.ln(1)
+
+
