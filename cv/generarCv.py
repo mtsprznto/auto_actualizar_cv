@@ -1,8 +1,7 @@
 
 
 from cv.pdf import PDF
-
-
+from utils.utils import extraer_lenguajes_unicos
 
 def generar_cv(proyectos_destacados: list):
     """Genera un CV en PDF con la información de contacto, educación, proyectos y tecnologías."""
@@ -15,8 +14,8 @@ def generar_cv(proyectos_destacados: list):
         "Puerto Varas - Chile",
         "matiaspereznauto@gmail.com",
         "+56 9 7547 5781",
-        "GitHub: github.com/mtsprznto",
-        "LinkedIn: linkedin.com/in/matiaspereznauto/"
+        "GitHub: www.github.com/mtsprznto",
+        "LinkedIn: www.linkedin.com/in/matiaspereznauto/"
     ])
 
     # Educación
@@ -29,13 +28,20 @@ def generar_cv(proyectos_destacados: list):
 
     # Proyectos
     pdf.section_title("Proyectos Destacados")
-    pdf.multi_section(proyectos_destacados)
+    print(f"Proyectos destacados: {proyectos_destacados}")
+    # pdf.multi_section(proyectos_destacados)
+    for proyecto in proyectos_destacados:
+        pdf.render_proyecto(proyecto)
 
 
     # Tecnologías y Conocimientos
     pdf.section_title("Tecnologías")
+
+    langs = extraer_lenguajes_unicos(proyectos_destacados)
+    #print("Lenguajes únicos detectados:", langs)
+
     pdf.multi_section([
-        "Lenguajes: Python, Java, C#, SQL, PHP",
+        f"Lenguajes: {', '.join(langs)}",
         "Frameworks: React, Next.js, FastAPI, .NET, Flet",
         "Bases de Datos: MySQL, Oracle, SQL Server",
         "Herramientas: Visual Studio, VS Code",
