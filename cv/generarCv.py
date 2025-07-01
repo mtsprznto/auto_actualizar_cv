@@ -1,13 +1,14 @@
 
 
 from cv.pdf import PDF
-from utils.utils import extraer_lenguajes_unicos
+from utils.utils import extraer_lenguajes_unicos, agrupar_lenguajes_por_categoria
 
 def generar_cv(proyectos_destacados: list):
     """Genera un CV en PDF con la información de contacto, educación, proyectos y tecnologías."""
     pdf = PDF()
     pdf.add_page()
 
+    #------------------------------------------
     # Info Personal
     pdf.section_title("Información de Contacto")
     pdf.multi_section([
@@ -18,6 +19,7 @@ def generar_cv(proyectos_destacados: list):
         "LinkedIn: www.linkedin.com/in/matiaspereznauto/"
     ])
 
+    #------------------------------------------
     # Educación
     pdf.section_title("Educación")
     pdf.multi_section([
@@ -25,7 +27,7 @@ def generar_cv(proyectos_destacados: list):
         "Técnico Administración de Empresas RRHH, Colegio Felmer Niklitschek, 2017"
     ])
 
-
+    #------------------------------------------
     # Proyectos
     pdf.section_title("Proyectos Destacados")
     print(f"Proyectos destacados: {proyectos_destacados}")
@@ -33,21 +35,35 @@ def generar_cv(proyectos_destacados: list):
     for proyecto in proyectos_destacados:
         pdf.render_proyecto(proyecto)
 
-
+    #------------------------------------------
     # Tecnologías y Conocimientos
     pdf.section_title("Tecnologías")
 
     langs = extraer_lenguajes_unicos(proyectos_destacados)
     #print("Lenguajes únicos detectados:", langs)
+    grupos = agrupar_lenguajes_por_categoria(langs)
+    print("Grupos de lenguajes:", grupos)
 
-    pdf.multi_section([
-        f"Lenguajes: {', '.join(langs)}",
+    bloques = []
+    if grupos.get("Frontend"):
+        bloques.append(f"Frontend: {', '.join(grupos['Frontend'])}")
+    if grupos.get("Backend"):
+        bloques.append(f"Backend: {', '.join(grupos['Backend'])}")
+    if grupos.get("Scripting"):
+        bloques.append(f"Scripting: {', '.join(grupos['Scripting'])}")
+    if grupos.get("Otros"):
+        bloques.append(f"Otros: {', '.join(grupos['Otros'])}")
+
+    bloques.extend([
         "Frameworks: React, Next.js, FastAPI, .NET, Flet",
         "Bases de Datos: MySQL, Oracle, SQL Server",
         "Herramientas: Visual Studio, VS Code",
         "Sistemas Operativos: Windows, Linux"
     ])
 
+    pdf.multi_section(bloques)
+
+    #------------------------------------------
     # Habilidades Blandas y Disponibilidad
     pdf.section_title("Habilidades")
     pdf.multi_section([
@@ -55,6 +71,7 @@ def generar_cv(proyectos_destacados: list):
         "Proactividad | Manejo del estrés"
     ])
 
+    #------------------------------------------
     pdf.section_title("Disponibilidad")
     pdf.paragraph("Disponible para trabajar presencialmente en Santiago o de forma híbrida. Con disposición para viajar según se requiera.")
 

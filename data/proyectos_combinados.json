@@ -1,10 +1,84 @@
 [
   {
+    "titulo": "PORTAFOLIO-MINIMALIST (JavaScript)",
+    "descripcion": "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
+    "fecha": "2025-06-30",
+    "url": "https://github.com/mtsprznto/portafolio-minimalist",
+    "lenguaje": "JavaScript",
+    "lenguajes_completos": {
+      "JavaScript": 22118,
+      "CSS": 536,
+      "HTML": 363
+    },
+    "topics": [
+      "react",
+      "react-vite",
+      "vite"
+    ],
+    "sitio_web": "https://matiaspnauto.vercel.app/",
+    "repositorio": "portafolio-minimalist"
+  },
+  {
+    "titulo": "AUTOMATIZACIONES (Python)",
+    "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
+    "fecha": "2025-06-30",
+    "url": "https://github.com/mtsprznto/Automatizaciones",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 34785,
+      "Batchfile": 347
+    },
+    "topics": [
+      "automation",
+      "python",
+      "scraping"
+    ],
+    "sitio_web": "",
+    "repositorio": "Automatizaciones"
+  },
+  {
+    "titulo": "ACADEM-PROD (TypeScript)",
+    "descripcion": "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
+    "fecha": "2025-06-30",
+    "url": "https://github.com/mtsprznto/academ-prod",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 293488,
+      "CSS": 5054,
+      "JavaScript": 540
+    },
+    "topics": [
+      "fulls",
+      "fullstack",
+      "nextjs"
+    ],
+    "sitio_web": "https://academ-prod.vercel.app",
+    "repositorio": "academ-prod"
+  },
+  {
+    "titulo": "AUTO_ACTUALIZAR_CV (Python)",
+    "descripcion": "Una aplicación en Python que automatiza la actualización de tu CV con información de tus repositorios de GitHub.",
+    "fecha": "2025-06-30",
+    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 11895
+    },
+    "topics": [],
+    "sitio_web": "",
+    "repositorio": "auto_actualizar_cv"
+  },
+  {
     "titulo": "SCANNDATA- (Python)",
     "descripcion": "ScannData mantener organizada la información de boletas y facturas. Nuestra aplicación está diseñada para automatizar el escaneo de documentos PDF y la conversión de imágenes a texto, facilitando la gestión de tus documentos.",
     "fecha": "2025-06-30",
     "url": "https://github.com/mtsprznto/scanndata-",
     "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 129116,
+      "HTML": 2823,
+      "Inno Setup": 574
+    },
     "topics": [
       "flet",
       "flutter",
@@ -14,21 +88,16 @@
     "repositorio": "scanndata-"
   },
   {
-    "titulo": "AUTO_ACTUALIZAR_CV (Python)",
-    "descripcion": "Una aplicación en Python que automatiza la actualización de tu CV con información de tus repositorios de GitHub.",
-    "fecha": "2025-06-29",
-    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
-    "lenguaje": "Python",
-    "topics": [],
-    "sitio_web": "",
-    "repositorio": "auto_actualizar_cv"
-  },
-  {
     "titulo": "ECOMMERCE-COFFE (TypeScript)",
     "descripcion": "Bienvenido a CoffeeDream, una plataforma de comercio electrónico especializada en la venta de granos de café de alta calidad. Este proyecto demuestra una aplicación full stack moderna con despliegue continuo.",
     "fecha": "2025-06-29",
     "url": "https://github.com/mtsprznto/ecommerce-coffe",
     "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 92107,
+      "JavaScript": 7740,
+      "CSS": 4189
+    },
     "topics": [],
     "sitio_web": "https://coffedream.vercel.app",
     "repositorio": "ecommerce-coffe"
@@ -39,6 +108,11 @@
     "fecha": "2025-06-29",
     "url": "https://github.com/mtsprznto/ges-inventario",
     "lenguaje": "JavaScript",
+    "lenguajes_completos": {
+      "JavaScript": 65636,
+      "CSS": 424,
+      "HTML": 362
+    },
     "topics": [],
     "sitio_web": "",
     "repositorio": "ges-inventario"
@@ -49,42 +123,13 @@
     "fecha": "2025-06-29",
     "url": "https://github.com/mtsprznto/landing-banco",
     "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 26515,
+      "CSS": 2499,
+      "JavaScript": 474
+    },
     "topics": [],
     "sitio_web": "https://bankco-beta.vercel.app",
     "repositorio": "landing-banco"
-  },
-  {
-    "titulo": "SIS_GES_MED (JavaScript)",
-    "descripcion": "Sistema integral de gestión de citas médicas diseñado para clínicas y consultorios médicos. Facilita la administración de pacientes, doctores, citas y servicios médicos con un panel de control intuitivo y roles de acceso personalizados.",
-    "fecha": "2025-06-29",
-    "url": "https://github.com/mtsprznto/sis_ges_med",
-    "lenguaje": "JavaScript",
-    "topics": [],
-    "sitio_web": "",
-    "repositorio": "sis_ges_med"
-  },
-  {
-    "titulo": "SISGESTIONESCOLAR (Blade)",
-    "descripcion": "Un sistema completo para la gestión de instituciones educativas, desarrollado con Laravel y diseñado para facilitar la administración académica, control de estudiantes, docentes y procesos escolares.",
-    "fecha": "2025-06-29",
-    "url": "https://github.com/mtsprznto/sisgestionescolar",
-    "lenguaje": "Blade",
-    "topics": [],
-    "sitio_web": "",
-    "repositorio": "sisgestionescolar"
-  },
-  {
-    "titulo": "POTIBOT (Python)",
-    "descripcion": "PotiBot es un asistente de voz interactivo que utiliza inteligencia artificial para mantener conversaciones en múltiples idiomas. Actualmente soporta español, inglés y francés, con capacidades de reconocimiento de voz y síntesis de voz.",
-    "fecha": "2025-06-28",
-    "url": "https://github.com/mtsprznto/PotiBot",
-    "lenguaje": "Python",
-    "topics": [
-      "ia",
-      "learning",
-      "python"
-    ],
-    "sitio_web": "",
-    "repositorio": "PotiBot"
   }
 ]

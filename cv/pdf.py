@@ -46,7 +46,7 @@ class PDF(FPDF):
         descripcion = limpiar_texto(proyecto.get("descripcion", ""))
         fecha = proyecto.get("fecha", "")
         url = proyecto.get("url", "")
-        lenguaje = proyecto.get("lenguaje", "")
+        lenguajes_completos = proyecto.get("lenguajes_completos", {})
         sitio_web = proyecto.get("sitio_web", "")
         topics = proyecto.get("topics", [])
 
@@ -58,9 +58,11 @@ class PDF(FPDF):
         self.set_font("Arial", "", 10)
         self.multi_cell(0, 6, descripcion)
 
-        # Lenguaje y fecha
-        self.set_font("Arial", "I", 9)
-        self.multi_cell(0, 6, f"Lenguaje: {lenguaje}   |   Actualizado: {fecha}")
+        
+        # Lenguajes completos
+        if lenguajes_completos:
+            self.set_font("Arial", "I", 9)
+            self.multi_cell(0, 6, f"Lenguajes: {', '.join(lenguajes_completos.keys())}   |   Actualizado: {fecha}")
 
         # Topics
         if topics:
@@ -82,5 +84,7 @@ class PDF(FPDF):
             self.set_text_color(0, 0, 0)
 
         self.ln(2)
+    
+    
 
 

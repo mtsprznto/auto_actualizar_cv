@@ -81,4 +81,10 @@ class GitHubAPI:
             "actualizado": data.get("updated_at")
         }
 
+    def get_languages_for_repo(self, owner: str, repo: str) -> dict:
+        """Devuelve un diccionario con los lenguajes y su tamaño en bytes"""
+        url = f"{self.BASE_URL}/repos/{owner}/{repo}/languages"
+        response = requests.get(url, headers=self.headers)
+        response.raise_for_status()
+        return response.json()
         
