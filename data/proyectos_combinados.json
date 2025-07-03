@@ -1,5 +1,35 @@
 [
   {
+    "titulo": "GESTPASS (TypeScript)",
+    "descripcion": "Desarrollé una aplicación de gestión de contraseñas siguiendo las mejores prácticas de seguridad y desarrollo, implementando el patrón MVC para una estructura modular y eficiente. ",
+    "fecha": "2025-07-03",
+    "url": "https://github.com/mtsprznto/gestpass",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 199707,
+      "JavaScript": 47346,
+      "CSS": 5695
+    },
+    "topics": [],
+    "sitio_web": "https://gestpass.vercel.app",
+    "repositorio": "gestpass"
+  },
+  {
+    "titulo": "AUTO_ACTUALIZAR_CV (Python)",
+    "descripcion": "Una aplicación en Python que automatiza la actualización de tu CV con información de tus repositorios de GitHub.",
+    "fecha": "2025-07-01",
+    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 16789,
+      "JavaScript": 4377,
+      "Batchfile": 284
+    },
+    "topics": [],
+    "sitio_web": "",
+    "repositorio": "auto_actualizar_cv"
+  },
+  {
     "titulo": "PORTAFOLIO-MINIMALIST (JavaScript)",
     "descripcion": "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
     "fecha": "2025-06-30",
@@ -15,7 +45,7 @@
       "react-vite",
       "vite"
     ],
-    "sitio_web": "https://matiaspnauto.vercel.app/",
+    "sitio_web": "https://portafolio.mtsprz.org/",
     "repositorio": "portafolio-minimalist"
   },
   {
@@ -54,19 +84,6 @@
     ],
     "sitio_web": "https://academ-prod.vercel.app",
     "repositorio": "academ-prod"
-  },
-  {
-    "titulo": "AUTO_ACTUALIZAR_CV (Python)",
-    "descripcion": "Una aplicación en Python que automatiza la actualización de tu CV con información de tus repositorios de GitHub.",
-    "fecha": "2025-06-30",
-    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
-    "lenguaje": "Python",
-    "lenguajes_completos": {
-      "Python": 11895
-    },
-    "topics": [],
-    "sitio_web": "",
-    "repositorio": "auto_actualizar_cv"
   },
   {
     "titulo": "SCANNDATA- (Python)",
@@ -116,20 +133,5 @@
     "topics": [],
     "sitio_web": "",
     "repositorio": "ges-inventario"
-  },
-  {
-    "titulo": "LANDING-BANCO (TypeScript)",
-    "descripcion": "Bienvenido al repositorio de la landing page de nuestro banco. Este proyecto ha sido desarrollado con Next.js 14, ofreciendo un rendimiento óptimo y una excelente experiencia de usuario.",
-    "fecha": "2025-06-29",
-    "url": "https://github.com/mtsprznto/landing-banco",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 26515,
-      "CSS": 2499,
-      "JavaScript": 474
-    },
-    "topics": [],
-    "sitio_web": "https://bankco-beta.vercel.app",
-    "repositorio": "landing-banco"
   }
 ]

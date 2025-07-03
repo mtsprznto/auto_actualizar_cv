@@ -1,5 +1,27 @@
 export const PROJECTS = [
   {
+    title: "Gestpass",
+    image: null,
+    date: "2025-07-03",
+    lenguajes_utilizados: {'TypeScript': 79.01, 'JavaScript': 18.73, 'CSS': 2.25},
+    topics: [],
+    description: "Desarrollé una aplicación de gestión de contraseñas siguiendo las mejores prácticas de seguridad y desarrollo, implementando el patrón MVC para una estructura modular y eficiente. ",
+    technologies: ["TypeScript", "JavaScript", "CSS"],
+    url_demo: "https://gestpass.vercel.app",
+    url_codigo: "https://github.com/mtsprznto/gestpass"
+  },
+  {
+    title: "Auto Actualizar Cv",
+    image: null,
+    date: "2025-07-01",
+    lenguajes_utilizados: {'Python': 78.27, 'JavaScript': 20.41, 'Batchfile': 1.32},
+    topics: [],
+    description: "Una aplicación en Python que automatiza la actualización de tu CV con información de tus repositorios de GitHub.",
+    technologies: ["Python", "JavaScript", "Batchfile"],
+    url_demo: "",
+    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
+  },
+  {
     title: "Portafolio Minimalist",
     image: null,
     date: "2025-06-30",
@@ -7,7 +29,7 @@ export const PROJECTS = [
     topics: ["react", "react-vite", "vite"],
     description: "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
     technologies: ["JavaScript", "CSS", "HTML"],
-    url_demo: "https://matiaspnauto.vercel.app/",
+    url_demo: "https://portafolio.mtsprz.org/",
     url_codigo: "https://github.com/mtsprznto/portafolio-minimalist"
   },
   {
@@ -31,17 +53,6 @@ export const PROJECTS = [
     technologies: ["TypeScript", "CSS", "JavaScript"],
     url_demo: "https://academ-prod.vercel.app",
     url_codigo: "https://github.com/mtsprznto/academ-prod"
-  },
-  {
-    title: "Auto Actualizar Cv",
-    image: null,
-    date: "2025-06-30",
-    lenguajes_utilizados: {'Python': 100.0},
-    topics: [],
-    description: "Una aplicación en Python que automatiza la actualización de tu CV con información de tus repositorios de GitHub.",
-    technologies: ["Python"],
-    url_demo: "",
-    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
   },
   {
     title: "Scanndata ",
@@ -75,16 +86,5 @@ export const PROJECTS = [
     technologies: ["JavaScript", "CSS", "HTML"],
     url_demo: "",
     url_codigo: "https://github.com/mtsprznto/ges-inventario"
-  },
-  {
-    title: "Landing Banco",
-    image: null,
-    date: "2025-06-29",
-    lenguajes_utilizados: {'TypeScript': 89.92, 'CSS': 8.47, 'JavaScript': 1.61},
-    topics: [],
-    description: "Bienvenido al repositorio de la landing page de nuestro banco. Este proyecto ha sido desarrollado con Next.js 14, ofreciendo un rendimiento óptimo y una excelente experiencia de usuario.",
-    technologies: ["TypeScript", "CSS", "JavaScript"],
-    url_demo: "https://bankco-beta.vercel.app",
-    url_codigo: "https://github.com/mtsprznto/landing-banco"
   },
 ];
