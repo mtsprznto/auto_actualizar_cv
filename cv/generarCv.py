@@ -30,7 +30,7 @@ def generar_cv(proyectos_destacados: list):
     #------------------------------------------
     # Proyectos
     pdf.section_title("Proyectos Destacados")
-    print(f"Proyectos destacados: {proyectos_destacados}")
+    #print(f"Proyectos destacados: {proyectos_destacados}")
     # pdf.multi_section(proyectos_destacados)
     for proyecto in proyectos_destacados:
         pdf.render_proyecto(proyecto)
@@ -42,7 +42,7 @@ def generar_cv(proyectos_destacados: list):
     langs = extraer_lenguajes_unicos(proyectos_destacados)
     #print("Lenguajes únicos detectados:", langs)
     grupos = agrupar_lenguajes_por_categoria(langs)
-    print("Grupos de lenguajes:", grupos)
+    #print("Grupos de lenguajes:", grupos)
 
     bloques = []
     if grupos.get("Frontend"):

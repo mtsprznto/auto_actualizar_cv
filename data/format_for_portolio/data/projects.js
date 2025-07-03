@@ -1,5 +1,16 @@
 export const PROJECTS = [
   {
+    title: "Auto Actualizar Cv",
+    image: null,
+    date: "2025-07-03",
+    lenguajes_utilizados: {'Python': 76.24, 'JavaScript': 20.11, 'Batchfile': 3.64},
+    topics: [],
+    description: "Una aplicación en Python que automatiza la actualización de tu CV con información de tus repositorios de GitHub.",
+    technologies: ["Python", "JavaScript", "Batchfile"],
+    url_demo: "",
+    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
+  },
+  {
     title: "Gestpass",
     image: null,
     date: "2025-07-03",
@@ -9,17 +20,6 @@ export const PROJECTS = [
     technologies: ["TypeScript", "JavaScript", "CSS"],
     url_demo: "https://gestpass.vercel.app",
     url_codigo: "https://github.com/mtsprznto/gestpass"
-  },
-  {
-    title: "Auto Actualizar Cv",
-    image: null,
-    date: "2025-07-01",
-    lenguajes_utilizados: {'Python': 78.27, 'JavaScript': 20.41, 'Batchfile': 1.32},
-    topics: [],
-    description: "Una aplicación en Python que automatiza la actualización de tu CV con información de tus repositorios de GitHub.",
-    technologies: ["Python", "JavaScript", "Batchfile"],
-    url_demo: "",
-    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
   },
   {
     title: "Portafolio Minimalist",
