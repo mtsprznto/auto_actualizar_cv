@@ -1,4 +1,4 @@
-﻿@echo off
+@echo off
 setlocal ENABLEEXTENSIONS ENABLEDELAYEDEXPANSION
 
 :: Obtener fecha en formato YYYY-MM-DD
