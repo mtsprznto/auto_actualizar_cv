@@ -1,5 +1,16 @@
 export const PROJECTS = [
   {
+    title: "Academ Prod",
+    image: null,
+    date: "2025-07-04",
+    lenguajes_utilizados: {'TypeScript': 98.18, 'CSS': 1.64, 'JavaScript': 0.18},
+    topics: ["fulls", "fullstack", "nextjs"],
+    description: "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
+    technologies: ["TypeScript", "CSS", "JavaScript"],
+    url_demo: "https://academ-prod.vercel.app",
+    url_codigo: "https://github.com/mtsprznto/academ-prod"
+  },
+  {
     title: "Auto Actualizar Cv",
     image: null,
     date: "2025-07-03",
@@ -42,17 +53,6 @@ export const PROJECTS = [
     technologies: ["Python", "Batchfile"],
     url_demo: "",
     url_codigo: "https://github.com/mtsprznto/Automatizaciones"
-  },
-  {
-    title: "Academ Prod",
-    image: null,
-    date: "2025-06-30",
-    lenguajes_utilizados: {'TypeScript': 98.13, 'CSS': 1.69, 'JavaScript': 0.18},
-    topics: ["fulls", "fullstack", "nextjs"],
-    description: "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
-    technologies: ["TypeScript", "CSS", "JavaScript"],
-    url_demo: "https://academ-prod.vercel.app",
-    url_codigo: "https://github.com/mtsprznto/academ-prod"
   },
   {
     title: "Scanndata ",
