@@ -18,6 +18,48 @@ def guardar_json_repositorios(repositories: list, filename: str="./data/reposito
     print(f"\nRepository data saved to '{filename}'")
 
 
+import json
+from pathlib import Path
+
+def agregar_proyecto_al_json(proyecto: dict, ruta: str = "./data/proyectos_destacados.json") -> None:
+    """
+    Agrega un nuevo proyecto al JSON si no existe ya por nombre de repositorio.
+    Evita duplicados y crea el archivo si no existe. Valida estructura.
+    """
+    ruta_json = Path(ruta)
+    ruta_json.parent.mkdir(parents=True, exist_ok=True)
+
+    proyectos = []
+
+    if ruta_json.exists():
+        with open(ruta_json, "r", encoding="utf-8") as f:
+            try:
+                proyectos = json.load(f)
+                # Validar que sea una lista de diccionarios
+                if not isinstance(proyectos, list) or not all(isinstance(p, dict) for p in proyectos):
+                    print("⚠️ El contenido del JSON no es una lista de proyectos válidos. Se reiniciará limpio.")
+                    proyectos = []
+            except json.JSONDecodeError:
+                print("⚠️ El archivo estaba vacío o mal formado. Se iniciará limpio.")
+                proyectos = []
+
+    # Validar que el nuevo proyecto tiene clave "repositorio"
+    if "repositorio" not in proyecto:
+        print("❌ El proyecto no contiene la clave 'repositorio'. No se puede agregar.")
+        return
+
+    ya_existe = any(p.get("repositorio") == proyecto["repositorio"] for p in proyectos)
+
+    if not ya_existe:
+        proyectos.append(proyecto)
+        with open(ruta_json, "w", encoding="utf-8") as f:
+            json.dump(proyectos, f, ensure_ascii=False, indent=2)
+        print(f"✅ Proyecto '{proyecto['repositorio']}' agregado correctamente.")
+    else:
+        print(f"ℹ️ El proyecto '{proyecto['repositorio']}' ya existe en el archivo.")
+
+
+
 def formatear_proyecto(repo: dict={}) -> str:
     nombre = repo.get("name", "Sin nombre")
     descripcion = repo.get("description", "Sin descripción")
@@ -38,6 +80,7 @@ def formatear_proyecto(repo: dict={}) -> str:
         f"{actualizado}\n"
         f"{url}\n\n"
     )
+
 
 
 
