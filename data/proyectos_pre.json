@@ -1,5 +1,20 @@
 [
   {
+    "titulo": "AUTO_ACTUALIZAR_CV (Python)",
+    "descripcion": "Una aplicación en Python que automatiza la actualización de tu CV con información de tus repositorios de GitHub.",
+    "fecha": "2025-07-04",
+    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 22223,
+      "JavaScript": 4428,
+      "Batchfile": 1625
+    },
+    "topics": [],
+    "sitio_web": "",
+    "repositorio": "auto_actualizar_cv"
+  },
+  {
     "titulo": "AUTOMATIZACIONES (Python)",
     "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
     "fecha": "2025-07-04",
@@ -16,21 +31,6 @@
     ],
     "sitio_web": "",
     "repositorio": "Automatizaciones"
-  },
-  {
-    "titulo": "AUTO_ACTUALIZAR_CV (Python)",
-    "descripcion": "Una aplicación en Python que automatiza la actualización de tu CV con información de tus repositorios de GitHub.",
-    "fecha": "2025-07-04",
-    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
-    "lenguaje": "Python",
-    "lenguajes_completos": {
-      "Python": 16791,
-      "JavaScript": 4428,
-      "Batchfile": 1625
-    },
-    "topics": [],
-    "sitio_web": "",
-    "repositorio": "auto_actualizar_cv"
   },
   {
     "titulo": "ACADEM-PROD (TypeScript)",
@@ -253,5 +253,271 @@
     ],
     "sitio_web": "https://lllitparticles.netlify.app/",
     "repositorio": "particles-portafolio"
+  },
+  {
+    "titulo": "LANDING-REACT (JavaScript)",
+    "descripcion": "Construida con React y TailwindCSS, nuestra aplicación ofrece una experiencia rápida y adaptativa, asegurando interactividad y rendimiento sin compromisos.",
+    "fecha": "2025-05-22",
+    "url": "https://github.com/mtsprznto/landing-react",
+    "lenguaje": "JavaScript",
+    "lenguajes_completos": {
+      "JavaScript": 26761,
+      "CSS": 682,
+      "HTML": 360
+    },
+    "topics": [],
+    "sitio_web": "https://holareact-opal.vercel.app",
+    "repositorio": "landing-react"
+  },
+  {
+    "titulo": "MTSPRZNTO (None)",
+    "descripcion": "This is my personal repo for README",
+    "fecha": "2025-05-22",
+    "url": "https://github.com/mtsprznto/mtsprznto",
+    "lenguaje": null,
+    "lenguajes_completos": {},
+    "topics": [],
+    "sitio_web": null,
+    "repositorio": "mtsprznto"
+  },
+  {
+    "titulo": "API_BOT_BD (Python)",
+    "descripcion": "Este proyecto consiste en una API creada con Python FastAPI que conecta una interfaz gráfica hecha con Reflex Python y con Ollama desde Groq.",
+    "fecha": "2025-05-21",
+    "url": "https://github.com/mtsprznto/api_bot_bd",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 29717
+    },
+    "topics": [
+      "api",
+      "fasapi",
+      "ollama",
+      "reflex"
+    ],
+    "sitio_web": "https://apibotbd.vercel.app/docs",
+    "repositorio": "api_bot_bd"
+  },
+  {
+    "titulo": "LANDING-MODERNA-DOCKER (CSS)",
+    "descripcion": "None",
+    "fecha": "2025-04-24",
+    "url": "https://github.com/mtsprznto/landing-moderna-docker",
+    "lenguaje": "CSS",
+    "lenguajes_completos": {
+      "CSS": 6210,
+      "HTML": 5554,
+      "Dockerfile": 129
+    },
+    "topics": [],
+    "sitio_web": "https://magtimuspro.vercel.app",
+    "repositorio": "landing-moderna-docker"
+  },
+  {
+    "titulo": "API_DATA_MAPU (Python)",
+    "descripcion": "Esta es una api que tiene información sobre la cultura mapuche y su vocabulario mapudungun",
+    "fecha": "2025-02-04",
+    "url": "https://github.com/mtsprznto/api_data_mapu",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 11483
+    },
+    "topics": [
+      "api",
+      "chile",
+      "fastapi",
+      "mapuche"
+    ],
+    "sitio_web": "https://apidatamapu.vercel.app/",
+    "repositorio": "api_data_mapu"
+  },
+  {
+    "titulo": "BOT_TELEGRAM (Python)",
+    "descripcion": "Bot de Reservas de Mapping  ¡Bienvenido al Bot de Reservas de Mapping! 🎉  Este bot está diseñado para facilitar la gestión de reservas y ofrecerte información detallada sobre nuestros servicios de mapping",
+    "fecha": "2025-01-27",
+    "url": "https://github.com/mtsprznto/bot_telegram",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 23234,
+      "Batchfile": 128
+    },
+    "topics": [
+      "bot",
+      "python",
+      "telegram-bot",
+      "telegrambot"
+    ],
+    "sitio_web": "https://t.me/reservaspv_bot",
+    "repositorio": "bot_telegram"
+  },
+  {
+    "titulo": "AUTOMATIZACIONES_EXAMPLES (Python)",
+    "descripcion": "Scripts personales para automatizar procesos",
+    "fecha": "2025-01-27",
+    "url": "https://github.com/mtsprznto/automatizaciones_examples",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 27474
+    },
+    "topics": [
+      "automation",
+      "python",
+      "scripts"
+    ],
+    "sitio_web": "",
+    "repositorio": "automatizaciones_examples"
+  },
+  {
+    "titulo": "CHAT-BOT (HTML)",
+    "descripcion": "Este proyecto es un chat bot que utiliza inteligencia artificial para interactuar con los usuarios. El chat bot está conectado a una base de datos llamada **Supabase**, lo que le permite acceder y gestionar información de manera eficiente. La aplicación web está desarrollada en Python utilizando el framework Reflex",
+    "fecha": "2025-01-15",
+    "url": "https://github.com/mtsprznto/chat-bot",
+    "lenguaje": "HTML",
+    "lenguajes_completos": {
+      "HTML": 74412,
+      "Python": 59831,
+      "Shell": 539,
+      "JavaScript": 154
+    },
+    "topics": [
+      "bot",
+      "ollama",
+      "reflex"
+    ],
+    "sitio_web": "https://chatbot-lime-sun.reflex.run/",
+    "repositorio": "chat-bot"
+  },
+  {
+    "titulo": "LINK_BIO (Python)",
+    "descripcion": "Este proyecto es una página web creada con Reflex 100% en Python y desplegada en Vercel. La página está diseñada para almacenar y presentar todos mis enlaces importantes de manera organizada y accesible.",
+    "fecha": "2025-01-15",
+    "url": "https://github.com/mtsprznto/link_bio",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 21202,
+      "HTML": 21170,
+      "CSS": 1022,
+      "Dockerfile": 268,
+      "Shell": 203,
+      "JavaScript": 77
+    },
+    "topics": [
+      "front-end",
+      "frontend",
+      "production",
+      "python",
+      "reflex"
+    ],
+    "sitio_web": "https://biolllit.vercel.app",
+    "repositorio": "link_bio"
+  },
+  {
+    "titulo": "COFFE-ADMIN (Python)",
+    "descripcion": "Esta aplicación administrativa para cafeterías está diseñada para facilitar la gestión diaria de tu negocio, mejorando la eficiencia y la organización.",
+    "fecha": "2025-01-10",
+    "url": "https://github.com/mtsprznto/coffe-admin",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 34277
+    },
+    "topics": [],
+    "sitio_web": "https://lllit.github.io/coffe-admin/",
+    "repositorio": "coffe-admin"
+  },
+  {
+    "titulo": "RADIO-ESQUIVO (CSS)",
+    "descripcion": "Bienvenido a Radio Esquivo, una innovadora página web que transmite radio en vivo. Este proyecto está desarrollado con HTML, CSS y JavaScript, y se conecta a una API para ofrecer una experiencia de radio en tiempo real.",
+    "fecha": "2025-01-10",
+    "url": "https://github.com/mtsprznto/radio-esquivo",
+    "lenguaje": "CSS",
+    "lenguajes_completos": {
+      "CSS": 13024,
+      "HTML": 3919,
+      "JavaScript": 1852
+    },
+    "topics": [],
+    "sitio_web": "https://radio-esquivo.vercel.app",
+    "repositorio": "radio-esquivo"
+  },
+  {
+    "titulo": "MAIN-DOCS-EXPERIMENTAL (Astro)",
+    "descripcion": "Este proyecto es una web desarrollada con Astro, diseñada para proporcionar información actualizada y relevante sobre diversas áreas de la tecnología. La web cubre temas que van desde inteligencia artificial y ciberseguridad hasta desarrollo web y tecnología móvil.",
+    "fecha": "2025-01-10",
+    "url": "https://github.com/mtsprznto/main-docs-experimental",
+    "lenguaje": "Astro",
+    "lenguajes_completos": {
+      "Astro": 51123,
+      "TypeScript": 36490,
+      "CSS": 4479,
+      "Python": 3674
+    },
+    "topics": [
+      "astro",
+      "blog",
+      "technology",
+      "tecnologia"
+    ],
+    "sitio_web": "https://main-docs.vercel.app",
+    "repositorio": "main-docs-experimental"
+  },
+  {
+    "titulo": "VISUALIZACION-GRAFICOS-INTERACTIVOS (Python)",
+    "descripcion": "Informe completo",
+    "fecha": "2024-12-12",
+    "url": "https://github.com/mtsprznto/visualizacion-graficos-interactivos",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 10641
+    },
+    "topics": [
+      "data-science",
+      "data-visualization",
+      "streamlit"
+    ],
+    "sitio_web": "https://ruido-data.streamlit.app/",
+    "repositorio": "visualizacion-graficos-interactivos"
+  },
+  {
+    "titulo": "CONTROL-VOLUMEN (JavaScript)",
+    "descripcion": "Extension para controlar el volumen de las pestañas",
+    "fecha": "2024-12-08",
+    "url": "https://github.com/mtsprznto/control-volumen",
+    "lenguaje": "JavaScript",
+    "lenguajes_completos": {
+      "JavaScript": 3364,
+      "CSS": 1879,
+      "HTML": 1853
+    },
+    "topics": [],
+    "sitio_web": "",
+    "repositorio": "control-volumen"
+  },
+  {
+    "titulo": "CALENDARIO (JavaScript)",
+    "descripcion": "calendario en javascript en varios idiomas",
+    "fecha": "2024-04-29",
+    "url": "https://github.com/mtsprznto/calendario",
+    "lenguaje": "JavaScript",
+    "lenguajes_completos": {
+      "JavaScript": 1921,
+      "CSS": 1148,
+      "HTML": 235
+    },
+    "topics": [],
+    "sitio_web": null,
+    "repositorio": "calendario"
+  },
+  {
+    "titulo": "PC_HABLA (Python)",
+    "descripcion": "estudiando los socket",
+    "fecha": "2024-04-29",
+    "url": "https://github.com/mtsprznto/pc_habla",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 1639
+    },
+    "topics": [],
+    "sitio_web": null,
+    "repositorio": "pc_habla"
   }
 ]
