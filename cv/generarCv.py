@@ -3,7 +3,7 @@
 from cv.pdf import PDF
 from utils.utils import extraer_lenguajes_unicos, agrupar_lenguajes_por_categoria
 
-def generar_cv(proyectos_destacados: list):
+def generar_cv(proyectos_destacados: list, output_path: str="./data/CV_Matias_Perez_Nauto.pdf"):
     """Genera un CV en PDF con la información de contacto, educación, proyectos y tecnologías."""
     pdf = PDF()
     pdf.add_page()
@@ -76,5 +76,5 @@ def generar_cv(proyectos_destacados: list):
     pdf.paragraph("Disponible para trabajar presencialmente en Santiago o de forma híbrida. Con disposición para viajar según se requiera.")
 
     # Salvar PDF
-    pdf.output("./data/CV_Matias_Perez_Nauto.pdf")
-    print("✅ CV exportado exitosamente como 'CV_Matias_Perez_Nauto.pdf'")
+    pdf.output(output_path)
+    print(f"✅ CV exportado exitosamente como {output_path}")

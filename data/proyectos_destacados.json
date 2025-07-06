@@ -1,6 +1,40 @@
 [
   {
-    "titulo": "ECOMMERCE-COFFE",
+    "titulo": "ACADEM-PROD (TypeScript)",
+    "descripcion": "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
+    "fecha": "2025-07-04",
+    "url": "https://github.com/mtsprznto/academ-prod",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 301865,
+      "CSS": 5054,
+      "JavaScript": 540
+    },
+    "topics": [
+      "fulls",
+      "fullstack",
+      "nextjs"
+    ],
+    "sitio_web": "https://academ-prod.vercel.app",
+    "repositorio": "academ-prod"
+  },
+  {
+    "titulo": "GESTPASS (TypeScript)",
+    "descripcion": "Desarrollé una aplicación de gestión de contraseñas siguiendo las mejores prácticas de seguridad y desarrollo, implementando el patrón MVC para una estructura modular y eficiente. ",
+    "fecha": "2025-07-03",
+    "url": "https://github.com/mtsprznto/gestpass",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 199707,
+      "JavaScript": 47346,
+      "CSS": 5695
+    },
+    "topics": [],
+    "sitio_web": "https://gestpass.vercel.app",
+    "repositorio": "gestpass"
+  },
+  {
+    "titulo": "ECOMMERCE-COFFE (TypeScript)",
     "descripcion": "Bienvenido a CoffeeDream, una plataforma de comercio electrónico especializada en la venta de granos de café de alta calidad. Este proyecto demuestra una aplicación full stack moderna con despliegue continuo.",
     "fecha": "2025-06-29",
     "url": "https://github.com/mtsprznto/ecommerce-coffe",
@@ -15,25 +49,7 @@
     "repositorio": "ecommerce-coffe"
   },
   {
-    "titulo": "API_BOT_BD",
-    "descripcion": "Este proyecto consiste en una API creada con Python FastAPI que conecta una interfaz gráfica hecha con Reflex Python y con Ollama desde Groq.",
-    "fecha": "2025-05-21",
-    "url": "https://github.com/mtsprznto/api_bot_bd",
-    "lenguaje": "Python",
-    "lenguajes_completos": {
-      "Python": 29717
-    },
-    "topics": [
-      "api",
-      "fasapi",
-      "ollama",
-      "reflex"
-    ],
-    "sitio_web": "https://apibotbd.vercel.app/docs",
-    "repositorio": "api_bot_bd"
-  },
-  {
-    "titulo": "GES-INVENTARIO",
+    "titulo": "GES-INVENTARIO (JavaScript)",
     "descripcion": "Sistema de gestión de inventario moderno y escalable desarrollado con React, Vite y Supabase. Esta aplicación permite a las empresas gestionar su inventario, usuarios y configuraciones de manera eficiente.",
     "fecha": "2025-06-29",
     "url": "https://github.com/mtsprznto/ges-inventario",
@@ -48,7 +64,22 @@
     "repositorio": "ges-inventario"
   },
   {
-    "titulo": "SIS_GES_MED",
+    "titulo": "LANDING-BANCO (TypeScript)",
+    "descripcion": "Bienvenido al repositorio de la landing page de nuestro banco. Este proyecto ha sido desarrollado con Next.js 14, ofreciendo un rendimiento óptimo y una excelente experiencia de usuario.",
+    "fecha": "2025-06-29",
+    "url": "https://github.com/mtsprznto/landing-banco",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 26515,
+      "CSS": 2499,
+      "JavaScript": 474
+    },
+    "topics": [],
+    "sitio_web": "https://bankco-beta.vercel.app",
+    "repositorio": "landing-banco"
+  },
+  {
+    "titulo": "SIS_GES_MED (JavaScript)",
     "descripcion": "Sistema integral de gestión de citas médicas diseñado para clínicas y consultorios médicos. Facilita la administración de pacientes, doctores, citas y servicios médicos con un panel de control intuitivo y roles de acceso personalizados.",
     "fecha": "2025-06-29",
     "url": "https://github.com/mtsprznto/sis_ges_med",
@@ -63,22 +94,5 @@
     "topics": [],
     "sitio_web": "",
     "repositorio": "sis_ges_med"
-  },
-  {
-    "titulo": "VISUALIZACION-GRAFICOS-INTERACTIVOS",
-    "descripcion": "Informe completo",
-    "fecha": "2024-12-12",
-    "url": "https://github.com/mtsprznto/visualizacion-graficos-interactivos",
-    "lenguaje": "Python",
-    "lenguajes_completos": {
-      "Python": 10641
-    },
-    "topics": [
-      "data-science",
-      "data-visualization",
-      "streamlit"
-    ],
-    "sitio_web": "https://ruido-data.streamlit.app/",
-    "repositorio": "visualizacion-graficos-interactivos"
   }
 ]

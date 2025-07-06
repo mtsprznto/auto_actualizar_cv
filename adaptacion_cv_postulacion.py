@@ -71,18 +71,19 @@ def main():
 
         print(f"✅ Se guardaron {len(proyectos_seleccionados)} proyectos seleccionados para la propuesta laboral.")
 
-
-        generar_cv(proyectos_destacados=proyectos_seleccionados)
-        # # Save repositories to a JSON file for further processing
-        # guardar_json_repositorios(repositories)
-
-        # #------------------------------------------
-        # print("\nGenerando datos para portafolio...")
-        # get_data_for_portafolio.main()
-        # print("\nDatos para portafolio generados correctamente")
+        output_path = './data/Matias_Perez_Nauto_CV_select.pdf'
+        generar_cv(proyectos_destacados=proyectos_seleccionados, output_path=output_path)
 
     except Exception as e:
         print(f"An error occurred: {str(e)}")
 
 if __name__ == "__main__":
-    main()
+    while True:
+        main()
+
+        print("\n¿Querés generar otro CV con una propuesta diferente?")
+        respuesta = input("Escribí 's' para sí o cualquier otra tecla para salir: ").strip().lower()
+
+        if respuesta != "s":
+            print("👋 Proceso finalizado. ¡Éxitos en tus postulaciones!")
+            break

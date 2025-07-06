@@ -1,5 +1,38 @@
 [
   {
+    "titulo": "AUTO_ACTUALIZAR_CV (Python)",
+    "descripcion": "Una aplicación en Python que automatiza la actualización de tu CV con información de tus repositorios de GitHub.",
+    "fecha": "2025-07-04",
+    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 25948,
+      "JavaScript": 4428,
+      "Batchfile": 1625
+    },
+    "topics": [],
+    "sitio_web": "",
+    "repositorio": "auto_actualizar_cv"
+  },
+  {
+    "titulo": "AUTOMATIZACIONES (Python)",
+    "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
+    "fecha": "2025-07-04",
+    "url": "https://github.com/mtsprznto/Automatizaciones",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 34970,
+      "Batchfile": 347
+    },
+    "topics": [
+      "automation",
+      "python",
+      "scraping"
+    ],
+    "sitio_web": "",
+    "repositorio": "Automatizaciones"
+  },
+  {
     "titulo": "ACADEM-PROD (TypeScript)",
     "descripcion": "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
     "fecha": "2025-07-04",
@@ -17,21 +50,6 @@
     ],
     "sitio_web": "https://academ-prod.vercel.app",
     "repositorio": "academ-prod"
-  },
-  {
-    "titulo": "AUTO_ACTUALIZAR_CV (Python)",
-    "descripcion": "Una aplicación en Python que automatiza la actualización de tu CV con información de tus repositorios de GitHub.",
-    "fecha": "2025-07-03",
-    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
-    "lenguaje": "Python",
-    "lenguajes_completos": {
-      "Python": 16791,
-      "JavaScript": 4428,
-      "Batchfile": 1625
-    },
-    "topics": [],
-    "sitio_web": "",
-    "repositorio": "auto_actualizar_cv"
   },
   {
     "titulo": "GESTPASS (TypeScript)",
@@ -66,24 +84,6 @@
     ],
     "sitio_web": "https://portafolio.mtsprz.org/",
     "repositorio": "portafolio-minimalist"
-  },
-  {
-    "titulo": "AUTOMATIZACIONES (Python)",
-    "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
-    "fecha": "2025-06-30",
-    "url": "https://github.com/mtsprznto/Automatizaciones",
-    "lenguaje": "Python",
-    "lenguajes_completos": {
-      "Python": 34785,
-      "Batchfile": 347
-    },
-    "topics": [
-      "automation",
-      "python",
-      "scraping"
-    ],
-    "sitio_web": "",
-    "repositorio": "Automatizaciones"
   },
   {
     "titulo": "SCANNDATA- (Python)",

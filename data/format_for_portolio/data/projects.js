@@ -1,5 +1,27 @@
 export const PROJECTS = [
   {
+    title: "Auto Actualizar Cv",
+    image: null,
+    date: "2025-07-04",
+    lenguajes_utilizados: {'Python': 81.08, 'JavaScript': 13.84, 'Batchfile': 5.08},
+    topics: [],
+    description: "Una aplicación en Python que automatiza la actualización de tu CV con información de tus repositorios de GitHub.",
+    technologies: ["Python", "JavaScript", "Batchfile"],
+    url_demo: "",
+    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
+  },
+  {
+    title: "Automatizaciones",
+    image: null,
+    date: "2025-07-04",
+    lenguajes_utilizados: {'Python': 99.02, 'Batchfile': 0.98},
+    topics: ["automation", "python", "scraping"],
+    description: "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
+    technologies: ["Python", "Batchfile"],
+    url_demo: "",
+    url_codigo: "https://github.com/mtsprznto/Automatizaciones"
+  },
+  {
     title: "Academ Prod",
     image: null,
     date: "2025-07-04",
@@ -9,17 +31,6 @@ export const PROJECTS = [
     technologies: ["TypeScript", "CSS", "JavaScript"],
     url_demo: "https://academ-prod.vercel.app",
     url_codigo: "https://github.com/mtsprznto/academ-prod"
-  },
-  {
-    title: "Auto Actualizar Cv",
-    image: null,
-    date: "2025-07-03",
-    lenguajes_utilizados: {'Python': 73.5, 'JavaScript': 19.38, 'Batchfile': 7.11},
-    topics: [],
-    description: "Una aplicación en Python que automatiza la actualización de tu CV con información de tus repositorios de GitHub.",
-    technologies: ["Python", "JavaScript", "Batchfile"],
-    url_demo: "",
-    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
   },
   {
     title: "Gestpass",
@@ -42,17 +53,6 @@ export const PROJECTS = [
     technologies: ["JavaScript", "CSS", "HTML"],
     url_demo: "https://portafolio.mtsprz.org/",
     url_codigo: "https://github.com/mtsprznto/portafolio-minimalist"
-  },
-  {
-    title: "Automatizaciones",
-    image: null,
-    date: "2025-06-30",
-    lenguajes_utilizados: {'Python': 99.01, 'Batchfile': 0.99},
-    topics: ["automation", "python", "scraping"],
-    description: "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
-    technologies: ["Python", "Batchfile"],
-    url_demo: "",
-    url_codigo: "https://github.com/mtsprznto/Automatizaciones"
   },
   {
     title: "Scanndata ",
