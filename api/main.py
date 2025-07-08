@@ -27,6 +27,8 @@ app.add_middleware(
 
 
 
+app.mount("/static", StaticFiles(directory="api/static"), name="static")
+
 @app.get("/", response_model=Dict[str, str])
 def obtener_proyectos():
     """Devuelve un mensaje de bienvenida"""
@@ -58,4 +60,4 @@ def obtener_preview(nombre: str):
             return FileResponse(ruta, media_type="image/png")
     raise HTTPException(status_code=404, detail=f"Proyecto '{nombre}' no encontrado.")
 
-app.mount("/static", StaticFiles(directory="api/static"), name="static")
+
