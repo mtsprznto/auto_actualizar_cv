@@ -6,7 +6,7 @@ from fastapi.staticfiles import StaticFiles
 from typing import List, Dict
 from .models.proyecto import Proyecto
 from .utils.loader import cargar_proyectos_json
-from .utils.screenshot import obtener_screenshot
+#from .utils.screenshot import obtener_screenshot
 
 
 
@@ -50,16 +50,16 @@ def obtener_proyecto_por_nombre(nombre: str):
     raise HTTPException(status_code=404, detail=f"Proyecto '{nombre}' no encontrado.")
 
 
-@app.get("/preview/{nombre}")
-def obtener_preview(nombre: str):
-    """Devuelve un preview de un proyecto"""
-    proyectos = cargar_proyectos_json()
-    for p in proyectos:
-        if p.repositorio.lower() == nombre.lower():
-            if not p.sitio_web:
-                raise HTTPException(status_code=404, detail="Este proyecto no tiene sitio_web")
-            ruta = obtener_screenshot(p.sitio_web, p.repositorio)
-            return FileResponse(ruta, media_type="image/png")
-    raise HTTPException(status_code=404, detail=f"Proyecto '{nombre}' no encontrado.")
+# @app.get("/preview/{nombre}")
+# def obtener_preview(nombre: str):
+#     """Devuelve un preview de un proyecto"""
+#     proyectos = cargar_proyectos_json()
+#     for p in proyectos:
+#         if p.repositorio.lower() == nombre.lower():
+#             if not p.sitio_web:
+#                 raise HTTPException(status_code=404, detail="Este proyecto no tiene sitio_web")
+#             ruta = obtener_screenshot(p.sitio_web, p.repositorio)
+#             return FileResponse(ruta, media_type="image/png")
+#     raise HTTPException(status_code=404, detail=f"Proyecto '{nombre}' no encontrado.")
 
 
