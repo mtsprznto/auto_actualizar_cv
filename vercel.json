@@ -8,7 +8,8 @@
                 "includeFiles": [
                     "api/routers/**",
                     "api/models/**",
-                    "api/utils/**"
+                    "api/utils/**",
+                    "api/__init__.py"
                 ]
             }
         }
