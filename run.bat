@@ -1,6 +1,7 @@
 @echo off
 setlocal ENABLEEXTENSIONS ENABLEDELAYEDEXPANSION
 
+
 :: Obtener fecha en formato YYYY-MM-DD
 for /f %%i in ('powershell -Command "Get-Date -Format yyyy-MM-dd"') do set FECHA=%%i
 
@@ -22,6 +23,8 @@ echo ---------------------------------------------------
 :: Verificar que se haya generado el CV
 if exist .\data\CV_Matias_Perez_Nauto.pdf (
     echo CV generado correctamente.
+    copy /Y ".\data\CV_Matias_Perez_Nauto.pdf" "D:\LLLIT\Code-W11\portafolio-minimalist\public\CV_Matias_Perez_Nauto.pdf"
+
 ) else (
     echo No se encontró el archivo de CV generado.
     goto end
@@ -31,14 +34,6 @@ if exist .\data\CV_Matias_Perez_Nauto.pdf (
 echo ---------------------------------------------------
 echo Copiando CV al portafolio público...
 
-copy /Y ".\data\CV_Matias_Perez_Nauto.pdf" "D:\LLLIT\Code-W11\portafolio-minimalist\public\CV_Matias_Perez_Nauto.pdf"
-if errorlevel 1 (
-    echo Error al copiar el CV. Revisa la ruta destino.
-    pause
-    exit /b
-) else (
-    echo CV copiado correctamente al portafolio.
-)
 
 
 echo ---------------------------------------------------
@@ -62,6 +57,9 @@ echo ===================================================
 echo Repositorio actualizado en GitHub.
 echo Duración total del proceso: !DURATION! segundos
 echo ===================================================
+
+
+
 
 exit /b
 
