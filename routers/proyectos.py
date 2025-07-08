@@ -1,4 +1,4 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 from typing import List
 from models.proyecto import Proyecto
 from utils.loader import cargar_proyectos_json
@@ -20,4 +20,4 @@ def obtener_proyecto_por_nombre(nombre: str):
     for p in proyectos:
         if p.repositorio.lower() == nombre.lower():
             return p
-    return {"detail": f"Proyecto '{nombre}' no encontrado."}
+    raise HTTPException(status_code=404, detail=f"Proyecto '{nombre}' no encontrado.")
