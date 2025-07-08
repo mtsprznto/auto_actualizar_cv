@@ -519,5 +519,22 @@
     "topics": [],
     "sitio_web": null,
     "repositorio": "pc_habla"
+  },
+  {
+    "titulo": "COFFEDREAM (TypeScript)",
+    "descripcion": "CoffeDream es una moderna plataforma de comercio electrónico especializada en la venta de café de alta calidad. La aplicación ofrece una experiencia de compra fluida con características como búsqueda de productos, carrito de compras, favoritos y pagos seguros a través de Stripe.",
+    "fecha": "2025-07-07",
+    "url": "https://github.com/mtsprznto/CoffeDream",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 89472,
+      "CSS": 4189,
+      "JavaScript": 518
+    },
+    "topics": [
+      "nextjs"
+    ],
+    "sitio_web": "https://coffdream.vercel.app",
+    "repositorio": "CoffeDream"
   }
 ]
