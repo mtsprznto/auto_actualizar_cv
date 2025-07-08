@@ -16,6 +16,7 @@ echo Entorno virtual activado.
 echo Ejecutando get_auto_actualizar_cv.py...
 
 python get_auto_actualizar_cv.py
+set "errorlevel_script=%ERRORLEVEL%"
 
 echo ---------------------------------------------------
 :: Verificar que se haya generado el CV
@@ -25,6 +26,8 @@ if exist .\data\CV_Matias_Perez_Nauto.pdf (
     echo No se encontró el archivo de CV generado.
     goto end
 )
+
+
 
 echo ---------------------------------------------------
 echo Realizando commit y push a GitHub...
@@ -47,29 +50,6 @@ echo ===================================================
 echo Repositorio actualizado en GitHub.
 echo Duración total del proceso: !DURATION! segundos
 echo ===================================================
-
-:end
-echo.
-echo Proceso completado. Puedes presionar una tecla para salir.
-echo Si no haces nada, el programa se cerrará automáticamente en 5 minutos.
-
-start /wait PowerShell.exe -NoExit -Command ^
-    "$minutes = 5; ^
-     for ($i = $minutes; $i -gt 0; $i--) { ^
-         Write-Host ('Esperando entrada... Minutos restantes: {0}' -f $i); ^
-         $start = Get-Date; ^
-         while ((Get-Date - $start).TotalSeconds -lt 60) { ^
-             if ([console]::KeyAvailable) { ^
-                 $null = [console]::ReadKey($true); ^
-                 Write-Host 'Entrada detectada. Saliendo...'; ^
-                 break ^
-             } ^
-             Start-Sleep -Milliseconds 500 ^
-         } ^
-         if ([console]::KeyAvailable) { break } ^
-     }; ^
-     Write-Host 'Tiempo agotado. Cerrando automáticamente...'; ^
-     exit"
 
 exit /b
 
