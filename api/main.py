@@ -1,14 +1,6 @@
 
 from fastapi import FastAPI
-
-import sys
-from pathlib import Path
-
-# Asegura que el directorio raíz quede en sys.path
-sys.path.append(str(Path(__file__).resolve().parent.parent))
-
-
-from routers import proyectos
+from app.routers import proyectos
 
 
 app = FastAPI(
