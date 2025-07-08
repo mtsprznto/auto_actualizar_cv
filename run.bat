@@ -13,9 +13,9 @@ call .\.venv\Scripts\activate
 
 echo ---------------------------------------------------
 echo Entorno virtual activado.
-echo Ejecutando main.py...
+echo Ejecutando get_auto_actualizar_cv.py...
 
-python main.py
+python get_auto_actualizar_cv.py
 
 echo ---------------------------------------------------
 :: Verificar que se haya generado el CV

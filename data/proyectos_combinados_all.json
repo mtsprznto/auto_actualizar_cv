@@ -1,5 +1,33 @@
 [
   {
+    "titulo": "COFFEDREAM (TypeScript)",
+    "descripcion": "CoffeDream es una moderna plataforma de comercio electrónico especializada en la venta de café de alta calidad. La aplicación ofrece una experiencia de compra fluida con características como búsqueda de productos, carrito de compras, favoritos y pagos seguros a través de Stripe.",
+    "fecha": "2025-07-07",
+    "url": "https://github.com/mtsprznto/CoffeDream",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 89472,
+      "CSS": 4189,
+      "JavaScript": 518
+    },
+    "topics": [
+      "nextjs"
+    ],
+    "sitio_web": "https://coffdream.vercel.app",
+    "repositorio": "CoffeDream"
+  },
+  {
+    "titulo": "MTSPRZNTO (None)",
+    "descripcion": "This is my personal repo for README",
+    "fecha": "2025-07-07",
+    "url": "https://github.com/mtsprznto/mtsprznto",
+    "lenguaje": null,
+    "lenguajes_completos": {},
+    "topics": [],
+    "sitio_web": null,
+    "repositorio": "mtsprznto"
+  },
+  {
     "titulo": "AUTO_ACTUALIZAR_CV (Python)",
     "descripcion": "Una aplicación en Python que automatiza la actualización de tu CV con información de tus repositorios de GitHub.",
     "fecha": "2025-07-06",
@@ -103,21 +131,6 @@
     ],
     "sitio_web": "",
     "repositorio": "scanndata-"
-  },
-  {
-    "titulo": "ECOMMERCE-COFFE (TypeScript)",
-    "descripcion": "Bienvenido a CoffeeDream, una plataforma de comercio electrónico especializada en la venta de granos de café de alta calidad. Este proyecto demuestra una aplicación full stack moderna con despliegue continuo.",
-    "fecha": "2025-06-29",
-    "url": "https://github.com/mtsprznto/ecommerce-coffe",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 92107,
-      "JavaScript": 7740,
-      "CSS": 4189
-    },
-    "topics": [],
-    "sitio_web": "https://coffedream.vercel.app",
-    "repositorio": "ecommerce-coffe"
   },
   {
     "titulo": "GES-INVENTARIO (JavaScript)",
@@ -268,17 +281,6 @@
     "topics": [],
     "sitio_web": "https://holareact-opal.vercel.app",
     "repositorio": "landing-react"
-  },
-  {
-    "titulo": "MTSPRZNTO (None)",
-    "descripcion": "This is my personal repo for README",
-    "fecha": "2025-05-22",
-    "url": "https://github.com/mtsprznto/mtsprznto",
-    "lenguaje": null,
-    "lenguajes_completos": {},
-    "topics": [],
-    "sitio_web": null,
-    "repositorio": "mtsprznto"
   },
   {
     "titulo": "API_BOT_BD (Python)",

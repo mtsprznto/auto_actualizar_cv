@@ -1,9 +1,31 @@
 export const PROJECTS = [
   {
+    title: "Coffedream",
+    image: null,
+    date: "2025-07-07",
+    lenguajes_utilizados: {'TypeScript': 95.0, 'CSS': 4.45, 'JavaScript': 0.55},
+    topics: ["nextjs"],
+    description: "CoffeDream es una moderna plataforma de comercio electrónico especializada en la venta de café de alta calidad. La aplicación ofrece una experiencia de compra fluida con características como búsqueda de productos, carrito de compras, favoritos y pagos seguros a través de Stripe.",
+    technologies: ["TypeScript", "CSS", "JavaScript"],
+    url_demo: "https://coffdream.vercel.app",
+    url_codigo: "https://github.com/mtsprznto/CoffeDream"
+  },
+  {
+    title: "Mtsprznto",
+    image: null,
+    date: "2025-07-07",
+    lenguajes_utilizados: {},
+    topics: [],
+    description: "This is my personal repo for README",
+    technologies: [],
+    url_demo: "None",
+    url_codigo: "https://github.com/mtsprznto/mtsprznto"
+  },
+  {
     title: "Auto Actualizar Cv",
     image: null,
-    date: "2025-07-04",
-    lenguajes_utilizados: {'Python': 81.08, 'JavaScript': 13.84, 'Batchfile': 5.08},
+    date: "2025-07-06",
+    lenguajes_utilizados: {'Python': 78.31, 'JavaScript': 13.32, 'Batchfile': 8.37},
     topics: [],
     description: "Una aplicación en Python que automatiza la actualización de tu CV con información de tus repositorios de GitHub.",
     technologies: ["Python", "JavaScript", "Batchfile"],
@@ -64,27 +86,5 @@ export const PROJECTS = [
     technologies: ["Python", "HTML", "Inno Setup"],
     url_demo: "",
     url_codigo: "https://github.com/mtsprznto/scanndata-"
-  },
-  {
-    title: "Ecommerce Coffe",
-    image: null,
-    date: "2025-06-29",
-    lenguajes_utilizados: {'TypeScript': 88.53, 'JavaScript': 7.44, 'CSS': 4.03},
-    topics: [],
-    description: "Bienvenido a CoffeeDream, una plataforma de comercio electrónico especializada en la venta de granos de café de alta calidad. Este proyecto demuestra una aplicación full stack moderna con despliegue continuo.",
-    technologies: ["TypeScript", "JavaScript", "CSS"],
-    url_demo: "https://coffedream.vercel.app",
-    url_codigo: "https://github.com/mtsprznto/ecommerce-coffe"
-  },
-  {
-    title: "Ges Inventario",
-    image: null,
-    date: "2025-06-29",
-    lenguajes_utilizados: {'JavaScript': 98.82, 'CSS': 0.64, 'HTML': 0.55},
-    topics: [],
-    description: "Sistema de gestión de inventario moderno y escalable desarrollado con React, Vite y Supabase. Esta aplicación permite a las empresas gestionar su inventario, usuarios y configuraciones de manera eficiente.",
-    technologies: ["JavaScript", "CSS", "HTML"],
-    url_demo: "",
-    url_codigo: "https://github.com/mtsprznto/ges-inventario"
   },
 ];

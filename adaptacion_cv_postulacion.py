@@ -40,28 +40,8 @@ def main():
         print("-" * 80)
         
         
-        #procesar_y_guardar_repositorios(repositories, github, username, "./data/proyectos_pre.json")
-        # for c in range(len(repositories)):
-        #     print(f"Proyecto {c}")
+        procesar_y_guardar_repositorios(repositories, github, username, "./data/proyectos_pre.json")
         
-        #     proyectos_cv = [formatear_proyecto(r) for r in sorted(repositories, key=lambda x: x['updated_at'], reverse=True)]
-        #     #print(proyectos_cv[c])
-
-        #     proyectos_about = [github.obtener_about_repo(username, r.get("name")) for r in sorted(repositories, key=lambda x: x['updated_at'], reverse=True)]
-        #     #print(proyectos_about[c])
-
-        #     proyectos_lenguajes = [github.get_languages_for_repo(username, r.get("name")) for r in sorted(repositories, key=lambda x: x['updated_at'], reverse=True)]
-        #     #print("Proyectos lenguajes: ", proyectos_lenguajes[c])
-
-        #     proyectos_combinados = combinar_repos(proyectos_cv, proyectos_about, proyectos_lenguajes)
-        #     print(proyectos_combinados[c])
-
-        #     """
-        #     Probar si es mejor mandarle cada proyecto en cada iteracion para que pueda razonar sobre el proyecto, y luego fuera del bucle, que me harme el json con los proyectos mas importartes para la postulacion
-        #     """
-            
-        #     agregar_proyecto_al_json(proyectos_combinados[c], "./data/proyectos_pre.json")
-
         proyectos_combinados = json.load(open("./data/proyectos_pre.json", "r", encoding="utf-8"))
         print("🔍 Proyectos combinados cargados:", len(proyectos_combinados))
 
