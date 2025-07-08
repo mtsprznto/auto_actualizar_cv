@@ -2,6 +2,9 @@ from fastapi import FastAPI, HTTPException
 from typing import List, Dict
 from .models.proyecto import Proyecto
 from .utils.loader import cargar_proyectos_json
+from fastapi.middleware.cors import CORSMiddleware
+
+
 
 
 app = FastAPI(
@@ -9,6 +12,16 @@ app = FastAPI(
     description="Devuelve proyectos seleccionados desde JSON",
     version="1.0.0"
 )
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # 👈 para desarrollo. En producción puedes especificar ["https://tusitio.com"]
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
 
 @app.get("/", response_model=Dict[str, str])
 def obtener_proyectos():
