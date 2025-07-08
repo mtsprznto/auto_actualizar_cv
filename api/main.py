@@ -27,7 +27,7 @@ app.add_middleware(
 
 
 
-app.mount("/static", StaticFiles(directory="api/static"), name="static")
+# app.mount("/static", StaticFiles(directory="api/static"), name="static")
 
 @app.get("/", response_model=Dict[str, str])
 def obtener_proyectos():
