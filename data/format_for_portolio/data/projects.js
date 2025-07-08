@@ -1,5 +1,16 @@
 export const PROJECTS = [
   {
+    title: "Auto Actualizar Cv",
+    image: null,
+    date: "2025-07-08",
+    lenguajes_utilizados: {'Python': 80.56, 'JavaScript': 11.68, 'Batchfile': 7.75},
+    topics: [],
+    description: "Una aplicación en Python que automatiza la actualización de tu CV con información de tus repositorios de GitHub.",
+    technologies: ["Python", "JavaScript", "Batchfile"],
+    url_demo: "https://apiproyectosmtsprz.vercel.app",
+    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
+  },
+  {
     title: "Coffedream",
     image: null,
     date: "2025-07-07",
@@ -20,17 +31,6 @@ export const PROJECTS = [
     technologies: [],
     url_demo: "None",
     url_codigo: "https://github.com/mtsprznto/mtsprznto"
-  },
-  {
-    title: "Auto Actualizar Cv",
-    image: null,
-    date: "2025-07-06",
-    lenguajes_utilizados: {'Python': 78.31, 'JavaScript': 13.32, 'Batchfile': 8.37},
-    topics: [],
-    description: "Una aplicación en Python que automatiza la actualización de tu CV con información de tus repositorios de GitHub.",
-    technologies: ["Python", "JavaScript", "Batchfile"],
-    url_demo: "",
-    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
   },
   {
     title: "Automatizaciones",
