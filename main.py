@@ -9,3 +9,4 @@ app = FastAPI(
 
 app.include_router(proyectos.router)
 
+handler = app
