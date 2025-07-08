@@ -50,13 +50,22 @@ echo ===================================================
 
 :end
 echo.
-echo Proceso completado. Presiona una tecla para salir...
-echo El programa se cerrará automáticamente en 5 minutos si no hay actividad.
+echo Proceso completado. Puedes presionar una tecla para salir.
+echo Si no haces nada, el programa se cerrará automáticamente en 5 minutos.
 
 powershell -Command ^
-    "$timer = [Diagnostics.Stopwatch]::StartNew(); ^
-     while ($timer.Elapsed.TotalMinutes -lt 5) { ^
-         if ([Console]::KeyAvailable) { $null = [Console]::ReadKey($true); break } ^
-         Start-Sleep -Milliseconds 500 ^
-     }"
+    "$minutes = 5; ^
+     for ($i = $minutes; $i -gt 0; $i--) { ^
+         Write-Host 'Esperando entrada... Minutos restantes:' $i; ^
+         $start = [datetime]::Now; ^
+         while (([datetime]::Now - $start).TotalSeconds -lt 60) { ^
+             if ([console]::KeyAvailable) { ^
+                 $null = [console]::ReadKey($true); ^
+                 Write-Host 'Entrada detectada. Saliendo...'; ^
+                 exit ^
+             } ^
+             Start-Sleep -Milliseconds 500 ^
+         } ^
+     }; ^
+     Write-Host 'Tiempo agotado. Cerrando automáticamente...'"
 exit /b
