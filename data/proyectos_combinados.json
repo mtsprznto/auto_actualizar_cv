@@ -1,18 +1,42 @@
 [
   {
     "titulo": "AUTO_ACTUALIZAR_CV (Python)",
-    "descripcion": "Una aplicación en Python que automatiza la actualización de tu CV con información de tus repositorios de GitHub.",
+    "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
     "fecha": "2025-07-08",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "Python",
     "lenguajes_completos": {
-      "Python": 29295,
-      "JavaScript": 4248,
-      "Batchfile": 2819
+      "Python": 32060,
+      "JavaScript": 4285,
+      "Batchfile": 4230
     },
-    "topics": [],
+    "topics": [
+      "automatizaciones",
+      "fastapi",
+      "python"
+    ],
     "sitio_web": "https://apiproyectosmtsprz.vercel.app",
     "repositorio": "auto_actualizar_cv"
+  },
+  {
+    "titulo": "PORTAFOLIO-MINIMALIST (JavaScript)",
+    "descripcion": "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
+    "fecha": "2025-07-08",
+    "url": "https://github.com/mtsprznto/portafolio-minimalist",
+    "lenguaje": "JavaScript",
+    "lenguajes_completos": {
+      "JavaScript": 24642,
+      "TypeScript": 1351,
+      "CSS": 536,
+      "HTML": 363
+    },
+    "topics": [
+      "react",
+      "react-vite",
+      "vite"
+    ],
+    "sitio_web": "https://portafolio.mtsprz.org/",
+    "repositorio": "portafolio-minimalist"
   },
   {
     "titulo": "COFFEDREAM (TypeScript)",
@@ -30,17 +54,6 @@
     ],
     "sitio_web": "https://coffdream.vercel.app",
     "repositorio": "CoffeDream"
-  },
-  {
-    "titulo": "MTSPRZNTO (None)",
-    "descripcion": "This is my personal repo for README",
-    "fecha": "2025-07-07",
-    "url": "https://github.com/mtsprznto/mtsprznto",
-    "lenguaje": null,
-    "lenguajes_completos": {},
-    "topics": [],
-    "sitio_web": null,
-    "repositorio": "mtsprznto"
   },
   {
     "titulo": "AUTOMATIZACIONES (Python)",
@@ -95,25 +108,6 @@
     "repositorio": "gestpass"
   },
   {
-    "titulo": "PORTAFOLIO-MINIMALIST (JavaScript)",
-    "descripcion": "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
-    "fecha": "2025-06-30",
-    "url": "https://github.com/mtsprznto/portafolio-minimalist",
-    "lenguaje": "JavaScript",
-    "lenguajes_completos": {
-      "JavaScript": 22118,
-      "CSS": 536,
-      "HTML": 363
-    },
-    "topics": [
-      "react",
-      "react-vite",
-      "vite"
-    ],
-    "sitio_web": "https://portafolio.mtsprz.org/",
-    "repositorio": "portafolio-minimalist"
-  },
-  {
     "titulo": "SCANNDATA- (Python)",
     "descripcion": "ScannData mantener organizada la información de boletas y facturas. Nuestra aplicación está diseñada para automatizar el escaneo de documentos PDF y la conversión de imágenes a texto, facilitando la gestión de tus documentos.",
     "fecha": "2025-06-30",
@@ -131,5 +125,20 @@
     ],
     "sitio_web": "",
     "repositorio": "scanndata-"
+  },
+  {
+    "titulo": "GES-INVENTARIO (JavaScript)",
+    "descripcion": "Sistema de gestión de inventario moderno y escalable desarrollado con React, Vite y Supabase. Esta aplicación permite a las empresas gestionar su inventario, usuarios y configuraciones de manera eficiente.",
+    "fecha": "2025-06-29",
+    "url": "https://github.com/mtsprznto/ges-inventario",
+    "lenguaje": "JavaScript",
+    "lenguajes_completos": {
+      "JavaScript": 65636,
+      "CSS": 424,
+      "HTML": 362
+    },
+    "topics": [],
+    "sitio_web": "",
+    "repositorio": "ges-inventario"
   }
 ]

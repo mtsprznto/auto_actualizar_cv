@@ -3,12 +3,23 @@ export const PROJECTS = [
     title: "Auto Actualizar Cv",
     image: null,
     date: "2025-07-08",
-    lenguajes_utilizados: {'Python': 80.56, 'JavaScript': 11.68, 'Batchfile': 7.75},
-    topics: [],
-    description: "Una aplicación en Python que automatiza la actualización de tu CV con información de tus repositorios de GitHub.",
+    lenguajes_utilizados: {'Python': 79.01, 'JavaScript': 10.56, 'Batchfile': 10.43},
+    topics: ["automatizaciones", "fastapi", "python"],
+    description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
     technologies: ["Python", "JavaScript", "Batchfile"],
     url_demo: "https://apiproyectosmtsprz.vercel.app",
     url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
+  },
+  {
+    title: "Portafolio Minimalist",
+    image: null,
+    date: "2025-07-08",
+    lenguajes_utilizados: {'JavaScript': 91.63, 'TypeScript': 5.02, 'CSS': 1.99, 'HTML': 1.35},
+    topics: ["react", "react-vite", "vite"],
+    description: "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
+    technologies: ["JavaScript", "TypeScript", "CSS", "HTML"],
+    url_demo: "https://portafolio.mtsprz.org/",
+    url_codigo: "https://github.com/mtsprznto/portafolio-minimalist"
   },
   {
     title: "Coffedream",
@@ -20,17 +31,6 @@ export const PROJECTS = [
     technologies: ["TypeScript", "CSS", "JavaScript"],
     url_demo: "https://coffdream.vercel.app",
     url_codigo: "https://github.com/mtsprznto/CoffeDream"
-  },
-  {
-    title: "Mtsprznto",
-    image: null,
-    date: "2025-07-07",
-    lenguajes_utilizados: {},
-    topics: [],
-    description: "This is my personal repo for README",
-    technologies: [],
-    url_demo: "None",
-    url_codigo: "https://github.com/mtsprznto/mtsprznto"
   },
   {
     title: "Automatizaciones",
@@ -66,17 +66,6 @@ export const PROJECTS = [
     url_codigo: "https://github.com/mtsprznto/gestpass"
   },
   {
-    title: "Portafolio Minimalist",
-    image: null,
-    date: "2025-06-30",
-    lenguajes_utilizados: {'JavaScript': 96.09, 'CSS': 2.33, 'HTML': 1.58},
-    topics: ["react", "react-vite", "vite"],
-    description: "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
-    technologies: ["JavaScript", "CSS", "HTML"],
-    url_demo: "https://portafolio.mtsprz.org/",
-    url_codigo: "https://github.com/mtsprznto/portafolio-minimalist"
-  },
-  {
     title: "Scanndata ",
     image: null,
     date: "2025-06-30",
@@ -86,5 +75,16 @@ export const PROJECTS = [
     technologies: ["Python", "HTML", "Inno Setup"],
     url_demo: "",
     url_codigo: "https://github.com/mtsprznto/scanndata-"
+  },
+  {
+    title: "Ges Inventario",
+    image: null,
+    date: "2025-06-29",
+    lenguajes_utilizados: {'JavaScript': 98.82, 'CSS': 0.64, 'HTML': 0.55},
+    topics: [],
+    description: "Sistema de gestión de inventario moderno y escalable desarrollado con React, Vite y Supabase. Esta aplicación permite a las empresas gestionar su inventario, usuarios y configuraciones de manera eficiente.",
+    technologies: ["JavaScript", "CSS", "HTML"],
+    url_demo: "",
+    url_codigo: "https://github.com/mtsprznto/ges-inventario"
   },
 ];
