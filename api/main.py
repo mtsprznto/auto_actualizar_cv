@@ -1,11 +1,12 @@
 from fastapi import FastAPI, HTTPException
-from typing import List, Dict
-from .models.proyecto import Proyecto
-from .utils.loader import cargar_proyectos_json
-from .utils.screenshot import obtener_screenshot
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
+
+from typing import List, Dict
+from .models.proyecto import Proyecto
+from .utils.loader import cargar_proyectos_json
+#from .utils.screenshot import obtener_screenshot
 
 
 
