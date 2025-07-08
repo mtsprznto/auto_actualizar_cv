@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from typing import List
-from app.models.proyecto import Proyecto
-from app.utils.loader import cargar_proyectos_json
+from models.proyecto import Proyecto
+from utils.loader import cargar_proyectos_json
 
 router = APIRouter(
     prefix="/proyectos",
