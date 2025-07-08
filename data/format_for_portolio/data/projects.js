@@ -3,10 +3,10 @@ export const PROJECTS = [
     title: "Auto Actualizar Cv",
     image: null,
     date: "2025-07-08",
-    lenguajes_utilizados: {'Python': 77.59, 'JavaScript': 11.36, 'Batchfile': 11.06},
+    lenguajes_utilizados: {'Python': 76.95, 'Batchfile': 11.79, 'JavaScript': 11.26},
     topics: ["automatizaciones", "fastapi", "python"],
     description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    technologies: ["Python", "JavaScript", "Batchfile"],
+    technologies: ["Python", "Batchfile", "JavaScript"],
     url_demo: "https://apiproyectosmtsprz.vercel.app",
     url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
   },

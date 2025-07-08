@@ -53,19 +53,23 @@ echo.
 echo Proceso completado. Puedes presionar una tecla para salir.
 echo Si no haces nada, el programa se cerrará automáticamente en 5 minutos.
 
-powershell -Command ^
+start /wait PowerShell.exe -NoExit -Command ^
     "$minutes = 5; ^
      for ($i = $minutes; $i -gt 0; $i--) { ^
-         Write-Host 'Esperando entrada... Minutos restantes:' $i; ^
-         $start = [datetime]::Now; ^
-         while (([datetime]::Now - $start).TotalSeconds -lt 60) { ^
+         Write-Host ('Esperando entrada... Minutos restantes: {0}' -f $i); ^
+         $start = Get-Date; ^
+         while ((Get-Date - $start).TotalSeconds -lt 60) { ^
              if ([console]::KeyAvailable) { ^
                  $null = [console]::ReadKey($true); ^
                  Write-Host 'Entrada detectada. Saliendo...'; ^
-                 exit ^
+                 break ^
              } ^
              Start-Sleep -Milliseconds 500 ^
          } ^
+         if ([console]::KeyAvailable) { break } ^
      }; ^
-     Write-Host 'Tiempo agotado. Cerrando automáticamente...'"
+     Write-Host 'Tiempo agotado. Cerrando automáticamente...'; ^
+     exit"
+
 exit /b
+
