@@ -6,26 +6,13 @@
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "Python",
     "lenguajes_completos": {
-      "Python": 30069,
+      "Python": 30121,
       "JavaScript": 4285,
-      "Batchfile": 2819
+      "Batchfile": 4230
     },
     "topics": [],
     "sitio_web": "https://apiproyectosmtsprz.vercel.app",
     "repositorio": "auto_actualizar_cv"
-  },
-  {
-    "titulo": "API_PROYECTOS (Python)",
-    "descripcion": "None",
-    "fecha": "2025-07-08",
-    "url": "https://github.com/mtsprznto/api_proyectos",
-    "lenguaje": "Python",
-    "lenguajes_completos": {
-      "Python": 2403
-    },
-    "topics": [],
-    "sitio_web": "https://api-proyectos-iota.vercel.app",
-    "repositorio": "api_proyectos"
   },
   {
     "titulo": "COFFEDREAM (TypeScript)",
