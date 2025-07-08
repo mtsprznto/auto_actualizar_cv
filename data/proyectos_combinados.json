@@ -7,8 +7,8 @@
     "lenguaje": "Python",
     "lenguajes_completos": {
       "Python": 32060,
-      "Batchfile": 4996,
-      "JavaScript": 4692
+      "JavaScript": 4692,
+      "Batchfile": 4199
     },
     "topics": [
       "automatizaciones",

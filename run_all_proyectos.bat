@@ -45,7 +45,5 @@ echo ✅ Proceso completado exitosamente.
 echo 🕒 Duración total: !DURATION! segundos
 echo ===================================================
 
-:end
-echo.
-echo Presiona una tecla para salir...
-pause >nul
+
+exit /b
