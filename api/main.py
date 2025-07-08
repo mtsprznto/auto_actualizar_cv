@@ -12,7 +12,7 @@ app = FastAPI(
 
 @app.get("/", response_model=Dict[str, str])
 def obtener_proyectos():
-    """Devuelve todos los proyectos"""
+    """Devuelve un mensaje de bienvenida"""
     return {"message": "Bienvenido a la API de Proyectos ir a /docs para ver la documentacion"}
 
 @app.get("/proyectos", response_model=List[Proyecto])
