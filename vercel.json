@@ -3,16 +3,7 @@
     "builds": [
         {
             "src": "api/main.py",
-            "use": "@vercel/python",
-            "config": {
-                "maxLambdaSize": "50mb",
-                "includeFiles": [
-                    "models/**",
-                    "routers/**",
-                    "utils/**",
-                    "data/**"
-                ]
-            }
+            "use": "@vercel/python"
         }
     ],
     "routes": [
@@ -20,8 +11,5 @@
             "src": "/(.*)",
             "dest": "api/main.py"
         }
-    ],
-    "env": {
-        "PYTHONUNBUFFERED": "1"
-    }
+    ]
 }
