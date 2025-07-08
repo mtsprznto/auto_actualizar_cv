@@ -28,6 +28,18 @@ if exist .\data\CV_Matias_Perez_Nauto.pdf (
 )
 
 
+echo ---------------------------------------------------
+echo Copiando CV al portafolio público...
+
+copy /Y ".\data\CV_Matias_Perez_Nauto.pdf" "D:\LLLIT\Code-W11\portafolio-minimalist\public\CV_Matias_Perez_Nauto.pdf"
+if errorlevel 1 (
+    echo Error al copiar el CV. Revisa la ruta destino.
+    pause
+    exit /b
+) else (
+    echo CV copiado correctamente al portafolio.
+)
+
 
 echo ---------------------------------------------------
 echo Realizando commit y push a GitHub...
