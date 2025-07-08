@@ -4,6 +4,7 @@ from typing import List
 from ..models.proyecto import Proyecto
 
 def cargar_proyectos_json(ruta: str = "./data/proyectos_combinados_all.json") -> List[Proyecto]:
+    """Carga los proyectos desde un archivo JSON"""
     ruta_archivo = Path(ruta)
     if not ruta_archivo.exists():
         return []
