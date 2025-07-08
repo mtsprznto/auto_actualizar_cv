@@ -40,11 +40,12 @@ def main():
 
         proyectos_combinados = combinar_repos(proyectos_cv, proyectos_about, proyectos_lenguajes)
         #print(proyectos_combinados[:8])
-        guardar_json_repositorios(proyectos_combinados[:8], "./data/proyectos_combinados.json")
+        proyectos_filtrados = [p for p in proyectos_combinados if p["repositorio"].lower() != "mtsprznto"]
+        guardar_json_repositorios(proyectos_filtrados[:8], "./data/proyectos_combinados.json")
 
         
 
-        generar_cv(proyectos_destacados=proyectos_combinados[:8])
+        generar_cv(proyectos_destacados=proyectos_filtrados[:8])
         # Save repositories to a JSON file for further processing
         guardar_json_repositorios(repositories)
 

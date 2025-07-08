@@ -44,7 +44,7 @@ def main():
         
         proyectos_combinados = json.load(open("./data/proyectos_pre.json", "r", encoding="utf-8"))
         print("🔍 Proyectos combinados cargados:", len(proyectos_combinados))
-
+        
         proyectos_seleccionados = seleccionar_proyectos(proyectos_combinados, propuesta)
         with open("./data/proyectos_destacados.json", "w", encoding="utf-8") as f:
             json.dump(proyectos_seleccionados, f, ensure_ascii=False, indent=2)
