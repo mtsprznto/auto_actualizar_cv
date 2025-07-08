@@ -8,7 +8,7 @@ from pathlib import Path
 load_dotenv()
 
 BASE_URL = "https://shot.screenshotapi.net/screenshot"
-STATIC_DIR = Path("api/static/previews")
+STATIC_DIR = Path(__file__).resolve().parent.parent / "static" / "previews"
 
 def obtener_screenshot(sitio_url: str, repositorio: str) -> str:
     STATIC_DIR.mkdir(parents=True, exist_ok=True)
