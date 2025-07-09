@@ -49,23 +49,6 @@
     "repositorio": "ecommerce-coffe"
   },
   {
-    "titulo": "SIS_GES_MED (JavaScript)",
-    "descripcion": "Sistema integral de gestión de citas médicas diseñado para clínicas y consultorios médicos. Facilita la administración de pacientes, doctores, citas y servicios médicos con un panel de control intuitivo y roles de acceso personalizados.",
-    "fecha": "2025-06-29",
-    "url": "https://github.com/mtsprznto/sis_ges_med",
-    "lenguaje": "JavaScript",
-    "lenguajes_completos": {
-      "JavaScript": 12817535,
-      "CSS": 830029,
-      "Blade": 269685,
-      "PHP": 135620,
-      "SCSS": 290
-    },
-    "topics": [],
-    "sitio_web": "",
-    "repositorio": "sis_ges_med"
-  },
-  {
     "titulo": "COFFEDREAM (TypeScript)",
     "descripcion": "CoffeDream es una moderna plataforma de comercio electrónico especializada en la venta de café de alta calidad. La aplicación ofrece una experiencia de compra fluida con características como búsqueda de productos, carrito de compras, favoritos y pagos seguros a través de Stripe.",
     "fecha": "2025-07-07",
@@ -81,5 +64,22 @@
     ],
     "sitio_web": "https://coffdream.vercel.app",
     "repositorio": "CoffeDream"
+  },
+  {
+    "titulo": "SIS_GES_MED (JavaScript)",
+    "descripcion": "Sistema integral de gestión de citas médicas diseñado para clínicas y consultorios médicos. Facilita la administración de pacientes, doctores, citas y servicios médicos con un panel de control intuitivo y roles de acceso personalizados.",
+    "fecha": "2025-06-29",
+    "url": "https://github.com/mtsprznto/sis_ges_med",
+    "lenguaje": "JavaScript",
+    "lenguajes_completos": {
+      "JavaScript": 12817535,
+      "CSS": 830029,
+      "Blade": 269685,
+      "PHP": 135620,
+      "SCSS": 290
+    },
+    "topics": [],
+    "sitio_web": "",
+    "repositorio": "sis_ges_med"
   }
 ]

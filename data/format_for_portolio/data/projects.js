@@ -1,25 +1,25 @@
 export const PROJECTS = [
   {
-    title: "Auto Actualizar Cv",
-    image: null,
-    date: "2025-07-08",
-    lenguajes_utilizados: {'Python': 77.95, 'JavaScript': 11.41, 'Batchfile': 10.64},
-    topics: ["automatizaciones", "fastapi", "python"],
-    description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    technologies: ["Python", "JavaScript", "Batchfile"],
-    url_demo: "https://apiproyectosmtsprz.vercel.app",
-    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
-  },
-  {
     title: "Portafolio Minimalist",
     image: null,
-    date: "2025-07-08",
-    lenguajes_utilizados: {'JavaScript': 91.63, 'TypeScript': 5.02, 'CSS': 1.99, 'HTML': 1.35},
+    date: "2025-07-09",
+    lenguajes_utilizados: {'JavaScript': 91.76, 'TypeScript': 4.95, 'CSS': 1.96, 'HTML': 1.33},
     topics: ["react", "react-vite", "vite"],
     description: "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
     technologies: ["JavaScript", "TypeScript", "CSS", "HTML"],
     url_demo: "https://portafolio.mtsprz.org/",
     url_codigo: "https://github.com/mtsprznto/portafolio-minimalist"
+  },
+  {
+    title: "Auto Actualizar Cv",
+    image: null,
+    date: "2025-07-08",
+    lenguajes_utilizados: {'Python': 78.2, 'JavaScript': 11.28, 'Batchfile': 10.52},
+    topics: ["automatizaciones", "fastapi", "python"],
+    description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    technologies: ["Python", "JavaScript", "Batchfile"],
+    url_demo: "https://apiproyectosmtsprz.vercel.app",
+    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
   },
   {
     title: "Coffedream",
