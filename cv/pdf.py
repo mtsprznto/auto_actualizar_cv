@@ -9,15 +9,16 @@ from utils.utils import limpiar_texto
 
 class PDF(FPDF):
     def header(self):
-        self.set_font("Arial", "B", 16)
-        self.cell(0, 10, limpiar_texto("Matías Pérez Nauto – Desarrollador de Software"), ln=True, align="C")
-        self.ln(10)
+        self.set_font("Arial", "B", 20)
+        self.cell(0, 14, limpiar_texto("Matías Pérez Nauto"), ln=True, align="C")
+        self.ln(2)
 
     def section_title(self, title):
         self.set_font("Arial", "B", 12)
-        self.set_fill_color(230, 230, 230)
-        self.cell(0, 8, limpiar_texto(title), ln=True, fill=True)
-        self.ln(1)
+        self.set_fill_color(255, 255, 255)
+        self.cell(0, 5, limpiar_texto(title), ln=True, fill=True)
+        self.line(self.l_margin, self.get_y(), self.w - self.r_margin, self.get_y())
+        self.ln(3)
 
     def multi_section(self, items):
         self.set_font("Arial", "", 10)
@@ -29,6 +30,21 @@ class PDF(FPDF):
         self.set_font("Arial", "", 10)
         self.multi_cell(0, 6, limpiar_texto(text))
         self.ln(2)
+
+
+    def texto_doble_alineado(self, izquierda: str, derecha: str, estilo="B", tamaño=10):
+        """Imprime dos textos en una sola línea: uno alineado a la izquierda y otro a la derecha"""
+        self.set_font("Arial", estilo, tamaño)
+        page_width = self.w - 2 * self.l_margin
+
+        derecha_width = self.get_string_width(derecha)
+        self.set_x(self.l_margin)
+        self.cell(page_width - derecha_width, 6, "")  # espacio hasta texto derecha
+        self.cell(derecha_width, 6, derecha, ln=0, align="R")
+
+        self.set_xy(self.l_margin, self.get_y())  # volver al inicio horizontal
+        self.cell(page_width, 6, izquierda, ln=1, align="L")
+
 
     def proyectos_dinamicos(self, repos: list, max_items=5):
         self.section_title("Proyectos Relevantes (Automáticos)")

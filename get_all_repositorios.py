@@ -35,9 +35,9 @@ def main():
         proyectos_lenguajes = [github.get_languages_for_repo(username, r.get("name")) for r in sorted(repositories, key=lambda x: x['updated_at'], reverse=True)]
 
         proyectos_combinados = combinar_repos(proyectos_cv, proyectos_about, proyectos_lenguajes)
-        print("Proyectos combinados:", proyectos_combinados)
-        proyectos_filtrados = [p for p in proyectos_combinados if p["repositorio"].lower() != "mtsprznto"]
-
+        #print("Proyectos combinados:", proyectos_combinados)
+        proyectos_filtrados = [p for p in proyectos_combinados if p["titulo"] != "MTSPRZNTO (None)"]
+        
         guardar_json_repositorios(proyectos_filtrados, "./data/proyectos_combinados_all.json")
         
         generar_cv(proyectos_destacados=proyectos_combinados, output_path='./data/CV_Matias_Perez_Nauto_all.pdf')

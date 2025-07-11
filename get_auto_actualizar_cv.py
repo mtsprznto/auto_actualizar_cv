@@ -39,8 +39,8 @@ def main():
         #print("Proyectos lenguajes: ", proyectos_lenguajes[:8])
 
         proyectos_combinados = combinar_repos(proyectos_cv, proyectos_about, proyectos_lenguajes)
-        #print(proyectos_combinados[:8])
-        proyectos_filtrados = [p for p in proyectos_combinados if p["repositorio"].lower() != "mtsprznto"]
+        proyectos_filtrados = [p for p in proyectos_combinados if p["titulo"] != "MTSPRZNTO (None)"]
+        
         guardar_json_repositorios(proyectos_filtrados[:8], "./data/proyectos_combinados.json")
 
         

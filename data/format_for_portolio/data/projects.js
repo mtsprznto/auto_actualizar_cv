@@ -1,5 +1,16 @@
 export const PROJECTS = [
   {
+    title: "Auto Actualizar Cv",
+    image: null,
+    date: "2025-07-11",
+    lenguajes_utilizados: {'Python': 78.83, 'JavaScript': 10.92, 'Batchfile': 10.25},
+    topics: ["automatizaciones", "fastapi", "python"],
+    description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    technologies: ["Python", "JavaScript", "Batchfile"],
+    url_demo: "https://apiproyectosmtsprz.vercel.app",
+    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
+  },
+  {
     title: "Portafolio Minimalist",
     image: null,
     date: "2025-07-09",
@@ -9,17 +20,6 @@ export const PROJECTS = [
     technologies: ["JavaScript", "TypeScript", "CSS", "HTML"],
     url_demo: "https://portafolio.mtsprz.org/",
     url_codigo: "https://github.com/mtsprznto/portafolio-minimalist"
-  },
-  {
-    title: "Auto Actualizar Cv",
-    image: null,
-    date: "2025-07-08",
-    lenguajes_utilizados: {'Python': 78.2, 'JavaScript': 11.28, 'Batchfile': 10.52},
-    topics: ["automatizaciones", "fastapi", "python"],
-    description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    technologies: ["Python", "JavaScript", "Batchfile"],
-    url_demo: "https://apiproyectosmtsprz.vercel.app",
-    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
   },
   {
     title: "Coffedream",
