@@ -2,13 +2,24 @@ export const PROJECTS = [
   {
     title: "Academ Prod",
     image: null,
-    date: "2025-07-11",
-    lenguajes_utilizados: {'TypeScript': 98.21, 'CSS': 1.62, 'JavaScript': 0.17},
+    date: "2025-07-13",
+    lenguajes_utilizados: {'TypeScript': 98.31, 'CSS': 1.52, 'JavaScript': 0.16},
     topics: ["fulls", "fullstack", "nextjs"],
     description: "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
     technologies: ["TypeScript", "CSS", "JavaScript"],
     url_demo: "https://academ-prod.vercel.app",
     url_codigo: "https://github.com/mtsprznto/academ-prod"
+  },
+  {
+    title: "Auto Actualizar Cv",
+    image: null,
+    date: "2025-07-12",
+    lenguajes_utilizados: {'Python': 79.48, 'JavaScript': 10.58, 'Batchfile': 9.93},
+    topics: ["automatizaciones", "fastapi", "python"],
+    description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    technologies: ["Python", "JavaScript", "Batchfile"],
+    url_demo: "https://apiproyectosmtsprz.vercel.app",
+    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
   },
   {
     title: "Automatizaciones",
@@ -20,17 +31,6 @@ export const PROJECTS = [
     technologies: ["Python", "Batchfile"],
     url_demo: "",
     url_codigo: "https://github.com/mtsprznto/Automatizaciones"
-  },
-  {
-    title: "Auto Actualizar Cv",
-    image: null,
-    date: "2025-07-11",
-    lenguajes_utilizados: {'Python': 79.48, 'JavaScript': 10.58, 'Batchfile': 9.93},
-    topics: ["automatizaciones", "fastapi", "python"],
-    description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    technologies: ["Python", "JavaScript", "Batchfile"],
-    url_demo: "https://apiproyectosmtsprz.vercel.app",
-    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
   },
   {
     title: "Portafolio Minimalist",
