@@ -1,12 +1,25 @@
 [
   {
+    "titulo": "API_ACADEM (Python)",
+    "descripcion": "None",
+    "fecha": "2025-07-13",
+    "url": "https://github.com/mtsprznto/api_academ",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 5628
+    },
+    "topics": [],
+    "sitio_web": null,
+    "repositorio": "api_academ"
+  },
+  {
     "titulo": "ACADEM-PROD (TypeScript)",
     "descripcion": "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
     "fecha": "2025-07-13",
     "url": "https://github.com/mtsprznto/academ-prod",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
-      "TypeScript": 325848,
+      "TypeScript": 339100,
       "CSS": 5054,
       "JavaScript": 540
     },
@@ -21,12 +34,12 @@
   {
     "titulo": "AUTO_ACTUALIZAR_CV (Python)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-07-12",
+    "fecha": "2025-07-13",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "Python",
     "lenguajes_completos": {
       "Python": 35228,
-      "JavaScript": 4691,
+      "JavaScript": 4434,
       "Batchfile": 4402
     },
     "topics": [
