@@ -1,12 +1,25 @@
 [
   {
+    "titulo": "API_ACADEM (Python)",
+    "descripcion": "None",
+    "fecha": "2025-07-13",
+    "url": "https://github.com/mtsprznto/api_academ",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 5628
+    },
+    "topics": [],
+    "sitio_web": null,
+    "repositorio": "api_academ"
+  },
+  {
     "titulo": "ACADEM-PROD (TypeScript)",
     "descripcion": "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
     "fecha": "2025-07-13",
     "url": "https://github.com/mtsprznto/academ-prod",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
-      "TypeScript": 325848,
+      "TypeScript": 339100,
       "CSS": 5054,
       "JavaScript": 540
     },
@@ -21,7 +34,7 @@
   {
     "titulo": "AUTO_ACTUALIZAR_CV (Python)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-07-12",
+    "fecha": "2025-07-13",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "Python",
     "lenguajes_completos": {
@@ -125,20 +138,5 @@
     ],
     "sitio_web": "",
     "repositorio": "scanndata-"
-  },
-  {
-    "titulo": "GES-INVENTARIO (JavaScript)",
-    "descripcion": "Sistema de gestión de inventario moderno y escalable desarrollado con React, Vite y Supabase. Esta aplicación permite a las empresas gestionar su inventario, usuarios y configuraciones de manera eficiente.",
-    "fecha": "2025-06-29",
-    "url": "https://github.com/mtsprznto/ges-inventario",
-    "lenguaje": "JavaScript",
-    "lenguajes_completos": {
-      "JavaScript": 65636,
-      "CSS": 424,
-      "HTML": 362
-    },
-    "topics": [],
-    "sitio_web": "",
-    "repositorio": "ges-inventario"
   }
 ]

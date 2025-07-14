@@ -1,9 +1,20 @@
 export const PROJECTS = [
   {
+    title: "Api Academ",
+    image: null,
+    date: "2025-07-13",
+    lenguajes_utilizados: {'Python': 100.0},
+    topics: [],
+    description: "None",
+    technologies: ["Python"],
+    url_demo: "None",
+    url_codigo: "https://github.com/mtsprznto/api_academ"
+  },
+  {
     title: "Academ Prod",
     image: null,
     date: "2025-07-13",
-    lenguajes_utilizados: {'TypeScript': 98.31, 'CSS': 1.52, 'JavaScript': 0.16},
+    lenguajes_utilizados: {'TypeScript': 98.38, 'CSS': 1.47, 'JavaScript': 0.16},
     topics: ["fulls", "fullstack", "nextjs"],
     description: "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
     technologies: ["TypeScript", "CSS", "JavaScript"],
@@ -13,7 +24,7 @@ export const PROJECTS = [
   {
     title: "Auto Actualizar Cv",
     image: null,
-    date: "2025-07-12",
+    date: "2025-07-13",
     lenguajes_utilizados: {'Python': 79.48, 'JavaScript': 10.58, 'Batchfile': 9.93},
     topics: ["automatizaciones", "fastapi", "python"],
     description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
@@ -75,16 +86,5 @@ export const PROJECTS = [
     technologies: ["Python", "HTML", "Inno Setup"],
     url_demo: "",
     url_codigo: "https://github.com/mtsprznto/scanndata-"
-  },
-  {
-    title: "Ges Inventario",
-    image: null,
-    date: "2025-06-29",
-    lenguajes_utilizados: {'JavaScript': 98.82, 'CSS': 0.64, 'HTML': 0.55},
-    topics: [],
-    description: "Sistema de gestión de inventario moderno y escalable desarrollado con React, Vite y Supabase. Esta aplicación permite a las empresas gestionar su inventario, usuarios y configuraciones de manera eficiente.",
-    technologies: ["JavaScript", "CSS", "HTML"],
-    url_demo: "",
-    url_codigo: "https://github.com/mtsprznto/ges-inventario"
   },
 ];
