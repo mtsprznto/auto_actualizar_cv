@@ -1,5 +1,38 @@
 export const PROJECTS = [
   {
+    title: "Academ Prod",
+    image: null,
+    date: "2025-07-15",
+    lenguajes_utilizados: {'TypeScript': 98.34, 'CSS': 1.51, 'JavaScript': 0.15},
+    topics: ["fulls", "fullstack", "nextjs"],
+    description: "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
+    technologies: ["TypeScript", "CSS", "JavaScript"],
+    url_demo: "https://academ-prod.vercel.app",
+    url_codigo: "https://github.com/mtsprznto/academ-prod"
+  },
+  {
+    title: "Calculo Luz",
+    image: null,
+    date: "2025-07-14",
+    lenguajes_utilizados: {'Python': 100.0},
+    topics: [],
+    description: "None",
+    technologies: ["Python"],
+    url_demo: "https://calculo-luz.vercel.app",
+    url_codigo: "https://github.com/mtsprznto/calculo_luz"
+  },
+  {
+    title: "Auto Actualizar Cv",
+    image: null,
+    date: "2025-07-14",
+    lenguajes_utilizados: {'Python': 79.95, 'JavaScript': 10.06, 'Batchfile': 9.99},
+    topics: ["automatizaciones", "fastapi", "python"],
+    description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    technologies: ["Python", "JavaScript", "Batchfile"],
+    url_demo: "https://apiproyectosmtsprz.vercel.app",
+    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
+  },
+  {
     title: "Api Academ",
     image: null,
     date: "2025-07-13",
@@ -9,28 +42,6 @@ export const PROJECTS = [
     technologies: ["Python"],
     url_demo: "None",
     url_codigo: "https://github.com/mtsprznto/api_academ"
-  },
-  {
-    title: "Academ Prod",
-    image: null,
-    date: "2025-07-13",
-    lenguajes_utilizados: {'TypeScript': 98.38, 'CSS': 1.47, 'JavaScript': 0.16},
-    topics: ["fulls", "fullstack", "nextjs"],
-    description: "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
-    technologies: ["TypeScript", "CSS", "JavaScript"],
-    url_demo: "https://academ-prod.vercel.app",
-    url_codigo: "https://github.com/mtsprznto/academ-prod"
-  },
-  {
-    title: "Auto Actualizar Cv",
-    image: null,
-    date: "2025-07-13",
-    lenguajes_utilizados: {'Python': 79.48, 'JavaScript': 10.58, 'Batchfile': 9.93},
-    topics: ["automatizaciones", "fastapi", "python"],
-    description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    technologies: ["Python", "JavaScript", "Batchfile"],
-    url_demo: "https://apiproyectosmtsprz.vercel.app",
-    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
   },
   {
     title: "Automatizaciones",
@@ -75,16 +86,5 @@ export const PROJECTS = [
     technologies: ["TypeScript", "JavaScript", "CSS"],
     url_demo: "https://gestpass.vercel.app",
     url_codigo: "https://github.com/mtsprznto/gestpass"
-  },
-  {
-    title: "Scanndata ",
-    image: null,
-    date: "2025-06-30",
-    lenguajes_utilizados: {'Python': 97.44, 'HTML': 2.13, 'Inno Setup': 0.43},
-    topics: ["flet", "flutter", "python"],
-    description: "ScannData mantener organizada la información de boletas y facturas. Nuestra aplicación está diseñada para automatizar el escaneo de documentos PDF y la conversión de imágenes a texto, facilitando la gestión de tus documentos.",
-    technologies: ["Python", "HTML", "Inno Setup"],
-    url_demo: "",
-    url_codigo: "https://github.com/mtsprznto/scanndata-"
   },
 ];
