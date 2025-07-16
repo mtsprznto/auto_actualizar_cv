@@ -536,5 +536,18 @@
     ],
     "sitio_web": "https://coffdream.vercel.app",
     "repositorio": "CoffeDream"
+  },
+  {
+    "titulo": "API_ACADEM (Python)",
+    "descripcion": "None",
+    "fecha": "2025-07-13",
+    "url": "https://github.com/mtsprznto/api_academ",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 5628
+    },
+    "topics": [],
+    "sitio_web": null,
+    "repositorio": "api_academ"
   }
 ]
