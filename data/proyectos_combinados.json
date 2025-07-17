@@ -1,5 +1,43 @@
 [
   {
+    "titulo": "BOT_CAMI_CLASSROOM (Python)",
+    "descripcion": "Herramienta de automatización para Google Classroom que permite gestionar anuncios y materiales del curso de manera programática",
+    "fecha": "2025-07-16",
+    "url": "https://github.com/mtsprznto/bot_cami_classroom",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 20410,
+      "Batchfile": 374
+    },
+    "topics": [
+      "api",
+      "automatizacion",
+      "googleapi",
+      "python"
+    ],
+    "sitio_web": "",
+    "repositorio": "bot_cami_classroom"
+  },
+  {
+    "titulo": "AUTO_ACTUALIZAR_CV (Python)",
+    "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    "fecha": "2025-07-16",
+    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 35228,
+      "JavaScript": 4434,
+      "Batchfile": 4402
+    },
+    "topics": [
+      "automatizaciones",
+      "fastapi",
+      "python"
+    ],
+    "sitio_web": "https://apiproyectosmtsprz.vercel.app",
+    "repositorio": "auto_actualizar_cv"
+  },
+  {
     "titulo": "ACADEM-PROD (TypeScript)",
     "descripcion": "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
     "fecha": "2025-07-15",
@@ -30,25 +68,6 @@
     "topics": [],
     "sitio_web": null,
     "repositorio": "api_academ"
-  },
-  {
-    "titulo": "AUTO_ACTUALIZAR_CV (Python)",
-    "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-07-15",
-    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
-    "lenguaje": "Python",
-    "lenguajes_completos": {
-      "Python": 35228,
-      "Batchfile": 4402,
-      "JavaScript": 4155
-    },
-    "topics": [
-      "automatizaciones",
-      "fastapi",
-      "python"
-    ],
-    "sitio_web": "https://apiproyectosmtsprz.vercel.app",
-    "repositorio": "auto_actualizar_cv"
   },
   {
     "titulo": "AUTOMATIZACIONES (Python)",
@@ -119,24 +138,5 @@
     "topics": [],
     "sitio_web": "https://gestpass.vercel.app",
     "repositorio": "gestpass"
-  },
-  {
-    "titulo": "SCANNDATA- (Python)",
-    "descripcion": "ScannData mantener organizada la información de boletas y facturas. Nuestra aplicación está diseñada para automatizar el escaneo de documentos PDF y la conversión de imágenes a texto, facilitando la gestión de tus documentos.",
-    "fecha": "2025-06-30",
-    "url": "https://github.com/mtsprznto/scanndata-",
-    "lenguaje": "Python",
-    "lenguajes_completos": {
-      "Python": 129116,
-      "HTML": 2823,
-      "Inno Setup": 574
-    },
-    "topics": [
-      "flet",
-      "flutter",
-      "python"
-    ],
-    "sitio_web": "",
-    "repositorio": "scanndata-"
   }
 ]

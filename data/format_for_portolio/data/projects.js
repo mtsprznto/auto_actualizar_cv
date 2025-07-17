@@ -1,5 +1,27 @@
 export const PROJECTS = [
   {
+    title: "Bot Cami Classroom",
+    image: null,
+    date: "2025-07-16",
+    lenguajes_utilizados: {'Python': 98.2, 'Batchfile': 1.8},
+    topics: ["api", "automatizacion", "googleapi", "python"],
+    description: "Herramienta de automatización para Google Classroom que permite gestionar anuncios y materiales del curso de manera programática",
+    technologies: ["Python", "Batchfile"],
+    url_demo: "",
+    url_codigo: "https://github.com/mtsprznto/bot_cami_classroom"
+  },
+  {
+    title: "Auto Actualizar Cv",
+    image: null,
+    date: "2025-07-16",
+    lenguajes_utilizados: {'Python': 79.95, 'JavaScript': 10.06, 'Batchfile': 9.99},
+    topics: ["automatizaciones", "fastapi", "python"],
+    description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    technologies: ["Python", "JavaScript", "Batchfile"],
+    url_demo: "https://apiproyectosmtsprz.vercel.app",
+    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
+  },
+  {
     title: "Academ Prod",
     image: null,
     date: "2025-07-15",
@@ -20,17 +42,6 @@ export const PROJECTS = [
     technologies: ["Python"],
     url_demo: "None",
     url_codigo: "https://github.com/mtsprznto/api_academ"
-  },
-  {
-    title: "Auto Actualizar Cv",
-    image: null,
-    date: "2025-07-15",
-    lenguajes_utilizados: {'Python': 80.46, 'Batchfile': 10.05, 'JavaScript': 9.49},
-    topics: ["automatizaciones", "fastapi", "python"],
-    description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    technologies: ["Python", "Batchfile", "JavaScript"],
-    url_demo: "https://apiproyectosmtsprz.vercel.app",
-    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
   },
   {
     title: "Automatizaciones",
@@ -75,16 +86,5 @@ export const PROJECTS = [
     technologies: ["TypeScript", "JavaScript", "CSS"],
     url_demo: "https://gestpass.vercel.app",
     url_codigo: "https://github.com/mtsprznto/gestpass"
-  },
-  {
-    title: "Scanndata ",
-    image: null,
-    date: "2025-06-30",
-    lenguajes_utilizados: {'Python': 97.44, 'HTML': 2.13, 'Inno Setup': 0.43},
-    topics: ["flet", "flutter", "python"],
-    description: "ScannData mantener organizada la información de boletas y facturas. Nuestra aplicación está diseñada para automatizar el escaneo de documentos PDF y la conversión de imágenes a texto, facilitando la gestión de tus documentos.",
-    technologies: ["Python", "HTML", "Inno Setup"],
-    url_demo: "",
-    url_codigo: "https://github.com/mtsprznto/scanndata-"
   },
 ];
