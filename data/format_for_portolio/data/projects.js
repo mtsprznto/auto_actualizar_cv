@@ -1,23 +1,34 @@
 export const PROJECTS = [
   {
+    title: "Crom Automatic",
+    image: null,
+    date: "2025-07-18",
+    lenguajes_utilizados: {'TypeScript': 77.51, 'CSS': 21.17, 'JavaScript': 1.31},
+    topics: [],
+    description: "None",
+    technologies: ["TypeScript", "CSS", "JavaScript"],
+    url_demo: "https://crom.vercel.app",
+    url_codigo: "https://github.com/mtsprznto/crom-automatic"
+  },
+  {
     title: "Bot Cami Classroom",
     image: null,
-    date: "2025-07-16",
-    lenguajes_utilizados: {'Python': 98.2, 'Batchfile': 1.8},
+    date: "2025-07-17",
+    lenguajes_utilizados: {'Python': 98.66, 'Batchfile': 1.34},
     topics: ["api", "automatizacion", "googleapi", "python"],
     description: "Herramienta de automatización para Google Classroom que permite gestionar anuncios y materiales del curso de manera programática",
     technologies: ["Python", "Batchfile"],
-    url_demo: "",
+    url_demo: "https://bot-cami-classroom.vercel.app",
     url_codigo: "https://github.com/mtsprznto/bot_cami_classroom"
   },
   {
     title: "Auto Actualizar Cv",
     image: null,
-    date: "2025-07-16",
-    lenguajes_utilizados: {'Python': 79.95, 'JavaScript': 10.06, 'Batchfile': 9.99},
+    date: "2025-07-17",
+    lenguajes_utilizados: {'Python': 80.12, 'Batchfile': 10.01, 'JavaScript': 9.87},
     topics: ["automatizaciones", "fastapi", "python"],
     description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    technologies: ["Python", "JavaScript", "Batchfile"],
+    technologies: ["Python", "Batchfile", "JavaScript"],
     url_demo: "https://apiproyectosmtsprz.vercel.app",
     url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
   },
@@ -75,16 +86,5 @@ export const PROJECTS = [
     technologies: ["TypeScript", "CSS", "JavaScript"],
     url_demo: "https://coffdream.vercel.app",
     url_codigo: "https://github.com/mtsprznto/CoffeDream"
-  },
-  {
-    title: "Gestpass",
-    image: null,
-    date: "2025-07-03",
-    lenguajes_utilizados: {'TypeScript': 79.01, 'JavaScript': 18.73, 'CSS': 2.25},
-    topics: [],
-    description: "Desarrollé una aplicación de gestión de contraseñas siguiendo las mejores prácticas de seguridad y desarrollo, implementando el patrón MVC para una estructura modular y eficiente. ",
-    technologies: ["TypeScript", "JavaScript", "CSS"],
-    url_demo: "https://gestpass.vercel.app",
-    url_codigo: "https://github.com/mtsprznto/gestpass"
   },
 ];
