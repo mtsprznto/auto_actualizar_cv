@@ -7,7 +7,6 @@ from typing import List, Dict
 from .models.proyecto import Proyecto
 from .utils.loader import cargar_proyectos_json
 
-from .utils.screenshot import obtener_screenshot
 
 
 
@@ -51,25 +50,33 @@ def obtener_proyecto_por_nombre(nombre: str):
     raise HTTPException(status_code=404, detail=f"Proyecto '{nombre}' no encontrado.")
 
 
-@app.get("/preview")
-async def generar_previews():
-    """Genera y guarda screenshots de todos los proyectos con sitio_web"""
-    proyectos = cargar_proyectos_json()
-    capturados = []
-    for p in proyectos:
-        if p.sitio_web:
-            try:
-                print(p.sitio_web)
-                ruta = await obtener_screenshot(str(p.sitio_web), p.repositorio)
-                capturados.append({
-                    "repositorio": p.repositorio,
-                    "ruta": ruta
-                })
-            except Exception as e:
-                capturados.append({
-                    "repositorio": p.repositorio,
-                    "error": str(e)
-                })
-    return {"total": len(capturados), "resultados": capturados}
+#IMPORTANTE:
+"""
+Dejar esta funcion comentada ya que solo sirve en local y en produccion no se puede usar
+"""
+
+
+#from .utils.screenshot import obtener_screenshot
+
+# @app.get("/preview")
+# async def generar_previews():
+#     """Genera y guarda screenshots de todos los proyectos con sitio_web"""
+#     proyectos = cargar_proyectos_json()
+#     capturados = []
+#     for p in proyectos:
+#         if p.sitio_web:
+#             try:
+#                 print(p.sitio_web)
+#                 ruta = await obtener_screenshot(str(p.sitio_web), p.repositorio)
+#                 capturados.append({
+#                     "repositorio": p.repositorio,
+#                     "ruta": ruta
+#                 })
+#             except Exception as e:
+#                 capturados.append({
+#                     "repositorio": p.repositorio,
+#                     "error": str(e)
+#                 })
+#     return {"total": len(capturados), "resultados": capturados}
 
 
