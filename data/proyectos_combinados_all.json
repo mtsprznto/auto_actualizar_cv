@@ -1,12 +1,27 @@
 [
   {
+    "titulo": "CROM-AUTOMATIC (TypeScript)",
+    "descripcion": "None",
+    "fecha": "2025-07-18",
+    "url": "https://github.com/mtsprznto/crom-automatic",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 27984,
+      "CSS": 7644,
+      "JavaScript": 474
+    },
+    "topics": [],
+    "sitio_web": "https://crom.vercel.app",
+    "repositorio": "crom-automatic"
+  },
+  {
     "titulo": "BOT_CAMI_CLASSROOM (Python)",
     "descripcion": "Herramienta de automatización para Google Classroom que permite gestionar anuncios y materiales del curso de manera programática",
-    "fecha": "2025-07-16",
+    "fecha": "2025-07-17",
     "url": "https://github.com/mtsprznto/bot_cami_classroom",
     "lenguaje": "Python",
     "lenguajes_completos": {
-      "Python": 20410,
+      "Python": 27518,
       "Batchfile": 374
     },
     "topics": [
@@ -15,19 +30,19 @@
       "googleapi",
       "python"
     ],
-    "sitio_web": "",
+    "sitio_web": "https://bot-cami-classroom.vercel.app",
     "repositorio": "bot_cami_classroom"
   },
   {
     "titulo": "AUTO_ACTUALIZAR_CV (Python)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-07-16",
+    "fecha": "2025-07-17",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "Python",
     "lenguajes_completos": {
       "Python": 35228,
       "Batchfile": 4402,
-      "JavaScript": 4341
+      "JavaScript": 4206
     },
     "topics": [
       "automatizaciones",
