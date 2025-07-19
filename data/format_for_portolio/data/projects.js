@@ -1,20 +1,20 @@
 export const PROJECTS = [
   {
-    title: "Crom Automatic",
+    title: "Api Academ",
     image: null,
-    date: "2025-07-18",
-    lenguajes_utilizados: {'TypeScript': 77.51, 'CSS': 21.17, 'JavaScript': 1.31},
-    topics: [],
-    description: "None",
-    technologies: ["TypeScript", "CSS", "JavaScript"],
-    url_demo: "https://crom.vercel.app",
-    url_codigo: "https://github.com/mtsprznto/crom-automatic"
+    date: "2025-07-19",
+    lenguajes_utilizados: {'Python': 100.0},
+    topics: ["fastapi", "python"],
+    description: "API desarrollada en FastAPI que permite transcribir y analizar contenido de videos, con integración a Supabase para el almacenamiento de transcripciones y respuestas generadas por IA.",
+    technologies: ["Python"],
+    url_demo: "",
+    url_codigo: "https://github.com/mtsprznto/api_academ"
   },
   {
     title: "Bot Cami Classroom",
     image: null,
-    date: "2025-07-17",
-    lenguajes_utilizados: {'Python': 98.66, 'Batchfile': 1.34},
+    date: "2025-07-19",
+    lenguajes_utilizados: {'Python': 98.95, 'Batchfile': 1.05},
     topics: ["api", "automatizacion", "googleapi", "python"],
     description: "Herramienta de automatización para Google Classroom que permite gestionar anuncios y materiales del curso de manera programática",
     technologies: ["Python", "Batchfile"],
@@ -22,10 +22,21 @@ export const PROJECTS = [
     url_codigo: "https://github.com/mtsprznto/bot_cami_classroom"
   },
   {
+    title: "Crom Automatic",
+    image: null,
+    date: "2025-07-19",
+    lenguajes_utilizados: {'TypeScript': 84.91, 'CSS': 14.21, 'JavaScript': 0.88},
+    topics: [],
+    description: "None",
+    technologies: ["TypeScript", "CSS", "JavaScript"],
+    url_demo: "https://crom.vercel.app",
+    url_codigo: "https://github.com/mtsprznto/crom-automatic"
+  },
+  {
     title: "Auto Actualizar Cv",
     image: null,
-    date: "2025-07-17",
-    lenguajes_utilizados: {'Python': 80.12, 'Batchfile': 10.01, 'JavaScript': 9.87},
+    date: "2025-07-18",
+    lenguajes_utilizados: {'Python': 80.41, 'Batchfile': 10.02, 'JavaScript': 9.57},
     topics: ["automatizaciones", "fastapi", "python"],
     description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
     technologies: ["Python", "Batchfile", "JavaScript"],
@@ -42,17 +53,6 @@ export const PROJECTS = [
     technologies: ["TypeScript", "CSS", "JavaScript"],
     url_demo: "https://academ-prod.vercel.app",
     url_codigo: "https://github.com/mtsprznto/academ-prod"
-  },
-  {
-    title: "Api Academ",
-    image: null,
-    date: "2025-07-15",
-    lenguajes_utilizados: {'Python': 100.0},
-    topics: [],
-    description: "None",
-    technologies: ["Python"],
-    url_demo: "None",
-    url_codigo: "https://github.com/mtsprznto/api_academ"
   },
   {
     title: "Automatizaciones",

@@ -1,27 +1,28 @@
 [
   {
-    "titulo": "CROM-AUTOMATIC (TypeScript)",
-    "descripcion": "None",
-    "fecha": "2025-07-18",
-    "url": "https://github.com/mtsprznto/crom-automatic",
-    "lenguaje": "TypeScript",
+    "titulo": "API_ACADEM (Python)",
+    "descripcion": "API desarrollada en FastAPI que permite transcribir y analizar contenido de videos, con integración a Supabase para el almacenamiento de transcripciones y respuestas generadas por IA.",
+    "fecha": "2025-07-19",
+    "url": "https://github.com/mtsprznto/api_academ",
+    "lenguaje": "Python",
     "lenguajes_completos": {
-      "TypeScript": 27984,
-      "CSS": 7644,
-      "JavaScript": 474
+      "Python": 10660
     },
-    "topics": [],
-    "sitio_web": "https://crom.vercel.app",
-    "repositorio": "crom-automatic"
+    "topics": [
+      "fastapi",
+      "python"
+    ],
+    "sitio_web": "",
+    "repositorio": "api_academ"
   },
   {
     "titulo": "BOT_CAMI_CLASSROOM (Python)",
     "descripcion": "Herramienta de automatización para Google Classroom que permite gestionar anuncios y materiales del curso de manera programática",
-    "fecha": "2025-07-17",
+    "fecha": "2025-07-19",
     "url": "https://github.com/mtsprznto/bot_cami_classroom",
     "lenguaje": "Python",
     "lenguajes_completos": {
-      "Python": 27518,
+      "Python": 35240,
       "Batchfile": 374
     },
     "topics": [
@@ -34,15 +35,30 @@
     "repositorio": "bot_cami_classroom"
   },
   {
+    "titulo": "CROM-AUTOMATIC (TypeScript)",
+    "descripcion": "None",
+    "fecha": "2025-07-19",
+    "url": "https://github.com/mtsprznto/crom-automatic",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 45692,
+      "CSS": 7644,
+      "JavaScript": 474
+    },
+    "topics": [],
+    "sitio_web": "https://crom.vercel.app",
+    "repositorio": "crom-automatic"
+  },
+  {
     "titulo": "AUTO_ACTUALIZAR_CV (Python)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-07-17",
+    "fecha": "2025-07-18",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "Python",
     "lenguajes_completos": {
-      "Python": 35228,
+      "Python": 35339,
       "Batchfile": 4402,
-      "JavaScript": 4341
+      "JavaScript": 4206
     },
     "topics": [
       "automatizaciones",
@@ -70,19 +86,6 @@
     ],
     "sitio_web": "https://academ-prod.vercel.app",
     "repositorio": "academ-prod"
-  },
-  {
-    "titulo": "API_ACADEM (Python)",
-    "descripcion": "None",
-    "fecha": "2025-07-15",
-    "url": "https://github.com/mtsprznto/api_academ",
-    "lenguaje": "Python",
-    "lenguajes_completos": {
-      "Python": 10660
-    },
-    "topics": [],
-    "sitio_web": null,
-    "repositorio": "api_academ"
   },
   {
     "titulo": "AUTOMATIZACIONES (Python)",
