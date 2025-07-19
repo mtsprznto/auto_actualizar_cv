@@ -1,5 +1,16 @@
 export const PROJECTS = [
   {
+    title: "Auto Actualizar Cv",
+    image: null,
+    date: "2025-07-19",
+    lenguajes_utilizados: {'Python': 80.06, 'Batchfile': 9.97, 'JavaScript': 9.97},
+    topics: ["automatizaciones", "fastapi", "python"],
+    description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    technologies: ["Python", "Batchfile", "JavaScript"],
+    url_demo: "https://apiproyectosmtsprz.vercel.app",
+    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
+  },
+  {
     title: "Api Academ",
     image: null,
     date: "2025-07-19",
@@ -31,17 +42,6 @@ export const PROJECTS = [
     technologies: ["TypeScript", "CSS", "JavaScript"],
     url_demo: "https://crom.vercel.app",
     url_codigo: "https://github.com/mtsprznto/crom-automatic"
-  },
-  {
-    title: "Auto Actualizar Cv",
-    image: null,
-    date: "2025-07-18",
-    lenguajes_utilizados: {'Python': 80.41, 'Batchfile': 10.02, 'JavaScript': 9.57},
-    topics: ["automatizaciones", "fastapi", "python"],
-    description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    technologies: ["Python", "Batchfile", "JavaScript"],
-    url_demo: "https://apiproyectosmtsprz.vercel.app",
-    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
   },
   {
     title: "Academ Prod",
