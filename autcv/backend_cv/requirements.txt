@@ -1,0 +1,5 @@
+fastapi[standard]
+groq
+python-dotenv
+fpdf
+requests

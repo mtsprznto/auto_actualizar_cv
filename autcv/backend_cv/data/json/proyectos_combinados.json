@@ -1,0 +1,145 @@
+[
+  {
+    "titulo": "AUTO_ACTUALIZAR_CV (Python)",
+    "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    "fecha": "2025-07-19",
+    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 35339,
+      "Batchfile": 4402,
+      "JavaScript": 4401
+    },
+    "topics": [
+      "automatizaciones",
+      "fastapi",
+      "python"
+    ],
+    "sitio_web": "https://apiproyectosmtsprz.vercel.app",
+    "repositorio": "auto_actualizar_cv"
+  },
+  {
+    "titulo": "API_ACADEM (Python)",
+    "descripcion": "API desarrollada en FastAPI que permite transcribir y analizar contenido de videos, con integración a Supabase para el almacenamiento de transcripciones y respuestas generadas por IA.",
+    "fecha": "2025-07-19",
+    "url": "https://github.com/mtsprznto/api_academ",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 10660
+    },
+    "topics": [
+      "fastapi",
+      "python"
+    ],
+    "sitio_web": "",
+    "repositorio": "api_academ"
+  },
+  {
+    "titulo": "BOT_CAMI_CLASSROOM (Python)",
+    "descripcion": "Herramienta de automatización para Google Classroom que permite gestionar anuncios y materiales del curso de manera programática",
+    "fecha": "2025-07-19",
+    "url": "https://github.com/mtsprznto/bot_cami_classroom",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 35240,
+      "Batchfile": 374
+    },
+    "topics": [
+      "api",
+      "automatizacion",
+      "googleapi",
+      "python"
+    ],
+    "sitio_web": "https://bot-cami-classroom.vercel.app",
+    "repositorio": "bot_cami_classroom"
+  },
+  {
+    "titulo": "CROM-AUTOMATIC (TypeScript)",
+    "descripcion": "None",
+    "fecha": "2025-07-19",
+    "url": "https://github.com/mtsprznto/crom-automatic",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 45692,
+      "CSS": 7644,
+      "JavaScript": 474
+    },
+    "topics": [],
+    "sitio_web": "https://crom.vercel.app",
+    "repositorio": "crom-automatic"
+  },
+  {
+    "titulo": "ACADEM-PROD (TypeScript)",
+    "descripcion": "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
+    "fecha": "2025-07-15",
+    "url": "https://github.com/mtsprznto/academ-prod",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 357072,
+      "CSS": 5580,
+      "JavaScript": 540
+    },
+    "topics": [
+      "fulls",
+      "fullstack",
+      "nextjs"
+    ],
+    "sitio_web": "https://academ-prod.vercel.app",
+    "repositorio": "academ-prod"
+  },
+  {
+    "titulo": "AUTOMATIZACIONES (Python)",
+    "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
+    "fecha": "2025-07-11",
+    "url": "https://github.com/mtsprznto/Automatizaciones",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 34970,
+      "Batchfile": 347
+    },
+    "topics": [
+      "automation",
+      "python",
+      "scraping"
+    ],
+    "sitio_web": "",
+    "repositorio": "Automatizaciones"
+  },
+  {
+    "titulo": "PORTAFOLIO-MINIMALIST (JavaScript)",
+    "descripcion": "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
+    "fecha": "2025-07-11",
+    "url": "https://github.com/mtsprznto/portafolio-minimalist",
+    "lenguaje": "JavaScript",
+    "lenguajes_completos": {
+      "JavaScript": 25091,
+      "TypeScript": 1353,
+      "CSS": 536,
+      "HTML": 363
+    },
+    "topics": [
+      "react",
+      "react-vite",
+      "vite"
+    ],
+    "sitio_web": "https://portafolio.mtsprz.org/",
+    "repositorio": "portafolio-minimalist"
+  },
+  {
+    "titulo": "COFFEDREAM (TypeScript)",
+    "descripcion": "CoffeDream es una moderna plataforma de comercio electrónico especializada en la venta de café de alta calidad. La aplicación ofrece una experiencia de compra fluida con características como búsqueda de productos, carrito de compras, favoritos y pagos seguros a través de Stripe.",
+    "fecha": "2025-07-07",
+    "url": "https://github.com/mtsprznto/CoffeDream",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 89472,
+      "CSS": 4189,
+      "JavaScript": 518
+    },
+    "topics": [
+      "nextjs"
+    ],
+    "sitio_web": "https://coffdream.vercel.app",
+    "repositorio": "CoffeDream"
+  }
+]
