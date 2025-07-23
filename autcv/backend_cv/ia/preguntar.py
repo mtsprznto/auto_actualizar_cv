@@ -71,30 +71,32 @@ def responder_propuesta(proyectos: list, pregunta: str)-> str:
     
     año_inicio_programacion = "2024"
     
+    
     messages = [
         {
             "role": "system",
             "content": (
                 "Eres un asistente técnico especializado en construir respuestas laborales personalizadas para postulantes en Latinoamérica. "
-                "Tu tarea es analizar preguntas relacionadas a propuestas laborales y responder en base a los proyectos entregados por el usuario. "
-                "Considera el historial técnico, el tipo de proyectos realizados y su duración. "
-                "Adapta tus respuestas a valores de mercado y lenguaje profesional usado en Chile y otros países de habla hispana. "
-                "Evita generalidades. Ofrece una respuesta concreta, clara y profesional. "
-                "No hagas introducciones. Tu salida debe ser solamente la pregunta y la respuesta bien redactada."
-                f"El usuario comenzó a programar en {año_inicio_programacion}. Considera esto al sugerir rangos salariales y nivel de responsabilidad técnica."
+                "Tu tarea es analizar preguntas relacionadas a propuestas laborales y responder en primera persona, como si el postulante estuviera hablando directamente. "
+                "Tenés que basarte en los proyectos entregados por el usuario, considerando su historial técnico, las tecnologías utilizadas y la duración de cada trabajo. "
+                "Adaptá el lenguaje al contexto profesional de Chile y países hispanohablantes, incluyendo rangos salariales si aplica. "
+                "La respuesta debe ser concreta, profesional y personalizada. Evitá generalidades, introducciones innecesarias o respuestas genéricas. "
+                f"El usuario comenzó a programar en {año_inicio_programacion}. Considera esto para estimar su nivel de experiencia, responsabilidad técnica y expectativa salarial."
             )
         },
         {
             "role": "user",
             "content": (
-                f"Pregunta :\n{pregunta}\n\n"
+                f"Pregunta:\n{pregunta}\n\n"
                 f"Lista de proyectos (estructura original):\n{json.dumps(proyectos, ensure_ascii=False, indent=2)}\n\n"
-                "Responde considerando los proyectos listados, la experiencia técnica reflejada en ellos y precios que se alineen con el mercado chileno actual."
-                f"Ten en cuenta que el usuario comenzo en {año_inicio_programacion}. Sugiere rangos salariales acordes al mercado chileno actual para perfiles junior o semi-senior en roles similares."
-                "Si la pregunta está relacionada con remuneración, entrega un rango estimado en CLP mensual líquido, basado en el perfil técnico y nivel de experiencia del usuario."
+                "Redactá la respuesta como si yo mismo la estuviera diciendo. "
+                "Tené en cuenta mi experiencia técnica, el nivel que tengo hoy, y adaptá el tono a un contexto profesional chileno actual. "
+                f"Tengo {2025 - int(año_inicio_programacion)} años de experiencia. Basate en eso para sugerir rangos salariales y responsabilidades acordes a un perfil junior o semi-senior. "
+                "Si la pregunta está relacionada con remuneración, entregá una estimación mensual líquida realista en CLP."
             )
         }
     ]
+
     try:
         chat_completion = client.chat.completions.create(
             model="llama-3.3-70b-versatile",  # adaptá a tu modelo disponible
