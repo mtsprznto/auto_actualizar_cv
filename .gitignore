@@ -2,3 +2,7 @@
 .env
 __pycache__
 
+autcv/*
+autcv/backend_cv
+autcv/frontend_cv/*
+

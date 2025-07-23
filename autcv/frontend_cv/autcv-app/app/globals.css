@@ -1,3 +1,4 @@
+/* #1c031a */
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -116,7 +117,38 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+}
+
+
+/* Estilo para navegadores basados en WebKit (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9e4dc9;
+  /* o tu tono preferido */
+  border-radius: 6px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+/* Scroll horizontal opcional */
+::-webkit-scrollbar-thumb:horizontal {
+  background-color: #9e4dc9;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #9e4dc9 transparent;
 }

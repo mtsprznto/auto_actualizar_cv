@@ -1,17 +1,27 @@
 
 
+from dotenv import load_dotenv
+import os
 from cv.pdf import PDF
 from utils.utils import extraer_lenguajes_unicos, agrupar_lenguajes_por_categoria
+from io import BytesIO
+from pathlib import Path
 
-def generar_cv(proyectos_destacados: list, output_path: str="./data/CV_Matias_Perez_Nauto.pdf"):
+
+import httpx
+
+load_dotenv()
+
+async def generar_cv(proyectos_destacados: list, nombre_archivo: str):
     """Genera un CV en PDF con la información de contacto, educación, proyectos y tecnologías."""
     pdf = PDF()
     pdf.add_page()
-    pdf.add_font("Roboto", "", "font/Roboto/static/Roboto-Regular.ttf", uni=True)
+    
 
     
-    pdf.set_font("Roboto", "", 10)
-    pdf.cell(0,6,"Puerto Varas - Chile • linkedin.com/in/matiaspereznauto/ • +569 75475781 • matiaspereznauto@gmail.com", ln=True, align="C")
+    pdf.set_font("Helvetica", size=10)
+
+    pdf.cell(0,6,"Puerto Varas - Chile - linkedin.com/in/matiaspereznauto/ - +569 75475781 - matiaspereznauto@gmail.com", ln=True, align="C")
 
     pdf.line(pdf.l_margin, pdf.get_y(), pdf.w - pdf.r_margin, pdf.get_y())
     
@@ -46,16 +56,6 @@ def generar_cv(proyectos_destacados: list, output_path: str="./data/CV_Matias_Pe
         pdf.render_proyecto(proyecto)
 
     #------------------------------------------
-    # Educación
-    pdf.section_title("Educación")
-    pdf.multi_section([
-        "Programación y Análisis de Sistemas, AIEP, 2024 - Actual",
-        "Técnico Administración de Empresas RRHH, Colegio Felmer Niklitschek, 2017"
-    ])
-    pdf.ln(1)
-
-
-
     # EDUCACION
     pdf.section_title("Educación")
     pdf.texto_doble_alineado(
@@ -109,6 +109,19 @@ def generar_cv(proyectos_destacados: list, output_path: str="./data/CV_Matias_Pe
     pdf.section_title("Disponibilidad")
     pdf.paragraph("Disponible para trabajar presencialmente en Santiago o de forma híbrida. Con disposición para viajar según se requiera.")
 
-    # Salvar PDF
-    pdf.output(output_path)
-    print(f"✅ CV exportado exitosamente como {output_path}")
+    # PDF en memoria con BytesIO
+    pdf_bytes = pdf.output(dest='S').encode('latin1')
+    buffer = BytesIO(pdf_bytes)
+    buffer.seek(0)      # Posicionamos al inicio para lectura
+
+    # Enviamos a frontend (Next.js)
+    url_frontend_api = f"{os.getenv('URL_FRONTEND')}/api/upload/blob"  # Usa dominio final, no localhost
+    async with httpx.AsyncClient() as client:
+        files = {"file": (nombre_archivo, buffer, "application/pdf")}
+        response = await client.post(url_frontend_api, files=files)
+        if response.status_code == 200:
+            print("✅ PDF subido al blob:", response.json()["url"])
+            return response.json()["url"]
+        else:
+            print("❌ Error al subir PDF:", response.text)
+            return None
