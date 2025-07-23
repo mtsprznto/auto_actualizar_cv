@@ -2,57 +2,35 @@ export const PROJECTS = [
   {
     title: "Auto Actualizar Cv",
     image: null,
-    date: "2025-07-19",
-    lenguajes_utilizados: {'Python': 80.06, 'Batchfile': 9.97, 'JavaScript': 9.97},
-    topics: ["automatizaciones", "fastapi", "python"],
+    date: "2025-07-23",
+    lenguajes_utilizados: {'Python': 76.36, 'JavaScript': 11.28, 'CSS': 5.75, 'Batchfile': 5.35, 'TypeScript': 1.26},
+    topics: ["automatizaciones", "fastapi", "full-stack", "python"],
     description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    technologies: ["Python", "Batchfile", "JavaScript"],
-    url_demo: "https://apiproyectosmtsprz.vercel.app",
+    technologies: ["Python", "JavaScript", "CSS", "Batchfile", "TypeScript"],
+    url_demo: "https://autcv.vercel.app/",
     url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
-  },
-  {
-    title: "Api Academ",
-    image: null,
-    date: "2025-07-19",
-    lenguajes_utilizados: {'Python': 100.0},
-    topics: ["fastapi", "python"],
-    description: "API desarrollada en FastAPI que permite transcribir y analizar contenido de videos, con integración a Supabase para el almacenamiento de transcripciones y respuestas generadas por IA.",
-    technologies: ["Python"],
-    url_demo: "",
-    url_codigo: "https://github.com/mtsprznto/api_academ"
-  },
-  {
-    title: "Bot Cami Classroom",
-    image: null,
-    date: "2025-07-19",
-    lenguajes_utilizados: {'Python': 98.95, 'Batchfile': 1.05},
-    topics: ["api", "automatizacion", "googleapi", "python"],
-    description: "Herramienta de automatización para Google Classroom que permite gestionar anuncios y materiales del curso de manera programática",
-    technologies: ["Python", "Batchfile"],
-    url_demo: "https://bot-cami-classroom.vercel.app",
-    url_codigo: "https://github.com/mtsprznto/bot_cami_classroom"
-  },
-  {
-    title: "Crom Automatic",
-    image: null,
-    date: "2025-07-19",
-    lenguajes_utilizados: {'TypeScript': 84.91, 'CSS': 14.21, 'JavaScript': 0.88},
-    topics: [],
-    description: "None",
-    technologies: ["TypeScript", "CSS", "JavaScript"],
-    url_demo: "https://crom.vercel.app",
-    url_codigo: "https://github.com/mtsprznto/crom-automatic"
   },
   {
     title: "Academ Prod",
     image: null,
-    date: "2025-07-15",
-    lenguajes_utilizados: {'TypeScript': 98.31, 'CSS': 1.54, 'JavaScript': 0.15},
+    date: "2025-07-22",
+    lenguajes_utilizados: {'TypeScript': 98.35, 'CSS': 1.51, 'JavaScript': 0.15},
     topics: ["fulls", "fullstack", "nextjs"],
     description: "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
     technologies: ["TypeScript", "CSS", "JavaScript"],
     url_demo: "https://academ-prod.vercel.app",
     url_codigo: "https://github.com/mtsprznto/academ-prod"
+  },
+  {
+    title: "Api Academ",
+    image: null,
+    date: "2025-07-21",
+    lenguajes_utilizados: {'Python': 100.0},
+    topics: ["fastapi", "python"],
+    description: "API desarrollada en FastAPI que permite transcribir y analizar contenido de videos, con integración a Supabase para el almacenamiento de transcripciones y respuestas generadas por IA.",
+    technologies: ["Python"],
+    url_demo: "https://api-academ.vercel.app",
+    url_codigo: "https://github.com/mtsprznto/api_academ"
   },
   {
     title: "Automatizaciones",
@@ -86,5 +64,27 @@ export const PROJECTS = [
     technologies: ["TypeScript", "CSS", "JavaScript"],
     url_demo: "https://coffdream.vercel.app",
     url_codigo: "https://github.com/mtsprznto/CoffeDream"
+  },
+  {
+    title: "Gestpass",
+    image: null,
+    date: "2025-07-03",
+    lenguajes_utilizados: {'TypeScript': 79.01, 'JavaScript': 18.73, 'CSS': 2.25},
+    topics: [],
+    description: "Desarrollé una aplicación de gestión de contraseñas siguiendo las mejores prácticas de seguridad y desarrollo, implementando el patrón MVC para una estructura modular y eficiente. ",
+    technologies: ["TypeScript", "JavaScript", "CSS"],
+    url_demo: "https://gestpass.vercel.app",
+    url_codigo: "https://github.com/mtsprznto/gestpass"
+  },
+  {
+    title: "Scanndata ",
+    image: null,
+    date: "2025-06-30",
+    lenguajes_utilizados: {'Python': 97.44, 'HTML': 2.13, 'Inno Setup': 0.43},
+    topics: ["flet", "flutter", "python"],
+    description: "ScannData mantener organizada la información de boletas y facturas. Nuestra aplicación está diseñada para automatizar el escaneo de documentos PDF y la conversión de imágenes a texto, facilitando la gestión de tus documentos.",
+    technologies: ["Python", "HTML", "Inno Setup"],
+    url_demo: "",
+    url_codigo: "https://github.com/mtsprznto/scanndata-"
   },
 ];
