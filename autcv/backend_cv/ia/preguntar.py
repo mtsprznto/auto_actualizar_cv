@@ -63,3 +63,46 @@ def seleccionar_proyectos(proyectos: list, propuesta: str = "No especificada") -
 
 
 
+def responder_propuesta(proyectos: list, pregunta: str)-> str:
+    """
+    Recibe preguntas sobre propuesta laboral y responde en base a los proyectos que se entregan
+    """
+    client = get_groq_client()
+    
+    año_inicio_programacion = "2024"
+    
+    messages = [
+        {
+            "role": "system",
+            "content": (
+                "Eres un asistente técnico especializado en construir respuestas laborales personalizadas para postulantes en Latinoamérica. "
+                "Tu tarea es analizar preguntas relacionadas a propuestas laborales y responder en base a los proyectos entregados por el usuario. "
+                "Considera el historial técnico, el tipo de proyectos realizados y su duración. "
+                "Adapta tus respuestas a valores de mercado y lenguaje profesional usado en Chile y otros países de habla hispana. "
+                "Evita generalidades. Ofrece una respuesta concreta, clara y profesional. "
+                "No hagas introducciones. Tu salida debe ser solamente la pregunta y la respuesta bien redactada."
+                f"El usuario comenzó a programar en {año_inicio_programacion}. Considera esto al sugerir rangos salariales y nivel de responsabilidad técnica."
+            )
+        },
+        {
+            "role": "user",
+            "content": (
+                f"Pregunta :\n{pregunta}\n\n"
+                f"Lista de proyectos (estructura original):\n{json.dumps(proyectos, ensure_ascii=False, indent=2)}\n\n"
+                "Responde considerando los proyectos listados, la experiencia técnica reflejada en ellos y precios que se alineen con el mercado chileno actual."
+                f"Ten en cuenta que el usuario comenzo en {año_inicio_programacion}. Sugiere rangos salariales acordes al mercado chileno actual para perfiles junior o semi-senior en roles similares."
+                "Si la pregunta está relacionada con remuneración, entrega un rango estimado en CLP mensual líquido, basado en el perfil técnico y nivel de experiencia del usuario."
+            )
+        }
+    ]
+    try:
+        chat_completion = client.chat.completions.create(
+            model="llama-3.3-70b-versatile",  # adaptá a tu modelo disponible
+            messages=messages
+        )
+        raw_output = chat_completion.choices[0].message.content.strip()
+        
+        return raw_output
+    except Exception as e:
+        print(f"❌ Error al generar CV adaptado: {e}")
+        return "No se pudo adaptar el CV correctamente."
