@@ -1,25 +1,25 @@
 export const PROJECTS = [
   {
-    title: "Auto Actualizar Cv",
-    image: null,
-    date: "2025-07-23",
-    lenguajes_utilizados: {'Python': 76.36, 'JavaScript': 11.28, 'CSS': 5.75, 'Batchfile': 5.35, 'TypeScript': 1.26},
-    topics: ["automatizaciones", "fastapi", "full-stack", "python"],
-    description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    technologies: ["Python", "JavaScript", "CSS", "Batchfile", "TypeScript"],
-    url_demo: "https://autcv.vercel.app/",
-    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
-  },
-  {
     title: "Academ Prod",
     image: null,
-    date: "2025-07-22",
+    date: "2025-07-23",
     lenguajes_utilizados: {'TypeScript': 98.35, 'CSS': 1.51, 'JavaScript': 0.15},
     topics: ["fulls", "fullstack", "nextjs"],
     description: "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
     technologies: ["TypeScript", "CSS", "JavaScript"],
     url_demo: "https://academ-prod.vercel.app",
     url_codigo: "https://github.com/mtsprznto/academ-prod"
+  },
+  {
+    title: "Auto Actualizar Cv",
+    image: null,
+    date: "2025-07-23",
+    lenguajes_utilizados: {'Python': 57.81, 'TypeScript': 25.88, 'JavaScript': 8.35, 'CSS': 4.12, 'Batchfile': 3.83},
+    topics: ["automatizaciones", "fastapi", "full-stack", "python"],
+    description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    technologies: ["Python", "TypeScript", "JavaScript", "CSS", "Batchfile"],
+    url_demo: "https://autcv.vercel.app/",
+    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
   },
   {
     title: "Api Academ",

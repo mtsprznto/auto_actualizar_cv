@@ -1,30 +1,8 @@
 [
   {
-    "titulo": "AUTO_ACTUALIZAR_CV (Python)",
-    "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-07-23",
-    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
-    "lenguaje": "Python",
-    "lenguajes_completos": {
-      "Python": 62803,
-      "JavaScript": 9274,
-      "CSS": 4731,
-      "Batchfile": 4402,
-      "TypeScript": 1039
-    },
-    "topics": [
-      "automatizaciones",
-      "fastapi",
-      "full-stack",
-      "python"
-    ],
-    "sitio_web": "https://autcv.vercel.app/",
-    "repositorio": "auto_actualizar_cv"
-  },
-  {
     "titulo": "ACADEM-PROD (TypeScript)",
     "descripcion": "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
-    "fecha": "2025-07-22",
+    "fecha": "2025-07-23",
     "url": "https://github.com/mtsprznto/academ-prod",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
@@ -39,6 +17,28 @@
     ],
     "sitio_web": "https://academ-prod.vercel.app",
     "repositorio": "academ-prod"
+  },
+  {
+    "titulo": "AUTO_ACTUALIZAR_CV (Python)",
+    "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    "fecha": "2025-07-23",
+    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 66371,
+      "TypeScript": 29716,
+      "JavaScript": 9588,
+      "CSS": 4731,
+      "Batchfile": 4402
+    },
+    "topics": [
+      "automatizaciones",
+      "fastapi",
+      "full-stack",
+      "python"
+    ],
+    "sitio_web": "https://autcv.vercel.app/",
+    "repositorio": "auto_actualizar_cv"
   },
   {
     "titulo": "API_ACADEM (Python)",
