@@ -1,5 +1,16 @@
 export const PROJECTS = [
   {
+    title: "Auto Actualizar Cv",
+    image: null,
+    date: "2025-07-24",
+    lenguajes_utilizados: {'Python': 57.81, 'TypeScript': 25.88, 'JavaScript': 8.35, 'CSS': 4.12, 'Batchfile': 3.83},
+    topics: ["automatizaciones", "fastapi", "full-stack", "python"],
+    description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    technologies: ["Python", "TypeScript", "JavaScript", "CSS", "Batchfile"],
+    url_demo: "https://autcv.vercel.app/",
+    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
+  },
+  {
     title: "Academ Prod",
     image: null,
     date: "2025-07-23",
@@ -9,17 +20,6 @@ export const PROJECTS = [
     technologies: ["TypeScript", "CSS", "JavaScript"],
     url_demo: "https://academ-prod.vercel.app",
     url_codigo: "https://github.com/mtsprznto/academ-prod"
-  },
-  {
-    title: "Auto Actualizar Cv",
-    image: null,
-    date: "2025-07-23",
-    lenguajes_utilizados: {'Python': 57.81, 'TypeScript': 25.88, 'JavaScript': 8.35, 'CSS': 4.12, 'Batchfile': 3.83},
-    topics: ["automatizaciones", "fastapi", "full-stack", "python"],
-    description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    technologies: ["Python", "TypeScript", "JavaScript", "CSS", "Batchfile"],
-    url_demo: "https://autcv.vercel.app/",
-    url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
   },
   {
     title: "Api Academ",

@@ -1,27 +1,8 @@
 [
   {
-    "titulo": "ACADEM-PROD (TypeScript)",
-    "descripcion": "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
-    "fecha": "2025-07-23",
-    "url": "https://github.com/mtsprznto/academ-prod",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 364436,
-      "CSS": 5580,
-      "JavaScript": 540
-    },
-    "topics": [
-      "fulls",
-      "fullstack",
-      "nextjs"
-    ],
-    "sitio_web": "https://academ-prod.vercel.app",
-    "repositorio": "academ-prod"
-  },
-  {
     "titulo": "AUTO_ACTUALIZAR_CV (Python)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-07-23",
+    "fecha": "2025-07-24",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "Python",
     "lenguajes_completos": {
@@ -39,6 +20,25 @@
     ],
     "sitio_web": "https://autcv.vercel.app/",
     "repositorio": "auto_actualizar_cv"
+  },
+  {
+    "titulo": "ACADEM-PROD (TypeScript)",
+    "descripcion": "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
+    "fecha": "2025-07-23",
+    "url": "https://github.com/mtsprznto/academ-prod",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 364436,
+      "CSS": 5580,
+      "JavaScript": 540
+    },
+    "topics": [
+      "fulls",
+      "fullstack",
+      "nextjs"
+    ],
+    "sitio_web": "https://academ-prod.vercel.app",
+    "repositorio": "academ-prod"
   },
   {
     "titulo": "API_ACADEM (Python)",
