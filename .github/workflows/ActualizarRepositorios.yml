@@ -22,6 +22,13 @@ jobs:
       - name: Instalar dependencias
         run: pip install -r requirements.txt
 
+      - name: Crear archivo .env con API keys
+        run: |
+          echo "API_KEY_GITHUB=${{ secrets.API_KEY_GITHUB }}" > .env
+          echo "GROQ_API_KEY=${{ secrets.GROQ_API_KEY }}" >> .env
+
+
+
       - name: Ejecutar get_all_repositorios.py
         run: python get_all_repositorios.py
 
