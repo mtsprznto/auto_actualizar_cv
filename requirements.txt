@@ -5,3 +5,4 @@ starlette
 python-dotenv
 Jinja2
 requests
+fpdf
