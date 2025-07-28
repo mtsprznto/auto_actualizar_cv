@@ -2,12 +2,12 @@
   {
     "titulo": "AUTO_ACTUALIZAR_CV (Python)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-07-24",
+    "fecha": "2025-07-28",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "Python",
     "lenguajes_completos": {
       "Python": 66371,
-      "TypeScript": 29716,
+      "TypeScript": 29627,
       "JavaScript": 9588,
       "CSS": 4731,
       "Batchfile": 4402
@@ -22,9 +22,29 @@
     "repositorio": "auto_actualizar_cv"
   },
   {
+    "titulo": "PORTAFOLIO-MINIMALIST (JavaScript)",
+    "descripcion": "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
+    "fecha": "2025-07-28",
+    "url": "https://github.com/mtsprznto/portafolio-minimalist",
+    "lenguaje": "JavaScript",
+    "lenguajes_completos": {
+      "JavaScript": 25136,
+      "TypeScript": 1419,
+      "CSS": 536,
+      "HTML": 363
+    },
+    "topics": [
+      "react",
+      "react-vite",
+      "vite"
+    ],
+    "sitio_web": "https://portafolio.mtsprz.org/",
+    "repositorio": "portafolio-minimalist"
+  },
+  {
     "titulo": "ACADEM-PROD (TypeScript)",
     "descripcion": "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
-    "fecha": "2025-07-23",
+    "fecha": "2025-07-28",
     "url": "https://github.com/mtsprznto/academ-prod",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
@@ -41,30 +61,14 @@
     "repositorio": "academ-prod"
   },
   {
-    "titulo": "API_ACADEM (Python)",
-    "descripcion": "API desarrollada en FastAPI que permite transcribir y analizar contenido de videos, con integración a Supabase para el almacenamiento de transcripciones y respuestas generadas por IA.",
-    "fecha": "2025-07-21",
-    "url": "https://github.com/mtsprznto/api_academ",
-    "lenguaje": "Python",
-    "lenguajes_completos": {
-      "Python": 10958
-    },
-    "topics": [
-      "fastapi",
-      "python"
-    ],
-    "sitio_web": "https://api-academ.vercel.app",
-    "repositorio": "api_academ"
-  },
-  {
     "titulo": "AUTOMATIZACIONES (Python)",
     "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
-    "fecha": "2025-07-11",
+    "fecha": "2025-07-28",
     "url": "https://github.com/mtsprznto/Automatizaciones",
     "lenguaje": "Python",
     "lenguajes_completos": {
-      "Python": 34970,
-      "Batchfile": 347
+      "Python": 38265,
+      "Batchfile": 785
     },
     "topics": [
       "automation",
@@ -75,24 +79,20 @@
     "repositorio": "Automatizaciones"
   },
   {
-    "titulo": "PORTAFOLIO-MINIMALIST (JavaScript)",
-    "descripcion": "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
-    "fecha": "2025-07-11",
-    "url": "https://github.com/mtsprznto/portafolio-minimalist",
-    "lenguaje": "JavaScript",
+    "titulo": "API_ACADEM (Python)",
+    "descripcion": "API desarrollada en FastAPI que permite transcribir y analizar contenido de videos, con integración a Supabase para el almacenamiento de transcripciones y respuestas generadas por IA.",
+    "fecha": "2025-07-26",
+    "url": "https://github.com/mtsprznto/api_academ",
+    "lenguaje": "Python",
     "lenguajes_completos": {
-      "JavaScript": 25091,
-      "TypeScript": 1353,
-      "CSS": 536,
-      "HTML": 363
+      "Python": 10958
     },
     "topics": [
-      "react",
-      "react-vite",
-      "vite"
+      "fastapi",
+      "python"
     ],
-    "sitio_web": "https://portafolio.mtsprz.org/",
-    "repositorio": "portafolio-minimalist"
+    "sitio_web": "https://academ-prod.vercel.app/",
+    "repositorio": "api_academ"
   },
   {
     "titulo": "COFFEDREAM (TypeScript)",
