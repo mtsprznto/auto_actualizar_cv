@@ -56,7 +56,7 @@ Dejar esta funcion comentada ya que solo sirve en local y en produccion no se pu
 """
 
 
-#from .utils.screenshot import obtener_screenshot
+# from .utils.screenshot import obtener_screenshot
 
 # @app.get("/preview")
 # async def generar_previews():
@@ -78,5 +78,4 @@ Dejar esta funcion comentada ya que solo sirve en local y en produccion no se pu
 #                     "error": str(e)
 #                 })
 #     return {"total": len(capturados), "resultados": capturados}
-
 

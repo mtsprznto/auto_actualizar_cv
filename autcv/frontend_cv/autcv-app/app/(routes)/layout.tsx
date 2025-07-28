@@ -15,11 +15,11 @@ export default function LayoutRoutes({
       </div>
       <div className="flex">
         <div className="w-full h-screen relative ">
-          <div className="absolute inset-0 bg-[url('/home_fondo.svg')] bg-no-repeat bg-cover opacity-15 -z-10" />
+          
 
           <Navbar></Navbar>
 
-          <div className="max-w-[1500px] mx-auto h-[calc(100vh-58px)] md:h-[calc(100vh-94px)]">
+          <div className="w-full md:max-w-[1500px] mx-auto h-[calc(100vh-58px)] md:h-[calc(100vh-94px)]">
             {children}
           </div>
         </div>

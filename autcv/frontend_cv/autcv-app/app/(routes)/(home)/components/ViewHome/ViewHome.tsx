@@ -35,7 +35,7 @@ export function ViewHome() {
           </Link>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 w-full md:w-[1200px] gap-3 md:py-20 py-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 w-full md:max-w-[1200px] gap-3 md:py-20 py-5">
         <ViewCardHome
           title={"Generador Inteligente de CV"}
           description={
