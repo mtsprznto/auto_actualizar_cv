@@ -2,24 +2,13 @@ export const PROJECTS = [
   {
     title: "Auto Actualizar Cv",
     image: null,
-    date: "2025-07-29",
+    date: "2025-07-30",
     lenguajes_utilizados: {'Python': 57.86, 'TypeScript': 25.83, 'JavaScript': 8.36, 'CSS': 4.12, 'Batchfile': 3.84},
     topics: ["automatizaciones", "fastapi", "full-stack", "python"],
     description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
     technologies: ["Python", "TypeScript", "JavaScript", "CSS", "Batchfile"],
     url_demo: "https://autcv.vercel.app/",
     url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
-  },
-  {
-    title: "Visualizacion Graficos Interactivos",
-    image: null,
-    date: "2025-07-29",
-    lenguajes_utilizados: {'Python': 93.53, 'Dockerfile': 6.47},
-    topics: ["data-science", "data-visualization", "streamlit"],
-    description: "Informe completo",
-    technologies: ["Python", "Dockerfile"],
-    url_demo: "https://ruido-data.streamlit.app/",
-    url_codigo: "https://github.com/mtsprznto/visualizacion-graficos-interactivos"
   },
   {
     title: "Portafolio Minimalist",
@@ -86,5 +75,16 @@ export const PROJECTS = [
     technologies: ["TypeScript", "JavaScript", "CSS"],
     url_demo: "https://gestpass.vercel.app",
     url_codigo: "https://github.com/mtsprznto/gestpass"
+  },
+  {
+    title: "Scanndata ",
+    image: null,
+    date: "2025-06-30",
+    lenguajes_utilizados: {'Python': 97.44, 'HTML': 2.13, 'Inno Setup': 0.43},
+    topics: ["flet", "flutter", "python"],
+    description: "ScannData mantener organizada la información de boletas y facturas. Nuestra aplicación está diseñada para automatizar el escaneo de documentos PDF y la conversión de imágenes a texto, facilitando la gestión de tus documentos.",
+    technologies: ["Python", "HTML", "Inno Setup"],
+    url_demo: "",
+    url_codigo: "https://github.com/mtsprznto/scanndata-"
   },
 ];
