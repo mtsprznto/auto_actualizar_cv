@@ -2,13 +2,24 @@ export const PROJECTS = [
   {
     title: "Auto Actualizar Cv",
     image: null,
-    date: "2025-07-31",
+    date: "2025-08-04",
     lenguajes_utilizados: {'Python': 57.86, 'TypeScript': 25.83, 'JavaScript': 8.36, 'CSS': 4.12, 'Batchfile': 3.84},
     topics: ["automatizaciones", "fastapi", "full-stack", "python"],
     description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
     technologies: ["Python", "TypeScript", "JavaScript", "CSS", "Batchfile"],
     url_demo: "https://autcv.vercel.app/",
     url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
+  },
+  {
+    title: "Automatizaciones",
+    image: null,
+    date: "2025-08-01",
+    lenguajes_utilizados: {'Python': 97.99, 'Batchfile': 2.01},
+    topics: ["automation", "python", "scraping"],
+    description: "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
+    technologies: ["Python", "Batchfile"],
+    url_demo: "",
+    url_codigo: "https://github.com/mtsprznto/Automatizaciones"
   },
   {
     title: "Portafolio Minimalist",
@@ -31,17 +42,6 @@ export const PROJECTS = [
     technologies: ["TypeScript", "CSS", "JavaScript"],
     url_demo: "https://academ-prod.vercel.app",
     url_codigo: "https://github.com/mtsprznto/academ-prod"
-  },
-  {
-    title: "Automatizaciones",
-    image: null,
-    date: "2025-07-28",
-    lenguajes_utilizados: {'Python': 97.99, 'Batchfile': 2.01},
-    topics: ["automation", "python", "scraping"],
-    description: "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
-    technologies: ["Python", "Batchfile"],
-    url_demo: "",
-    url_codigo: "https://github.com/mtsprznto/Automatizaciones"
   },
   {
     title: "Api Academ",
