@@ -2,7 +2,7 @@ export const PROJECTS = [
   {
     title: "Auto Actualizar Cv",
     image: null,
-    date: "2025-08-06",
+    date: "2025-08-07",
     lenguajes_utilizados: {'Python': 57.86, 'TypeScript': 25.83, 'JavaScript': 8.36, 'CSS': 4.12, 'Batchfile': 3.84},
     topics: ["automatizaciones", "fastapi", "full-stack", "python"],
     description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
@@ -13,13 +13,24 @@ export const PROJECTS = [
   {
     title: "Automatizaciones",
     image: null,
-    date: "2025-08-01",
+    date: "2025-08-06",
     lenguajes_utilizados: {'Python': 97.99, 'Batchfile': 2.01},
     topics: ["automation", "python", "scraping"],
     description: "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
     technologies: ["Python", "Batchfile"],
     url_demo: "",
     url_codigo: "https://github.com/mtsprznto/Automatizaciones"
+  },
+  {
+    title: "Academ Prod",
+    image: null,
+    date: "2025-08-06",
+    lenguajes_utilizados: {'TypeScript': 98.35, 'CSS': 1.51, 'JavaScript': 0.15},
+    topics: ["fulls", "fullstack", "nextjs"],
+    description: "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
+    technologies: ["TypeScript", "CSS", "JavaScript"],
+    url_demo: "https://academ-prod.vercel.app",
+    url_codigo: "https://github.com/mtsprznto/academ-prod"
   },
   {
     title: "Portafolio Minimalist",
@@ -31,17 +42,6 @@ export const PROJECTS = [
     technologies: ["JavaScript", "TypeScript", "CSS", "HTML"],
     url_demo: "https://portafolio.mtsprz.org/",
     url_codigo: "https://github.com/mtsprznto/portafolio-minimalist"
-  },
-  {
-    title: "Academ Prod",
-    image: null,
-    date: "2025-07-28",
-    lenguajes_utilizados: {'TypeScript': 98.35, 'CSS': 1.51, 'JavaScript': 0.15},
-    topics: ["fulls", "fullstack", "nextjs"],
-    description: "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
-    technologies: ["TypeScript", "CSS", "JavaScript"],
-    url_demo: "https://academ-prod.vercel.app",
-    url_codigo: "https://github.com/mtsprznto/academ-prod"
   },
   {
     title: "Api Academ",
