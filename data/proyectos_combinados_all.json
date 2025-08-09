@@ -1,8 +1,28 @@
 [
   {
+    "titulo": "PORTAFOLIO-MINIMALIST (JavaScript)",
+    "descripcion": "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
+    "fecha": "2025-08-08",
+    "url": "https://github.com/mtsprznto/portafolio-minimalist",
+    "lenguaje": "JavaScript",
+    "lenguajes_completos": {
+      "JavaScript": 24827,
+      "TypeScript": 1419,
+      "CSS": 536,
+      "HTML": 363
+    },
+    "topics": [
+      "react",
+      "react-vite",
+      "vite"
+    ],
+    "sitio_web": "https://portafolio.mtsprz.org/",
+    "repositorio": "portafolio-minimalist"
+  },
+  {
     "titulo": "AUTO_ACTUALIZAR_CV (Python)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-08-07",
+    "fecha": "2025-08-08",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "Python",
     "lenguajes_completos": {
@@ -57,26 +77,6 @@
     ],
     "sitio_web": "https://academ-prod.vercel.app",
     "repositorio": "academ-prod"
-  },
-  {
-    "titulo": "PORTAFOLIO-MINIMALIST (JavaScript)",
-    "descripcion": "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
-    "fecha": "2025-07-28",
-    "url": "https://github.com/mtsprznto/portafolio-minimalist",
-    "lenguaje": "JavaScript",
-    "lenguajes_completos": {
-      "JavaScript": 25136,
-      "TypeScript": 1419,
-      "CSS": 536,
-      "HTML": 363
-    },
-    "topics": [
-      "react",
-      "react-vite",
-      "vite"
-    ],
-    "sitio_web": "https://portafolio.mtsprz.org/",
-    "repositorio": "portafolio-minimalist"
   },
   {
     "titulo": "API_ACADEM (Python)",
