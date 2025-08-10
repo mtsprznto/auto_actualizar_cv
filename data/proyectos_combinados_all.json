@@ -1,5 +1,27 @@
 [
   {
+    "titulo": "AUTO_ACTUALIZAR_CV (Python)",
+    "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    "fecha": "2025-08-09",
+    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 66371,
+      "TypeScript": 29627,
+      "JavaScript": 9588,
+      "CSS": 4731,
+      "Batchfile": 4402
+    },
+    "topics": [
+      "automatizaciones",
+      "fastapi",
+      "full-stack",
+      "python"
+    ],
+    "sitio_web": "https://autcv.vercel.app/",
+    "repositorio": "auto_actualizar_cv"
+  },
+  {
     "titulo": "PORTAFOLIO-MINIMALIST (JavaScript)",
     "descripcion": "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
     "fecha": "2025-08-08",
@@ -18,28 +40,6 @@
     ],
     "sitio_web": "https://portafolio.mtsprz.org/",
     "repositorio": "portafolio-minimalist"
-  },
-  {
-    "titulo": "AUTO_ACTUALIZAR_CV (Python)",
-    "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-08-08",
-    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
-    "lenguaje": "Python",
-    "lenguajes_completos": {
-      "Python": 66371,
-      "TypeScript": 29627,
-      "JavaScript": 9588,
-      "CSS": 4731,
-      "Batchfile": 4402
-    },
-    "topics": [
-      "automatizaciones",
-      "fastapi",
-      "full-stack",
-      "python"
-    ],
-    "sitio_web": "https://autcv.vercel.app/",
-    "repositorio": "auto_actualizar_cv"
   },
   {
     "titulo": "AUTOMATIZACIONES (Python)",
