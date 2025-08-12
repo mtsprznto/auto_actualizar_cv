@@ -1,26 +1,21 @@
 [
   {
-    "titulo": "AUTOMATIZACIONES (Python)",
-    "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
-    "fecha": "2025-08-11",
-    "url": "https://github.com/mtsprznto/Automatizaciones",
+    "titulo": "VISIONARTIFICAL (Python)",
+    "descripcion": "None",
+    "fecha": "2025-08-12",
+    "url": "https://github.com/mtsprznto/VisionArtifical",
     "lenguaje": "Python",
     "lenguajes_completos": {
-      "Python": 38265,
-      "Batchfile": 785
+      "Python": 5729
     },
-    "topics": [
-      "automation",
-      "python",
-      "scraping"
-    ],
-    "sitio_web": "",
-    "repositorio": "Automatizaciones"
+    "topics": [],
+    "sitio_web": null,
+    "repositorio": "VisionArtifical"
   },
   {
     "titulo": "AUTO_ACTUALIZAR_CV (Python)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-08-10",
+    "fecha": "2025-08-11",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "Python",
     "lenguajes_completos": {
@@ -38,6 +33,24 @@
     ],
     "sitio_web": "https://autcv.vercel.app/",
     "repositorio": "auto_actualizar_cv"
+  },
+  {
+    "titulo": "AUTOMATIZACIONES (Python)",
+    "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
+    "fecha": "2025-08-11",
+    "url": "https://github.com/mtsprznto/Automatizaciones",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 38265,
+      "Batchfile": 785
+    },
+    "topics": [
+      "automation",
+      "python",
+      "scraping"
+    ],
+    "sitio_web": "",
+    "repositorio": "Automatizaciones"
   },
   {
     "titulo": "PORTAFOLIO-MINIMALIST (JavaScript)",
