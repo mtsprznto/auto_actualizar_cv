@@ -27,7 +27,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://autcv.vercel.app",
-        "http://localhost:3000"
+        "http://localhost:3000",
+        "https://autcv.mtsprz.org"
     ],         # Puedes usar ["*"] si querés permitir todo (no recomendado para producción)
     allow_credentials=True,
     allow_methods=["*"],                    # ["GET", "POST", ...] si querés limitar

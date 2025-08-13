@@ -2,24 +2,46 @@ export const PROJECTS = [
   {
     title: "Auto Actualizar Cv",
     image: null,
-    date: "2025-08-08",
+    date: "2025-08-13",
     lenguajes_utilizados: {'Python': 57.86, 'TypeScript': 25.83, 'JavaScript': 8.36, 'CSS': 4.12, 'Batchfile': 3.84},
     topics: ["automatizaciones", "fastapi", "full-stack", "python"],
     description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
     technologies: ["Python", "TypeScript", "JavaScript", "CSS", "Batchfile"],
-    url_demo: "https://autcv.vercel.app/",
+    url_demo: "https://autcv.mtsprz.org/",
     url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
+  },
+  {
+    title: "Visionartifical",
+    image: null,
+    date: "2025-08-12",
+    lenguajes_utilizados: {'Python': 100.0},
+    topics: [],
+    description: "None",
+    technologies: ["Python"],
+    url_demo: "None",
+    url_codigo: "https://github.com/mtsprznto/VisionArtifical"
   },
   {
     title: "Automatizaciones",
     image: null,
-    date: "2025-08-06",
+    date: "2025-08-11",
     lenguajes_utilizados: {'Python': 97.99, 'Batchfile': 2.01},
     topics: ["automation", "python", "scraping"],
     description: "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
     technologies: ["Python", "Batchfile"],
     url_demo: "",
     url_codigo: "https://github.com/mtsprznto/Automatizaciones"
+  },
+  {
+    title: "Portafolio Minimalist",
+    image: null,
+    date: "2025-08-08",
+    lenguajes_utilizados: {'JavaScript': 91.46, 'TypeScript': 5.23, 'CSS': 1.97, 'HTML': 1.34},
+    topics: ["react", "react-vite", "vite"],
+    description: "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
+    technologies: ["JavaScript", "TypeScript", "CSS", "HTML"],
+    url_demo: "https://portafolio.mtsprz.org/",
+    url_codigo: "https://github.com/mtsprznto/portafolio-minimalist"
   },
   {
     title: "Academ Prod",
@@ -31,17 +53,6 @@ export const PROJECTS = [
     technologies: ["TypeScript", "CSS", "JavaScript"],
     url_demo: "https://academ-prod.vercel.app",
     url_codigo: "https://github.com/mtsprznto/academ-prod"
-  },
-  {
-    title: "Portafolio Minimalist",
-    image: null,
-    date: "2025-07-28",
-    lenguajes_utilizados: {'JavaScript': 91.56, 'TypeScript': 5.17, 'CSS': 1.95, 'HTML': 1.32},
-    topics: ["react", "react-vite", "vite"],
-    description: "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
-    technologies: ["JavaScript", "TypeScript", "CSS", "HTML"],
-    url_demo: "https://portafolio.mtsprz.org/",
-    url_codigo: "https://github.com/mtsprznto/portafolio-minimalist"
   },
   {
     title: "Api Academ",
@@ -75,16 +86,5 @@ export const PROJECTS = [
     technologies: ["TypeScript", "JavaScript", "CSS"],
     url_demo: "https://gestpass.vercel.app",
     url_codigo: "https://github.com/mtsprznto/gestpass"
-  },
-  {
-    title: "Scanndata ",
-    image: null,
-    date: "2025-06-30",
-    lenguajes_utilizados: {'Python': 97.44, 'HTML': 2.13, 'Inno Setup': 0.43},
-    topics: ["flet", "flutter", "python"],
-    description: "ScannData mantener organizada la información de boletas y facturas. Nuestra aplicación está diseñada para automatizar el escaneo de documentos PDF y la conversión de imágenes a texto, facilitando la gestión de tus documentos.",
-    technologies: ["Python", "HTML", "Inno Setup"],
-    url_demo: "",
-    url_codigo: "https://github.com/mtsprznto/scanndata-"
   },
 ];
