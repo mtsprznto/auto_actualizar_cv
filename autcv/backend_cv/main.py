@@ -8,9 +8,11 @@ from cv.generarCv import generar_cv
 from models.PropuestaInput import PropuestaInput
 from models.PreguntaInput import PreguntaInput
 
-from utils.obtener_proyectos_actualizados import obtener_proyectos_actualizados
+from utils.obtener_proyectos_actualizados import obtener_proyectos_actualizados, anadir_readme_proyectos_seleccionados
+from utils.utils import preparar_readme_para_modelo
 
-from ia.preguntar import seleccionar_proyectos, responder_propuesta
+from ia.preguntar import seleccionar_proyectos, responder_propuesta, generar_experiencia_desde_readme
+
 
 origins = [
     "http://localhost:3000",                # Desarrollo local
@@ -75,10 +77,28 @@ async def recibir_propuesta(payload: PropuestaInput):
         # aqui viene groq
         proyectos = await obtener_proyectos_actualizados(username)
         
+        # aqui se genera con groq (IA)
         proyectos_seleccionados = seleccionar_proyectos(proyectos, payload.normalizada())
         #print("Proyectos seleccionados:", proyectos_seleccionados)
         
-        url_pdf = await generar_cv(proyectos_seleccionados, "CV_Matias_Perez_Nauto.pdf")
+        #obtener readme raw
+        proyectos_seleccionados_readme = await anadir_readme_proyectos_seleccionados(username, proyectos_seleccionados)
+        
+        
+        for proyecto in proyectos_seleccionados_readme:
+            proyecto["readme_raw"] = preparar_readme_para_modelo(proyecto["readme_raw"])
+
+        #print("PROYECTOS ENRIQUECIDOS: ",proyectos_seleccionados_readme)
+        # Objetivo: es pasarle a un agente y que me seleccione las palabras claves dependiendo de la propuesta ingresada
+        experiencias_cv = generar_experiencia_desde_readme(payload.normalizada(), proyectos_seleccionados_readme)
+        for proyecto, experiencia in zip(proyectos_seleccionados_readme, experiencias_cv):
+            proyecto["experiencia_cv"] = experiencia["experiencia_cv"]
+            proyecto["keywords_detectadas"] = experiencia["keywords_detectadas"]
+        print("EXPERIENCIAS CV: ",experiencias_cv)
+
+
+        #print(proyectos_seleccionados)
+        url_pdf = await generar_cv(proyectos_seleccionados,experiencias_cv ,"CV_Matias_Perez_Nauto.pdf")
         
         return JSONResponse(content={
             "cv_url": url_pdf

@@ -61,13 +61,15 @@ class GitHubAPI:
         return all_repos
 
     def obtener_readme_raw(self, usuario: str, repositorio: str) -> str:
-        """Obtiene el README raw de un repositorio"""
-        url = f"https://raw.githubusercontent.com/{usuario}/{repositorio}/main/README.md"
+        repo_info = self.get_repository_info(usuario, repositorio)
+        default_branch = repo_info.get("default_branch", "main")
+        url = f"https://raw.githubusercontent.com/{usuario}/{repositorio}/{default_branch}/README.md"
         response = requests.get(url)
         if response.status_code == 200:
             return response.text
         else:
             raise Exception(f"README no encontrado: {response.status_code}")
+
     
     def obtener_about_repo(self, usuario: str, repositorio: str) -> dict:
         url = f"{self.BASE_URL}/repos/{usuario}/{repositorio}"

@@ -8,7 +8,8 @@ interface ViewGenerarCvProps {
   propuesta: string;
   setPropuesta: (propuesta: string) => void;
   cvUrl: string;
-  loading: boolean;
+  loadingGenerar: boolean;
+  loadingRespuestas: boolean;
   generarCV: () => void;
 
   questions: string;
@@ -21,9 +22,9 @@ export function ViewGenerarCv({
   propuesta,
   setPropuesta,
   cvUrl,
-  loading,
+  loadingGenerar,
+  loadingRespuestas,
   generarCV,
-
   questions,
   response,
   setQuestions,
@@ -36,13 +37,13 @@ export function ViewGenerarCv({
           <SectionProposal
             propuesta={propuesta}
             setPropuesta={setPropuesta}
-            loading={loading}
+            loading={loadingGenerar}
             cvUrl={cvUrl}
             generarCV={generarCV}
           />
           <SectionQuestion
             questions={questions}
-            loading={loading}
+            loading={loadingRespuestas}
             response={response}
             setQuestions={setQuestions}
             generarRespuestas={generarRespuestas}
@@ -50,7 +51,7 @@ export function ViewGenerarCv({
         </CardContent>
 
         {/* CV GENERADO */}
-        {loading ? (
+        {loadingGenerar ? (
           <div className="flex justify-center items-center">
             <Loader2 className="animate-spin md:w-15 md:h-15 mr-2" />
           </div>

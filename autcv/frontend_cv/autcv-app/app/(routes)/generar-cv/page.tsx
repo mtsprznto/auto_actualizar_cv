@@ -8,10 +8,12 @@ export default function GenerarCv() {
   const [questions, setQuestions] = useState("");
   const [respuesta, setRespuesta] = useState("");
   const [cvUrl, setCvUrl] = useState("");
-  const [loading, setLoading] = useState(false);
+  const [loadingGenerar, setLoadingGenerar] = useState(false);
+  const [loadingRespuestas, setLoadingRespuestas] = useState(false);
 
   const generarCV = async () => {
-    setLoading(true);
+    setLoadingGenerar(true);
+
     try {
       const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/propuesta`, {
         method: "POST",
@@ -23,12 +25,12 @@ export default function GenerarCv() {
     } catch (err) {
       console.error("❌ Error al generar el CV:", err);
     } finally {
-      setLoading(false);
+      setLoadingGenerar(false);
     }
   };
 
   const generarRespuestas = async () => {
-    setLoading(true);
+    setLoadingRespuestas(true);
 
     try {
       const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/responder`, {
@@ -38,13 +40,12 @@ export default function GenerarCv() {
       });
       const data = await res.json();
       console.log(data);
-      
-      setRespuesta(data.respuestas);
 
+      setRespuesta(data.respuestas);
     } catch (err) {
       console.error("❌ Error al generar las respuestas:", err);
     } finally {
-      setLoading(false);
+      setLoadingRespuestas(false);
     }
   };
 
@@ -52,10 +53,10 @@ export default function GenerarCv() {
     <ViewGenerarCv
       propuesta={propuesta}
       cvUrl={cvUrl}
-      loading={loading}
+      loadingGenerar={loadingGenerar}
+      loadingRespuestas={loadingRespuestas}
       generarCV={generarCV}
       setPropuesta={setPropuesta}
-
       questions={questions}
       response={respuesta}
       generarRespuestas={generarRespuestas}

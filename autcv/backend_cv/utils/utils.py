@@ -12,6 +12,43 @@ def limpiar_texto(texto: str) -> str:
     )
 
 
+import re
+
+def limpiar_readme_markdown(texto: str) -> str:
+    """
+    Limpia un README en formato Markdown y lo convierte en texto plano legible.
+    """
+    # Eliminar imágenes y badges ![alt](url)
+    texto = re.sub(r'!\[.*?\]\(.*?\)', '', texto)
+
+    # Eliminar enlaces [texto](url) → texto
+    texto = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', texto)
+
+    # Eliminar encabezados Markdown (#, ##, ###)
+    texto = re.sub(r'^#{1,6}\s*', '', texto, flags=re.MULTILINE)
+
+    # Eliminar líneas de código triple backtick
+    texto = re.sub(r'```[\s\S]*?```', '', texto)
+
+    # Eliminar líneas de código inline (`code`)
+    texto = re.sub(r'`([^`]*)`', r'\1', texto)
+
+    # Eliminar tablas Markdown
+    texto = re.sub(r'\|.*?\|', '', texto)
+
+    # Eliminar líneas vacías múltiples
+    texto = re.sub(r'\n{2,}', '\n', texto)
+
+    # Eliminar guiones decorativos
+    texto = re.sub(r'^[-=*]{3,}$', '', texto, flags=re.MULTILINE)
+
+    # Strip final
+    return texto.strip()
+
+def preparar_readme_para_modelo(texto: str, max_chars: int = 3000) -> str:
+    texto = limpiar_readme_markdown(texto)  # Usa la función que ya tienes
+    return texto[:max_chars]
+
 # Save repositories to a JSON file for further processing
 def guardar_json_repositorios(repositories: list, filename: str="./data/json/repositories.json"):
     

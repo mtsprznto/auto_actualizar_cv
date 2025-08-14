@@ -1,0 +1,2 @@
+- TODO: Automatizar seccion de experiencia en CV generado
+- TODO: mejorar seguridad de la api

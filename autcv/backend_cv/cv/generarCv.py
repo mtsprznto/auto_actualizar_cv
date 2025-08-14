@@ -12,12 +12,26 @@ import httpx
 
 load_dotenv()
 
-async def generar_cv(proyectos_destacados: list, nombre_archivo: str):
+
+
+async def subir_cv_a_frontend(buffer: BytesIO, nombre_archivo: str) -> str:
+    url_frontend_api = f"{os.getenv('URL_FRONTEND')}/api/upload/blob"  # Usa dominio final, no localhost
+    async with httpx.AsyncClient() as client:
+        files = {"file": (nombre_archivo, buffer, "application/pdf")}
+        response = await client.post(url_frontend_api, files=files)
+        if response.status_code == 200:
+            print("✅ PDF subido al blob:", response.json()["url"])
+            return response.json()["url"]
+        else:
+            print("❌ Error al subir PDF:", response.text)
+            return None
+
+
+
+async def generar_cv(proyectos_destacados: list,experiencias_cv:list , nombre_archivo: str):
     """Genera un CV en PDF con la información de contacto, educación, proyectos y tecnologías."""
     pdf = PDF()
     pdf.add_page()
-    
-
     
     pdf.set_font("Helvetica", size=10)
 
@@ -35,18 +49,31 @@ async def generar_cv(proyectos_destacados: list, nombre_archivo: str):
     #------------------------------------------
     # Experencia profesional
     pdf.section_title("Experiencia")
-    
-    pdf.texto_doble_alineado(
-        izquierda="Desarrollador FullStack - Gestpass S.A",
-        derecha="Puerto Varas, Chile"
-    )
-    pdf.paragraph("Desarrollé una aplicación de gestión de contraseñas siguiendo las mejores prácticas de seguridad y desarrollo, implementando el patrón MVC para una estructura modular y eficiente. La aplicación permite almacenar, gestionar y encriptar contraseñas de manera segura, además de generar claves robustas con caracteres especiales. Para su desarrollo, utilicé Next.js y React, junto con diversas bibliotecas especializadas en seguridad y criptografía, asegurando un sistema confiable y escalable. Este proyecto refleja mi experiencia en desarrollo web y optimización de código, priorizando seguridad y usabilidad.")
-    pdf.texto_doble_alineado(
-        izquierda="Desarrollador FullStack - Academ S.A",
-        derecha="Puerto Varas, Chile"
-    )
-    pdf.paragraph("La plataforma está diseñada con una arquitectura modular, basada en Node.js, utilizando Next.js para el frontend y un backend optimizado con Prisma y PostgreSQL. Se ha integrado Stripe para la gestión de pagos y Clerk para la autenticación de usuarios.")
+    for experiencia in experiencias_cv:
+        pdf.texto_doble_alineado(
+                izquierda=experiencia["titulo"],
+                derecha="Puerto Varas, Chile"
+            )
+        pdf.paragraph(experiencia["experiencia_cv"])
+        keywords = ", ".join(experiencia["keywords_detectadas"])
+        pdf.set_font("Helvetica", "I", 9)
+        pdf.set_text_color(100, 100, 100)  # Gris suave
+        pdf.multi_cell(0, 5, f"🔑 Tecnologías y conceptos clave: {keywords}", align="L")
+        pdf.set_text_color(0, 0, 0)  # Restaurar color negro
+        pdf.ln(2)
+
+    # pdf.texto_doble_alineado(
+    #     izquierda="Desarrollador FullStack - Gestpass S.A",
+    #     derecha="Puerto Varas, Chile"
+    # )
+    # pdf.paragraph("Desarrollé una aplicación de gestión de contraseñas siguiendo las mejores prácticas de seguridad y desarrollo, implementando el patrón MVC para una estructura modular y eficiente. La aplicación permite almacenar, gestionar y encriptar contraseñas de manera segura, además de generar claves robustas con caracteres especiales. Para su desarrollo, utilicé Next.js y React, junto con diversas bibliotecas especializadas en seguridad y criptografía, asegurando un sistema confiable y escalable. Este proyecto refleja mi experiencia en desarrollo web y optimización de código, priorizando seguridad y usabilidad.")
+    # pdf.texto_doble_alineado(
+    #     izquierda="Desarrollador FullStack - Academ S.A",
+    #     derecha="Puerto Varas, Chile"
+    # )
+    # pdf.paragraph("La plataforma está diseñada con una arquitectura modular, basada en Node.js, utilizando Next.js para el frontend y un backend optimizado con Prisma y PostgreSQL. Se ha integrado Stripe para la gestión de pagos y Clerk para la autenticación de usuarios.")
     pdf.ln(1)
+    #---------------------------------------------------
 
     # Proyectos 
     pdf.section_title("Proyectos")

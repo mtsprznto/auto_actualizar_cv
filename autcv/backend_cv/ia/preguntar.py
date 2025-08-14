@@ -19,11 +19,6 @@ def seleccionar_proyectos(proyectos: list, propuesta: str = "No especificada") -
     client = get_groq_client()
 
 
-    # Preparamos los proyectos en formato texto para el modelo
-    # proyectos_texto = "\n".join([
-    #     f"- {p['titulo']} ({p['lenguaje']}): {p['descripcion']}"
-    #     for p in proyectos
-    # ])
 
 
     messages = [
@@ -61,6 +56,61 @@ def seleccionar_proyectos(proyectos: list, propuesta: str = "No especificada") -
         print(f"❌ Error al generar CV adaptado: {e}")
         return "No se pudo adaptar el CV correctamente."
 
+
+def generar_experiencia_desde_readme(propuesta: str, proyectos: list) -> list:
+    """
+    Genera experiencias profesionales adaptadas al CV usando los README
+    y alineadas con la propuesta laboral.
+    """
+    client = get_groq_client()
+
+
+
+    messages = [
+        {
+            "role": "system",
+            "content": (
+                "Eres un experto en redacción de currículums técnicos. "
+                "Tu tarea es leer el README de cada proyecto y generar una experiencia profesional adaptada al CV, alineada con la propuesta laboral. "
+                "Extrae palabras clave relevantes y redacta una descripción profesional, clara y orientada al impacto. "
+                "Devuelve un array JSON con: 'titulo', 'experiencia_cv', 'keywords_detectadas'. "
+                "No incluyas explicaciones ni texto adicional fuera del JSON."
+            )
+        },
+        {
+            "role": "user",
+            "content": (
+                f"Propuesta laboral:\n{propuesta}\n\n"
+                f"Proyectos con README:\n{json.dumps(proyectos, ensure_ascii=False, indent=2)}\n\n"
+                "Devuélveme el array JSON con las experiencias adaptadas para el CV."
+            )
+        }
+    ]
+
+    try:
+        chat_completion = client.chat.completions.create(
+            model="llama-3.3-70b-versatile",
+            messages=messages
+        )
+        raw_output = chat_completion.choices[0].message.content.strip()
+        # 🧹 Eliminar delimitadores Markdown si existen
+        if raw_output.startswith("```json"):
+            raw_output = raw_output.replace("```json", "").strip()
+        if raw_output.endswith("```"):
+            raw_output = raw_output[:-3].strip()
+        print("RAW RESPUESTA", raw_output)
+        # 🧪 Intentar parsear
+        try:
+            experiencias_adaptadas = json.loads(raw_output)
+            return experiencias_adaptadas
+        except Exception as e:
+            print("❌ JSON malformado. Contenido recibido:")
+            print(raw_output)
+            raise e
+
+    except Exception as e:
+        print(f"❌ Error al generar experiencias desde README: {e}")
+        return []
 
 
 def responder_propuesta(proyectos: list, pregunta: str)-> str:

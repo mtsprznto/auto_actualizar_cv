@@ -2,7 +2,7 @@ export const PROJECTS = [
   {
     title: "Auto Actualizar Cv",
     image: null,
-    date: "2025-08-13",
+    date: "2025-08-14",
     lenguajes_utilizados: {'Python': 57.86, 'TypeScript': 25.83, 'JavaScript': 8.36, 'CSS': 4.12, 'Batchfile': 3.84},
     topics: ["automatizaciones", "fastapi", "full-stack", "python"],
     description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
@@ -13,12 +13,12 @@ export const PROJECTS = [
   {
     title: "Visionartifical",
     image: null,
-    date: "2025-08-12",
+    date: "2025-08-13",
     lenguajes_utilizados: {'Python': 100.0},
     topics: [],
-    description: "None",
+    description: "Un conjunto de herramientas y módulos para procesamiento de imágenes y visión artificial utilizando tecnologías como YOLO, OpenCV y Roboflow.",
     technologies: ["Python"],
-    url_demo: "None",
+    url_demo: "",
     url_codigo: "https://github.com/mtsprznto/VisionArtifical"
   },
   {
