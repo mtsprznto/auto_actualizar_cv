@@ -1,14 +1,36 @@
 export const PROJECTS = [
   {
+    title: "Automatizaciones",
+    image: null,
+    date: "2025-08-15",
+    lenguajes_utilizados: {'Python': 97.82, 'Batchfile': 2.18},
+    topics: ["automation", "python", "scraping"],
+    description: "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
+    technologies: ["Python", "Batchfile"],
+    url_demo: "",
+    url_codigo: "https://github.com/mtsprznto/Automatizaciones"
+  },
+  {
     title: "Auto Actualizar Cv",
     image: null,
-    date: "2025-08-14",
+    date: "2025-08-15",
     lenguajes_utilizados: {'Python': 57.86, 'TypeScript': 25.83, 'JavaScript': 8.36, 'CSS': 4.12, 'Batchfile': 3.84},
     topics: ["automatizaciones", "fastapi", "full-stack", "python"],
     description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
     technologies: ["Python", "TypeScript", "JavaScript", "CSS", "Batchfile"],
     url_demo: "https://autcv.mtsprz.org/",
     url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
+  },
+  {
+    title: "Relevos Mesas",
+    image: null,
+    date: "2025-08-15",
+    lenguajes_utilizados: {'HTML': 100.0},
+    topics: [],
+    description: "None",
+    technologies: ["HTML"],
+    url_demo: "https://relevos-mesas.vercel.app",
+    url_codigo: "https://github.com/mtsprznto/Relevos-mesas"
   },
   {
     title: "Visionartifical",
@@ -20,17 +42,6 @@ export const PROJECTS = [
     technologies: ["Python"],
     url_demo: "",
     url_codigo: "https://github.com/mtsprznto/VisionArtifical"
-  },
-  {
-    title: "Automatizaciones",
-    image: null,
-    date: "2025-08-11",
-    lenguajes_utilizados: {'Python': 97.99, 'Batchfile': 2.01},
-    topics: ["automation", "python", "scraping"],
-    description: "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
-    technologies: ["Python", "Batchfile"],
-    url_demo: "",
-    url_codigo: "https://github.com/mtsprznto/Automatizaciones"
   },
   {
     title: "Portafolio Minimalist",
@@ -75,16 +86,5 @@ export const PROJECTS = [
     technologies: ["TypeScript", "CSS", "JavaScript"],
     url_demo: "https://coffdream.vercel.app",
     url_codigo: "https://github.com/mtsprznto/CoffeDream"
-  },
-  {
-    title: "Gestpass",
-    image: null,
-    date: "2025-07-03",
-    lenguajes_utilizados: {'TypeScript': 79.01, 'JavaScript': 18.73, 'CSS': 2.25},
-    topics: [],
-    description: "Desarrollé una aplicación de gestión de contraseñas siguiendo las mejores prácticas de seguridad y desarrollo, implementando el patrón MVC para una estructura modular y eficiente. ",
-    technologies: ["TypeScript", "JavaScript", "CSS"],
-    url_demo: "https://gestpass.vercel.app",
-    url_codigo: "https://github.com/mtsprznto/gestpass"
   },
 ];

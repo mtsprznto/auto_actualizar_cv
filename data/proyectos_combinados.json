@@ -1,8 +1,26 @@
 [
   {
+    "titulo": "AUTOMATIZACIONES (Python)",
+    "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
+    "fecha": "2025-08-15",
+    "url": "https://github.com/mtsprznto/Automatizaciones",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 45529,
+      "Batchfile": 1014
+    },
+    "topics": [
+      "automation",
+      "python",
+      "scraping"
+    ],
+    "sitio_web": "",
+    "repositorio": "Automatizaciones"
+  },
+  {
     "titulo": "AUTO_ACTUALIZAR_CV (Python)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-08-14",
+    "fecha": "2025-08-15",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "Python",
     "lenguajes_completos": {
@@ -22,6 +40,19 @@
     "repositorio": "auto_actualizar_cv"
   },
   {
+    "titulo": "RELEVOS-MESAS (HTML)",
+    "descripcion": "None",
+    "fecha": "2025-08-15",
+    "url": "https://github.com/mtsprznto/Relevos-mesas",
+    "lenguaje": "HTML",
+    "lenguajes_completos": {
+      "HTML": 114945
+    },
+    "topics": [],
+    "sitio_web": "https://relevos-mesas.vercel.app",
+    "repositorio": "Relevos-mesas"
+  },
+  {
     "titulo": "VISIONARTIFICAL (Python)",
     "descripcion": "Un conjunto de herramientas y módulos para procesamiento de imágenes y visión artificial utilizando tecnologías como YOLO, OpenCV y Roboflow.",
     "fecha": "2025-08-13",
@@ -33,24 +64,6 @@
     "topics": [],
     "sitio_web": "",
     "repositorio": "VisionArtifical"
-  },
-  {
-    "titulo": "AUTOMATIZACIONES (Python)",
-    "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
-    "fecha": "2025-08-11",
-    "url": "https://github.com/mtsprznto/Automatizaciones",
-    "lenguaje": "Python",
-    "lenguajes_completos": {
-      "Python": 38265,
-      "Batchfile": 785
-    },
-    "topics": [
-      "automation",
-      "python",
-      "scraping"
-    ],
-    "sitio_web": "",
-    "repositorio": "Automatizaciones"
   },
   {
     "titulo": "PORTAFOLIO-MINIMALIST (JavaScript)",
@@ -123,20 +136,5 @@
     ],
     "sitio_web": "https://coffdream.vercel.app",
     "repositorio": "CoffeDream"
-  },
-  {
-    "titulo": "GESTPASS (TypeScript)",
-    "descripcion": "Desarrollé una aplicación de gestión de contraseñas siguiendo las mejores prácticas de seguridad y desarrollo, implementando el patrón MVC para una estructura modular y eficiente. ",
-    "fecha": "2025-07-03",
-    "url": "https://github.com/mtsprznto/gestpass",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 199707,
-      "JavaScript": 47346,
-      "CSS": 5695
-    },
-    "topics": [],
-    "sitio_web": "https://gestpass.vercel.app",
-    "repositorio": "gestpass"
   }
 ]

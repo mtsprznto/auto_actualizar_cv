@@ -29,7 +29,13 @@ class PDF(FPDF):
     def paragraph(self, text):
         self.set_font("Arial", "", 10)
         self.multi_cell(0, 6, limpiar_texto(text))
-        self.ln(2)
+        self.ln(1)
+
+    def sub_paragraph(self, keywords):
+        self.set_font("Helvetica", "I", 9)
+        self.set_text_color(100, 100, 100)  # Gris suave
+        self.multi_cell(0, 5, f"Tecnologías y conceptos clave: {keywords}", align="L")
+        self.set_text_color(0, 0, 0)  # Restaurar color negro
 
 
     def texto_doble_alineado(self, izquierda: str, derecha: str, estilo="B", tamaño=10):
