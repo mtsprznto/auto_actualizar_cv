@@ -1,21 +1,21 @@
 [
   {
-    "titulo": "VISIONARTIFICAL (Python)",
-    "descripcion": "Un conjunto de herramientas y módulos para procesamiento de imágenes y visión artificial utilizando tecnologías como YOLO, OpenCV y Roboflow.",
-    "fecha": "2025-08-13",
-    "url": "https://github.com/mtsprznto/VisionArtifical",
-    "lenguaje": "Python",
+    "titulo": "RELEVOS-MESAS (HTML)",
+    "descripcion": "None",
+    "fecha": "2025-08-15",
+    "url": "https://github.com/mtsprznto/Relevos-mesas",
+    "lenguaje": "HTML",
     "lenguajes_completos": {
-      "Python": 5729
+      "HTML": 114945
     },
     "topics": [],
-    "sitio_web": "",
-    "repositorio": "VisionArtifical"
+    "sitio_web": "https://relevos-mesas.vercel.app",
+    "repositorio": "Relevos-mesas"
   },
   {
     "titulo": "AUTO_ACTUALIZAR_CV (Python)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-08-13",
+    "fecha": "2025-08-14",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "Python",
     "lenguajes_completos": {
@@ -33,6 +33,19 @@
     ],
     "sitio_web": "https://autcv.mtsprz.org/",
     "repositorio": "auto_actualizar_cv"
+  },
+  {
+    "titulo": "VISIONARTIFICAL (Python)",
+    "descripcion": "Un conjunto de herramientas y módulos para procesamiento de imágenes y visión artificial utilizando tecnologías como YOLO, OpenCV y Roboflow.",
+    "fecha": "2025-08-13",
+    "url": "https://github.com/mtsprznto/VisionArtifical",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 5729
+    },
+    "topics": [],
+    "sitio_web": "",
+    "repositorio": "VisionArtifical"
   },
   {
     "titulo": "AUTOMATIZACIONES (Python)",
