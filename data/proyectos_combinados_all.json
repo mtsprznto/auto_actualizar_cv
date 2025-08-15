@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "titulo": "AUTOMATIZACIONES (Python)",
     "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
     "fecha": "2025-08-15",
@@ -16,11 +17,28 @@
     ],
     "sitio_web": "",
     "repositorio": "Automatizaciones"
+=======
+    "titulo": "RELEVOS-MESAS (HTML)",
+    "descripcion": "None",
+    "fecha": "2025-08-15",
+    "url": "https://github.com/mtsprznto/Relevos-mesas",
+    "lenguaje": "HTML",
+    "lenguajes_completos": {
+      "HTML": 114945
+    },
+    "topics": [],
+    "sitio_web": "https://relevos-mesas.vercel.app",
+    "repositorio": "Relevos-mesas"
+>>>>>>> ed0b40e49ad49e6869f0e24e52e87b323f2710d5
   },
   {
     "titulo": "AUTO_ACTUALIZAR_CV (Python)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+<<<<<<< HEAD
     "fecha": "2025-08-15",
+=======
+    "fecha": "2025-08-14",
+>>>>>>> ed0b40e49ad49e6869f0e24e52e87b323f2710d5
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "Python",
     "lenguajes_completos": {
@@ -40,6 +58,7 @@
     "repositorio": "auto_actualizar_cv"
   },
   {
+<<<<<<< HEAD
     "titulo": "RELEVOS-MESAS (HTML)",
     "descripcion": "None",
     "fecha": "2025-08-15",
@@ -53,6 +72,8 @@
     "repositorio": "Relevos-mesas"
   },
   {
+=======
+>>>>>>> ed0b40e49ad49e6869f0e24e52e87b323f2710d5
     "titulo": "VISIONARTIFICAL (Python)",
     "descripcion": "Un conjunto de herramientas y módulos para procesamiento de imágenes y visión artificial utilizando tecnologías como YOLO, OpenCV y Roboflow.",
     "fecha": "2025-08-13",
@@ -66,6 +87,27 @@
     "repositorio": "VisionArtifical"
   },
   {
+<<<<<<< HEAD
+=======
+    "titulo": "AUTOMATIZACIONES (Python)",
+    "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
+    "fecha": "2025-08-11",
+    "url": "https://github.com/mtsprznto/Automatizaciones",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 38265,
+      "Batchfile": 785
+    },
+    "topics": [
+      "automation",
+      "python",
+      "scraping"
+    ],
+    "sitio_web": "",
+    "repositorio": "Automatizaciones"
+  },
+  {
+>>>>>>> ed0b40e49ad49e6869f0e24e52e87b323f2710d5
     "titulo": "PORTAFOLIO-MINIMALIST (JavaScript)",
     "descripcion": "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
     "fecha": "2025-08-08",
