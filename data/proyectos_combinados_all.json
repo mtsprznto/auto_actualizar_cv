@@ -2,7 +2,7 @@
   {
     "titulo": "AUTO_ACTUALIZAR_CV (Python)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-08-15",
+    "fecha": "2025-08-16",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "Python",
     "lenguajes_completos": {
@@ -481,21 +481,6 @@
     "topics": [],
     "sitio_web": "",
     "repositorio": "control-volumen"
-  },
-  {
-    "titulo": "CALENDARIO (JavaScript)",
-    "descripcion": "calendario en javascript en varios idiomas",
-    "fecha": "2024-04-29",
-    "url": "https://github.com/mtsprznto/calendario",
-    "lenguaje": "JavaScript",
-    "lenguajes_completos": {
-      "JavaScript": 1921,
-      "CSS": 1148,
-      "HTML": 235
-    },
-    "topics": [],
-    "sitio_web": null,
-    "repositorio": "calendario"
   },
   {
     "titulo": "PC_HABLA (Python)",
