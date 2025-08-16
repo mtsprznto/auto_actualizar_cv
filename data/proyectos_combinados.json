@@ -2,13 +2,13 @@
   {
     "titulo": "AUTO_ACTUALIZAR_CV (Python)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-08-15",
+    "fecha": "2025-08-16",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "Python",
     "lenguajes_completos": {
       "Python": 71227,
       "TypeScript": 29883,
-      "JavaScript": 9429,
+      "JavaScript": 9430,
       "CSS": 4731,
       "Batchfile": 4402
     },
