@@ -1,8 +1,26 @@
 [
   {
+    "titulo": "AUTOMATIZACIONES (Python)",
+    "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
+    "fecha": "2025-08-18",
+    "url": "https://github.com/mtsprznto/Automatizaciones",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 45993,
+      "Batchfile": 1014
+    },
+    "topics": [
+      "automation",
+      "python",
+      "scraping"
+    ],
+    "sitio_web": "",
+    "repositorio": "Automatizaciones"
+  },
+  {
     "titulo": "AUTO_ACTUALIZAR_CV (Python)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-08-16",
+    "fecha": "2025-08-17",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "Python",
     "lenguajes_completos": {
@@ -20,24 +38,6 @@
     ],
     "sitio_web": "https://autcv.mtsprz.org/",
     "repositorio": "auto_actualizar_cv"
-  },
-  {
-    "titulo": "AUTOMATIZACIONES (Python)",
-    "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
-    "fecha": "2025-08-15",
-    "url": "https://github.com/mtsprznto/Automatizaciones",
-    "lenguaje": "Python",
-    "lenguajes_completos": {
-      "Python": 45529,
-      "Batchfile": 1014
-    },
-    "topics": [
-      "automation",
-      "python",
-      "scraping"
-    ],
-    "sitio_web": "",
-    "repositorio": "Automatizaciones"
   },
   {
     "titulo": "VISIONARTIFICAL (Python)",
