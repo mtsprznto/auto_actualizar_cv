@@ -2,7 +2,7 @@
   {
     "titulo": "AUTO_ACTUALIZAR_CV (Python)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-08-16",
+    "fecha": "2025-08-19",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "Python",
     "lenguajes_completos": {
@@ -24,11 +24,11 @@
   {
     "titulo": "AUTOMATIZACIONES (Python)",
     "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
-    "fecha": "2025-08-15",
+    "fecha": "2025-08-18",
     "url": "https://github.com/mtsprznto/Automatizaciones",
     "lenguaje": "Python",
     "lenguajes_completos": {
-      "Python": 45529,
+      "Python": 54472,
       "Batchfile": 1014
     },
     "topics": [

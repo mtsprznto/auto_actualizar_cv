@@ -2,7 +2,7 @@ export const PROJECTS = [
   {
     title: "Auto Actualizar Cv",
     image: null,
-    date: "2025-08-16",
+    date: "2025-08-19",
     lenguajes_utilizados: {'Python': 59.52, 'TypeScript': 24.97, 'JavaScript': 7.88, 'CSS': 3.95, 'Batchfile': 3.68},
     topics: ["automatizaciones", "fastapi", "full-stack", "python"],
     description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
@@ -13,8 +13,8 @@ export const PROJECTS = [
   {
     title: "Automatizaciones",
     image: null,
-    date: "2025-08-15",
-    lenguajes_utilizados: {'Python': 97.82, 'Batchfile': 2.18},
+    date: "2025-08-18",
+    lenguajes_utilizados: {'Python': 98.17, 'Batchfile': 1.83},
     topics: ["automation", "python", "scraping"],
     description: "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
     technologies: ["Python", "Batchfile"],
