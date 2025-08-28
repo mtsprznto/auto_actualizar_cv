@@ -1,0 +1,498 @@
+[
+  {
+    "titulo": "AUTO_ACTUALIZAR_CV (Python)",
+    "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    "fecha": "2025-08-22",
+    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 71227,
+      "TypeScript": 29883,
+      "JavaScript": 9430,
+      "CSS": 4731,
+      "Batchfile": 4402
+    },
+    "topics": [
+      "automatizaciones",
+      "fastapi",
+      "full-stack",
+      "python"
+    ],
+    "sitio_web": "https://autcv.mtsprz.org/",
+    "repositorio": "auto_actualizar_cv"
+  },
+  {
+    "titulo": "ACADEM-PROD (TypeScript)",
+    "descripcion": "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
+    "fecha": "2025-08-19",
+    "url": "https://github.com/mtsprznto/academ-prod",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 363645,
+      "CSS": 5580,
+      "JavaScript": 540
+    },
+    "topics": [
+      "fulls",
+      "fullstack",
+      "nextjs"
+    ],
+    "sitio_web": "https://td.mtsprz.org/",
+    "repositorio": "academ-prod"
+  },
+  {
+    "titulo": "AUTOMATIZACIONES (Python)",
+    "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
+    "fecha": "2025-08-19",
+    "url": "https://github.com/mtsprznto/Automatizaciones",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 54472,
+      "Batchfile": 1014
+    },
+    "topics": [
+      "automation",
+      "python",
+      "scraping"
+    ],
+    "sitio_web": "",
+    "repositorio": "Automatizaciones"
+  },
+  {
+    "titulo": "VISIONARTIFICAL (Python)",
+    "descripcion": "Un conjunto de herramientas y módulos para procesamiento de imágenes y visión artificial utilizando tecnologías como YOLO, OpenCV y Roboflow.",
+    "fecha": "2025-08-13",
+    "url": "https://github.com/mtsprznto/VisionArtifical",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 5729
+    },
+    "topics": [],
+    "sitio_web": "",
+    "repositorio": "VisionArtifical"
+  },
+  {
+    "titulo": "PORTAFOLIO-MINIMALIST (JavaScript)",
+    "descripcion": "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
+    "fecha": "2025-08-08",
+    "url": "https://github.com/mtsprznto/portafolio-minimalist",
+    "lenguaje": "JavaScript",
+    "lenguajes_completos": {
+      "JavaScript": 24827,
+      "TypeScript": 1419,
+      "CSS": 536,
+      "HTML": 363
+    },
+    "topics": [
+      "react",
+      "react-vite",
+      "vite"
+    ],
+    "sitio_web": "https://portafolio.mtsprz.org/",
+    "repositorio": "portafolio-minimalist"
+  },
+  {
+    "titulo": "API_ACADEM (Python)",
+    "descripcion": "API desarrollada en FastAPI que permite transcribir y analizar contenido de videos, con integración a Supabase para el almacenamiento de transcripciones y respuestas generadas por IA.",
+    "fecha": "2025-07-26",
+    "url": "https://github.com/mtsprznto/api_academ",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 10958
+    },
+    "topics": [
+      "fastapi",
+      "python"
+    ],
+    "sitio_web": "https://academ-prod.vercel.app/",
+    "repositorio": "api_academ"
+  },
+  {
+    "titulo": "COFFEDREAM (TypeScript)",
+    "descripcion": "CoffeDream es una moderna plataforma de comercio electrónico especializada en la venta de café de alta calidad. La aplicación ofrece una experiencia de compra fluida con características como búsqueda de productos, carrito de compras, favoritos y pagos seguros a través de Stripe.",
+    "fecha": "2025-07-07",
+    "url": "https://github.com/mtsprznto/CoffeDream",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 89472,
+      "CSS": 4189,
+      "JavaScript": 518
+    },
+    "topics": [
+      "nextjs"
+    ],
+    "sitio_web": "https://coffdream.vercel.app",
+    "repositorio": "CoffeDream"
+  },
+  {
+    "titulo": "GESTPASS (TypeScript)",
+    "descripcion": "Desarrollé una aplicación de gestión de contraseñas siguiendo las mejores prácticas de seguridad y desarrollo, implementando el patrón MVC para una estructura modular y eficiente. ",
+    "fecha": "2025-07-03",
+    "url": "https://github.com/mtsprznto/gestpass",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 199707,
+      "JavaScript": 47346,
+      "CSS": 5695
+    },
+    "topics": [],
+    "sitio_web": "https://gestpass.vercel.app",
+    "repositorio": "gestpass"
+  },
+  {
+    "titulo": "SCANNDATA- (Python)",
+    "descripcion": "ScannData mantener organizada la información de boletas y facturas. Nuestra aplicación está diseñada para automatizar el escaneo de documentos PDF y la conversión de imágenes a texto, facilitando la gestión de tus documentos.",
+    "fecha": "2025-06-30",
+    "url": "https://github.com/mtsprznto/scanndata-",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 129116,
+      "HTML": 2823,
+      "Inno Setup": 574
+    },
+    "topics": [
+      "flet",
+      "flutter",
+      "python"
+    ],
+    "sitio_web": "",
+    "repositorio": "scanndata-"
+  },
+  {
+    "titulo": "GES-INVENTARIO (JavaScript)",
+    "descripcion": "Sistema de gestión de inventario moderno y escalable desarrollado con React, Vite y Supabase. Esta aplicación permite a las empresas gestionar su inventario, usuarios y configuraciones de manera eficiente.",
+    "fecha": "2025-06-29",
+    "url": "https://github.com/mtsprznto/ges-inventario",
+    "lenguaje": "JavaScript",
+    "lenguajes_completos": {
+      "JavaScript": 65636,
+      "CSS": 424,
+      "HTML": 362
+    },
+    "topics": [],
+    "sitio_web": "",
+    "repositorio": "ges-inventario"
+  },
+  {
+    "titulo": "LANDING-BANCO (TypeScript)",
+    "descripcion": "Bienvenido al repositorio de la landing page de nuestro banco. Este proyecto ha sido desarrollado con Next.js 14, ofreciendo un rendimiento óptimo y una excelente experiencia de usuario.",
+    "fecha": "2025-06-29",
+    "url": "https://github.com/mtsprznto/landing-banco",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 26515,
+      "CSS": 2499,
+      "JavaScript": 474
+    },
+    "topics": [],
+    "sitio_web": "https://bankco-beta.vercel.app",
+    "repositorio": "landing-banco"
+  },
+  {
+    "titulo": "SIS_GES_MED (JavaScript)",
+    "descripcion": "Sistema integral de gestión de citas médicas diseñado para clínicas y consultorios médicos. Facilita la administración de pacientes, doctores, citas y servicios médicos con un panel de control intuitivo y roles de acceso personalizados.",
+    "fecha": "2025-06-29",
+    "url": "https://github.com/mtsprznto/sis_ges_med",
+    "lenguaje": "JavaScript",
+    "lenguajes_completos": {
+      "JavaScript": 12817535,
+      "CSS": 830029,
+      "Blade": 269685,
+      "PHP": 135620,
+      "SCSS": 290
+    },
+    "topics": [],
+    "sitio_web": "",
+    "repositorio": "sis_ges_med"
+  },
+  {
+    "titulo": "SISGESTIONESCOLAR (Blade)",
+    "descripcion": "Un sistema completo para la gestión de instituciones educativas, desarrollado con Laravel y diseñado para facilitar la administración académica, control de estudiantes, docentes y procesos escolares.",
+    "fecha": "2025-06-29",
+    "url": "https://github.com/mtsprznto/sisgestionescolar",
+    "lenguaje": "Blade",
+    "lenguajes_completos": {
+      "Blade": 390095,
+      "PHP": 179640,
+      "CSS": 422,
+      "JavaScript": 334,
+      "SCSS": 290
+    },
+    "topics": [],
+    "sitio_web": "",
+    "repositorio": "sisgestionescolar"
+  },
+  {
+    "titulo": "POTIBOT (Python)",
+    "descripcion": "PotiBot es un asistente de voz interactivo que utiliza inteligencia artificial para mantener conversaciones en múltiples idiomas. Actualmente soporta español, inglés y francés, con capacidades de reconocimiento de voz y síntesis de voz.",
+    "fecha": "2025-06-28",
+    "url": "https://github.com/mtsprznto/PotiBot",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 14400
+    },
+    "topics": [
+      "ia",
+      "learning",
+      "python"
+    ],
+    "sitio_web": "",
+    "repositorio": "PotiBot"
+  },
+  {
+    "titulo": "CABANASPV (TypeScript)",
+    "descripcion": "Este proyecto es una aplicación web desarrollada con Next.js (versión 13.5.6), React (versión 18), y Tailwind CSS para el diseño de estilos. Está orientado a la promoción y arriendo de propiedades, en la región de Puerto Varas, Chile",
+    "fecha": "2025-06-12",
+    "url": "https://github.com/mtsprznto/cabanaspv",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 36851,
+      "CSS": 279,
+      "JavaScript": 174
+    },
+    "topics": [],
+    "sitio_web": "https://cabanaspv.vercel.app",
+    "repositorio": "cabanaspv"
+  },
+  {
+    "titulo": "CODESLLLIT (Python)",
+    "descripcion": "Bienvenido a **CodesLLLIT**, una página web creada con Streamlit y Python, diseñada para canjear códigos de Bandcamp y mostrar los álbumes de la música de **LLLIT**. Este proyecto se conecta a una base de datos utilizando Supabase para registrar los datos recibidos a través del formulario.",
+    "fecha": "2025-06-11",
+    "url": "https://github.com/mtsprznto/codeslllit",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 25764,
+      "HTML": 19720,
+      "CSS": 803,
+      "JavaScript": 313
+    },
+    "topics": [
+      "bandcamp",
+      "music",
+      "producer",
+      "python",
+      "streamlit"
+    ],
+    "sitio_web": "https://codeslllit.streamlit.app/",
+    "repositorio": "codeslllit"
+  },
+  {
+    "titulo": "PARTICLES-PORTAFOLIO (TypeScript)",
+    "descripcion": "Esta aplicación demo combina el poder de Next.js, React y Spline para ofrecer una experiencia visual y dinámica que redefine la forma en que interactuamos con interfaces gráficas en la web",
+    "fecha": "2025-05-22",
+    "url": "https://github.com/mtsprznto/particles-portafolio",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 29098,
+      "CSS": 1353,
+      "JavaScript": 474
+    },
+    "topics": [
+      "nextjs"
+    ],
+    "sitio_web": "https://lllitparticles.netlify.app/",
+    "repositorio": "particles-portafolio"
+  },
+  {
+    "titulo": "LANDING-REACT (JavaScript)",
+    "descripcion": "Construida con React y TailwindCSS, nuestra aplicación ofrece una experiencia rápida y adaptativa, asegurando interactividad y rendimiento sin compromisos.",
+    "fecha": "2025-05-22",
+    "url": "https://github.com/mtsprznto/landing-react",
+    "lenguaje": "JavaScript",
+    "lenguajes_completos": {
+      "JavaScript": 26761,
+      "CSS": 682,
+      "HTML": 360
+    },
+    "topics": [],
+    "sitio_web": "https://holareact-opal.vercel.app",
+    "repositorio": "landing-react"
+  },
+  {
+    "titulo": "API_BOT_BD (Python)",
+    "descripcion": "Este proyecto consiste en una API creada con Python FastAPI que conecta una interfaz gráfica hecha con Reflex Python y con Ollama desde Groq.",
+    "fecha": "2025-05-21",
+    "url": "https://github.com/mtsprznto/api_bot_bd",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 29717
+    },
+    "topics": [
+      "api",
+      "fasapi",
+      "ollama",
+      "reflex"
+    ],
+    "sitio_web": "https://apibotbd.vercel.app/docs",
+    "repositorio": "api_bot_bd"
+  },
+  {
+    "titulo": "LANDING-MODERNA-DOCKER (CSS)",
+    "descripcion": "None",
+    "fecha": "2025-04-24",
+    "url": "https://github.com/mtsprznto/landing-moderna-docker",
+    "lenguaje": "CSS",
+    "lenguajes_completos": {
+      "CSS": 6210,
+      "HTML": 5554,
+      "Dockerfile": 129
+    },
+    "topics": [],
+    "sitio_web": "https://magtimuspro.vercel.app",
+    "repositorio": "landing-moderna-docker"
+  },
+  {
+    "titulo": "API_DATA_MAPU (Python)",
+    "descripcion": "Esta es una api que tiene información sobre la cultura mapuche y su vocabulario mapudungun",
+    "fecha": "2025-02-04",
+    "url": "https://github.com/mtsprznto/api_data_mapu",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 11483
+    },
+    "topics": [
+      "api",
+      "chile",
+      "fastapi",
+      "mapuche"
+    ],
+    "sitio_web": "https://apidatamapu.vercel.app/",
+    "repositorio": "api_data_mapu"
+  },
+  {
+    "titulo": "BOT_TELEGRAM (Python)",
+    "descripcion": "Bot de Reservas de Mapping  ¡Bienvenido al Bot de Reservas de Mapping! 🎉  Este bot está diseñado para facilitar la gestión de reservas y ofrecerte información detallada sobre nuestros servicios de mapping",
+    "fecha": "2025-01-27",
+    "url": "https://github.com/mtsprznto/bot_telegram",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 23234,
+      "Batchfile": 128
+    },
+    "topics": [
+      "bot",
+      "python",
+      "telegram-bot",
+      "telegrambot"
+    ],
+    "sitio_web": "https://t.me/reservaspv_bot",
+    "repositorio": "bot_telegram"
+  },
+  {
+    "titulo": "AUTOMATIZACIONES_EXAMPLES (Python)",
+    "descripcion": "Scripts personales para automatizar procesos",
+    "fecha": "2025-01-27",
+    "url": "https://github.com/mtsprznto/automatizaciones_examples",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 27474
+    },
+    "topics": [
+      "automation",
+      "python",
+      "scripts"
+    ],
+    "sitio_web": "",
+    "repositorio": "automatizaciones_examples"
+  },
+  {
+    "titulo": "CHAT-BOT (HTML)",
+    "descripcion": "Este proyecto es un chat bot que utiliza inteligencia artificial para interactuar con los usuarios. El chat bot está conectado a una base de datos llamada **Supabase**, lo que le permite acceder y gestionar información de manera eficiente. La aplicación web está desarrollada en Python utilizando el framework Reflex",
+    "fecha": "2025-01-15",
+    "url": "https://github.com/mtsprznto/chat-bot",
+    "lenguaje": "HTML",
+    "lenguajes_completos": {
+      "HTML": 74412,
+      "Python": 59831,
+      "Shell": 539,
+      "JavaScript": 154
+    },
+    "topics": [
+      "bot",
+      "ollama",
+      "reflex"
+    ],
+    "sitio_web": "https://chatbot-lime-sun.reflex.run/",
+    "repositorio": "chat-bot"
+  },
+  {
+    "titulo": "LINK_BIO (Python)",
+    "descripcion": "Este proyecto es una página web creada con Reflex 100% en Python y desplegada en Vercel. La página está diseñada para almacenar y presentar todos mis enlaces importantes de manera organizada y accesible.",
+    "fecha": "2025-01-15",
+    "url": "https://github.com/mtsprznto/link_bio",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 21202,
+      "HTML": 21170,
+      "CSS": 1022,
+      "Dockerfile": 268,
+      "Shell": 203,
+      "JavaScript": 77
+    },
+    "topics": [
+      "front-end",
+      "frontend",
+      "production",
+      "python",
+      "reflex"
+    ],
+    "sitio_web": "https://biolllit.vercel.app",
+    "repositorio": "link_bio"
+  },
+  {
+    "titulo": "COFFE-ADMIN (Python)",
+    "descripcion": "Esta aplicación administrativa para cafeterías está diseñada para facilitar la gestión diaria de tu negocio, mejorando la eficiencia y la organización.",
+    "fecha": "2025-01-10",
+    "url": "https://github.com/mtsprznto/coffe-admin",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 34277
+    },
+    "topics": [],
+    "sitio_web": "https://lllit.github.io/coffe-admin/",
+    "repositorio": "coffe-admin"
+  },
+  {
+    "titulo": "RADIO-ESQUIVO (CSS)",
+    "descripcion": "Bienvenido a Radio Esquivo, una innovadora página web que transmite radio en vivo. Este proyecto está desarrollado con HTML, CSS y JavaScript, y se conecta a una API para ofrecer una experiencia de radio en tiempo real.",
+    "fecha": "2025-01-10",
+    "url": "https://github.com/mtsprznto/radio-esquivo",
+    "lenguaje": "CSS",
+    "lenguajes_completos": {
+      "CSS": 13024,
+      "HTML": 3919,
+      "JavaScript": 1852
+    },
+    "topics": [],
+    "sitio_web": "https://radio-esquivo.vercel.app",
+    "repositorio": "radio-esquivo"
+  },
+  {
+    "titulo": "CONTROL-VOLUMEN (JavaScript)",
+    "descripcion": "Extension para controlar el volumen de las pestañas",
+    "fecha": "2024-12-08",
+    "url": "https://github.com/mtsprznto/control-volumen",
+    "lenguaje": "JavaScript",
+    "lenguajes_completos": {
+      "JavaScript": 3364,
+      "CSS": 1879,
+      "HTML": 1853
+    },
+    "topics": [],
+    "sitio_web": "",
+    "repositorio": "control-volumen"
+  },
+  {
+    "titulo": "PC_HABLA (Python)",
+    "descripcion": "estudiando los socket",
+    "fecha": "2024-04-29",
+    "url": "https://github.com/mtsprznto/pc_habla",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 1639
+    },
+    "topics": [],
+    "sitio_web": null,
+    "repositorio": "pc_habla"
+  }
+]

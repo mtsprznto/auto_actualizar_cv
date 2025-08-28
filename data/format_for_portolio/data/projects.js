@@ -2,13 +2,35 @@ export const PROJECTS = [
   {
     title: "Auto Actualizar Cv",
     image: null,
-    date: "2025-08-22",
+    date: "2025-08-28",
     lenguajes_utilizados: {'Python': 59.52, 'TypeScript': 24.97, 'JavaScript': 7.88, 'CSS': 3.95, 'Batchfile': 3.68},
     topics: ["automatizaciones", "fastapi", "full-stack", "python"],
     description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
     technologies: ["Python", "TypeScript", "JavaScript", "CSS", "Batchfile"],
     url_demo: "https://autcv.mtsprz.org/",
     url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
+  },
+  {
+    title: "Automatizaciones",
+    image: null,
+    date: "2025-08-23",
+    lenguajes_utilizados: {'Python': 98.17, 'Batchfile': 1.83},
+    topics: ["automation", "python", "scraping"],
+    description: "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
+    technologies: ["Python", "Batchfile"],
+    url_demo: "",
+    url_codigo: "https://github.com/mtsprznto/Automatizaciones"
+  },
+  {
+    title: "Api Academ",
+    image: null,
+    date: "2025-08-22",
+    lenguajes_utilizados: {'Python': 100.0},
+    topics: ["fastapi", "python"],
+    description: "API desarrollada en FastAPI que permite transcribir y analizar contenido de videos, con integración a Supabase para el almacenamiento de transcripciones y respuestas generadas por IA.",
+    technologies: ["Python"],
+    url_demo: "https://td.mtsprz.org/",
+    url_codigo: "https://github.com/mtsprznto/api_academ"
   },
   {
     title: "Academ Prod",
@@ -20,17 +42,6 @@ export const PROJECTS = [
     technologies: ["TypeScript", "CSS", "JavaScript"],
     url_demo: "https://td.mtsprz.org/",
     url_codigo: "https://github.com/mtsprznto/academ-prod"
-  },
-  {
-    title: "Automatizaciones",
-    image: null,
-    date: "2025-08-19",
-    lenguajes_utilizados: {'Python': 98.17, 'Batchfile': 1.83},
-    topics: ["automation", "python", "scraping"],
-    description: "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
-    technologies: ["Python", "Batchfile"],
-    url_demo: "",
-    url_codigo: "https://github.com/mtsprznto/Automatizaciones"
   },
   {
     title: "Visionartifical",
@@ -53,17 +64,6 @@ export const PROJECTS = [
     technologies: ["JavaScript", "TypeScript", "CSS", "HTML"],
     url_demo: "https://portafolio.mtsprz.org/",
     url_codigo: "https://github.com/mtsprznto/portafolio-minimalist"
-  },
-  {
-    title: "Api Academ",
-    image: null,
-    date: "2025-07-26",
-    lenguajes_utilizados: {'Python': 100.0},
-    topics: ["fastapi", "python"],
-    description: "API desarrollada en FastAPI que permite transcribir y analizar contenido de videos, con integración a Supabase para el almacenamiento de transcripciones y respuestas generadas por IA.",
-    technologies: ["Python"],
-    url_demo: "https://academ-prod.vercel.app/",
-    url_codigo: "https://github.com/mtsprznto/api_academ"
   },
   {
     title: "Coffedream",
