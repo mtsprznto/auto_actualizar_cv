@@ -2,13 +2,24 @@ export const PROJECTS = [
   {
     title: "Auto Actualizar Cv",
     image: null,
-    date: "2025-08-28",
+    date: "2025-08-29",
     lenguajes_utilizados: {'Python': 59.52, 'TypeScript': 24.97, 'JavaScript': 7.88, 'CSS': 3.95, 'Batchfile': 3.68},
     topics: ["automatizaciones", "fastapi", "full-stack", "python"],
     description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
     technologies: ["Python", "TypeScript", "JavaScript", "CSS", "Batchfile"],
     url_demo: "https://autcv.mtsprz.org/",
     url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
+  },
+  {
+    title: "Docker Qemu Alpine",
+    image: null,
+    date: "2025-08-29",
+    lenguajes_utilizados: {'Shell': 100.0},
+    topics: [],
+    description: "BASH ® Fundamentals",
+    technologies: ["Shell"],
+    url_demo: "None",
+    url_codigo: "https://github.com/mtsprznto/docker-qemu-alpine"
   },
   {
     title: "Automatizaciones",
@@ -75,16 +86,5 @@ export const PROJECTS = [
     technologies: ["TypeScript", "CSS", "JavaScript"],
     url_demo: "https://coffdream.vercel.app",
     url_codigo: "https://github.com/mtsprznto/CoffeDream"
-  },
-  {
-    title: "Gestpass",
-    image: null,
-    date: "2025-07-03",
-    lenguajes_utilizados: {'TypeScript': 79.01, 'JavaScript': 18.73, 'CSS': 2.25},
-    topics: [],
-    description: "Desarrollé una aplicación de gestión de contraseñas siguiendo las mejores prácticas de seguridad y desarrollo, implementando el patrón MVC para una estructura modular y eficiente. ",
-    technologies: ["TypeScript", "JavaScript", "CSS"],
-    url_demo: "https://gestpass.vercel.app",
-    url_codigo: "https://github.com/mtsprznto/gestpass"
   },
 ];

@@ -2,7 +2,7 @@
   {
     "titulo": "AUTO_ACTUALIZAR_CV (Python)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-08-28",
+    "fecha": "2025-08-29",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "Python",
     "lenguajes_completos": {
@@ -20,6 +20,19 @@
     ],
     "sitio_web": "https://autcv.mtsprz.org/",
     "repositorio": "auto_actualizar_cv"
+  },
+  {
+    "titulo": "DOCKER-QEMU-ALPINE (None)",
+    "descripcion": "BASH ® Fundamentals",
+    "fecha": "2025-08-29",
+    "url": "https://github.com/mtsprznto/docker-qemu-alpine",
+    "lenguaje": null,
+    "lenguajes_completos": {
+      "Shell": 2964
+    },
+    "topics": [],
+    "sitio_web": null,
+    "repositorio": "docker-qemu-alpine"
   },
   {
     "titulo": "AUTOMATIZACIONES (Python)",
@@ -123,20 +136,5 @@
     ],
     "sitio_web": "https://coffdream.vercel.app",
     "repositorio": "CoffeDream"
-  },
-  {
-    "titulo": "GESTPASS (TypeScript)",
-    "descripcion": "Desarrollé una aplicación de gestión de contraseñas siguiendo las mejores prácticas de seguridad y desarrollo, implementando el patrón MVC para una estructura modular y eficiente. ",
-    "fecha": "2025-07-03",
-    "url": "https://github.com/mtsprznto/gestpass",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 199707,
-      "JavaScript": 47346,
-      "CSS": 5695
-    },
-    "topics": [],
-    "sitio_web": "https://gestpass.vercel.app",
-    "repositorio": "gestpass"
   }
 ]
