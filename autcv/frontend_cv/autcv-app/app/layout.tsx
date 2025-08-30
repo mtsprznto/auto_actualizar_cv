@@ -28,7 +28,6 @@ export default function RootLayout({
       <Head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
-
       <body className={`${roboto.variable} antialiased dark`}>{children}</body>
     </html>
   );

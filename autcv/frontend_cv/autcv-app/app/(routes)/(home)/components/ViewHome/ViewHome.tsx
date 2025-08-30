@@ -7,9 +7,11 @@ import { FileText } from "lucide-react";
 import { useEffect, useState } from "react";
 import { supabase } from "@/lib/supabase";
 import { SniperLoading } from "@/app/components/Shared";
+import { User } from "@supabase/supabase-js";
 
 export function ViewHome() {
-  const [user, setUser] = useState<any>(null);
+  const [user, setUser] = useState<User | null>(null);
+
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {

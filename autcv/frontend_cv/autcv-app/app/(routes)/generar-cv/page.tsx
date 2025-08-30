@@ -5,6 +5,7 @@ import { ViewGenerarCv } from "./components";
 import { supabase } from "@/lib/supabase";
 import { useRouter } from "next/navigation";
 import { SniperLoading } from "@/app/components/Shared";
+import { User } from "@supabase/supabase-js";
 
 export default function GenerarCv() {
   const [propuesta, setPropuesta] = useState("");
@@ -14,7 +15,8 @@ export default function GenerarCv() {
   const [loadingGenerar, setLoadingGenerar] = useState(false);
   const [loadingRespuestas, setLoadingRespuestas] = useState(false);
   const router = useRouter();
-  const [user, setUser] = useState<any>(null);
+  const [user, setUser] = useState<User | null>(null);
+
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -28,6 +30,8 @@ export default function GenerarCv() {
         console.error("Error fetching session:", error.message);
       } else if (session?.user) {
         setUser(session.user);
+        console.log(user);
+        
       } else {
         router.push("/login"); // 🔐 Redirige si no hay sesión
       }

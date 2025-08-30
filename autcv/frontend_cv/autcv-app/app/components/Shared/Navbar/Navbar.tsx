@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { Logo } from "../Logo";
 import { Button } from "@/components/ui/button";
-import { User } from "lucide-react";
+import { CircleUser } from "lucide-react";
 import { useEffect, useState } from "react";
 import { supabase } from "@/lib/supabase";
 import {
@@ -14,9 +14,11 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { SniperLoading } from "../Sniperloader";
+import type { User } from "@supabase/supabase-js";
 
 export function Navbar() {
-  const [user, setUser] = useState<any>(null);
+  
+const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -63,7 +65,7 @@ export function Navbar() {
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="ghost" className="border cursor-pointer">
-                <User />
+                <CircleUser />
               </Button>
             </DropdownMenuTrigger>
 
