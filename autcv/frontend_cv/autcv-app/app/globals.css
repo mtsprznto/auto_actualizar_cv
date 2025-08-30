@@ -123,7 +123,6 @@
   }
 }
 
-
 /* Estilo para navegadores basados en WebKit (Chrome, Edge, Safari) */
 ::-webkit-scrollbar {
   width: 8px;
@@ -151,4 +150,25 @@
 * {
   scrollbar-width: thin;
   scrollbar-color: #9e4dc9 transparent;
+}
+
+/* En tu CSS global o módulo */
+@keyframes sniperPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(59, 130, 246, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0);
+  }
+}
+
+.sniper-loader {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #3b82f6;
+  animation: sniperPulse 1.5s infinite;
 }

@@ -1,3 +1,4 @@
+// app\(auth)\layout.tsx
 import React from "react";
 import { Navbar, SidebarMobile } from "../components/Shared";
 

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import {
@@ -40,9 +40,10 @@ export function LoginForm({
       },
     });
   };
+  
 
   return (
-    <div className={cn("flex flex-col gap-6", className)} {...props}>
+    <div className={cn("flex flex-col gap-6 mt-30", className)} {...props}>
       <Card>
         <CardHeader>
           <CardTitle>Login to your account</CardTitle>
@@ -86,7 +87,11 @@ export function LoginForm({
                 <Button type="submit" className="w-full">
                   Login
                 </Button>
-                <Button variant="outline" className="w-full" onClick={handleGoogleLogin}>
+                <Button
+                  variant="outline"
+                  className="w-full"
+                  onClick={handleGoogleLogin}
+                >
                   Login with Google
                 </Button>
               </div>

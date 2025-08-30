@@ -1,7 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ViewGenerarCv } from "./components";
+import { supabase } from "@/lib/supabase";
+import { useRouter } from "next/navigation";
+import { SniperLoading } from "@/app/components/Shared";
 
 export default function GenerarCv() {
   const [propuesta, setPropuesta] = useState("");
@@ -10,6 +13,32 @@ export default function GenerarCv() {
   const [cvUrl, setCvUrl] = useState("");
   const [loadingGenerar, setLoadingGenerar] = useState(false);
   const [loadingRespuestas, setLoadingRespuestas] = useState(false);
+  const router = useRouter();
+  const [user, setUser] = useState<any>(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchSession = async () => {
+      const {
+        data: { session },
+        error,
+      } = await supabase.auth.getSession();
+
+      if (error) {
+        console.error("Error fetching session:", error.message);
+      } else if (session?.user) {
+        setUser(session.user);
+      } else {
+        router.push("/login"); // 🔐 Redirige si no hay sesión
+      }
+
+      setLoading(false);
+    };
+
+    fetchSession();
+  }, [router]);
+
+  if (loading) return <SniperLoading />;
 
   const generarCV = async () => {
     setLoadingGenerar(true);
@@ -48,6 +77,8 @@ export default function GenerarCv() {
       setLoadingRespuestas(false);
     }
   };
+
+  
 
   return (
     <ViewGenerarCv

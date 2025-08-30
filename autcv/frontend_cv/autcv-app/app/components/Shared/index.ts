@@ -3,4 +3,4 @@ export * from './Logo'
 export * from './Navbar'
 export * from './Sidebar'
 export * from './SidebarMobile'
-
+export * from './Sniperloader'

@@ -1,9 +1,36 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { ViewCardHome } from "../ViewCardHome";
 import { FileText } from "lucide-react";
+import { useEffect, useState } from "react";
+import { supabase } from "@/lib/supabase";
+import { SniperLoading } from "@/app/components/Shared";
 
 export function ViewHome() {
+  const [user, setUser] = useState<any>(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchUser = async () => {
+      const { data, error } = await supabase.auth.getUser();
+      if (error) {
+        console.error("Error fetching user:", error.message);
+      } else {
+        setUser(data.user);
+      }
+      setLoading(false);
+    };
+
+    fetchUser();
+  }, []);
+
+  if (loading) {
+    return <SniperLoading />
+  }
+  console.log("USER: ",user);
+  
   return (
     <div className="relative items-center mx-auto md:px-12 py-5 md:py-20 w-full md:max-w-6xl px-5">
       <div>

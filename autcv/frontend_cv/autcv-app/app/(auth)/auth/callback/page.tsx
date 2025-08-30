@@ -1,3 +1,4 @@
+//app\(auth)\auth\callback\page.tsx
 "use client";
 
 import { useEffect } from "react";
@@ -9,10 +10,10 @@ export default function AuthCallbackPage() {
 
   useEffect(() => {
     const handleAuthCallback = async () => {
-      const { error } = await supabase.auth.getSession();
-      if (error) {
-        console.error("Error getting session:", error.message);
-        router.push("/login?error=auth");
+      const { data, error } = await supabase.auth.getSession();
+      if (error || !data.session) {
+        console.error("Error getting session:", error?.message);
+        router.push("/login?error=session");
       } else {
         router.push("/"); // o redirige a dashboard
       }
