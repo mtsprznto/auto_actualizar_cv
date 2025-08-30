@@ -36,7 +36,7 @@ export function LoginForm({
     await supabase.auth.signInWithOAuth({
       provider: "google",
       options: {
-        redirectTo: `${location.origin}/auth/callback`, // Asegúrate de configurar esta URL en Supabase
+        redirectTo: `${process.env.NEXT_PUBLIC_SITE_URL}/auth/callback`, // Asegúrate de configurar esta URL en Supabase
       },
     });
   };
