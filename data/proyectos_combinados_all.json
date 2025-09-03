@@ -1,8 +1,42 @@
 [
   {
+    "titulo": "ACADEM-PROD (TypeScript)",
+    "descripcion": "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
+    "fecha": "2025-09-02",
+    "url": "https://github.com/mtsprznto/academ-prod",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 363645,
+      "CSS": 5580,
+      "JavaScript": 540
+    },
+    "topics": [
+      "fulls",
+      "fullstack",
+      "nextjs"
+    ],
+    "sitio_web": "https://td.mtsprz.org/",
+    "repositorio": "academ-prod"
+  },
+  {
+    "titulo": "GESTPASS (TypeScript)",
+    "descripcion": "Desarrollé una aplicación de gestión de contraseñas siguiendo las mejores prácticas de seguridad y desarrollo, implementando el patrón MVC para una estructura modular y eficiente. ",
+    "fecha": "2025-09-02",
+    "url": "https://github.com/mtsprznto/gestpass",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 199707,
+      "JavaScript": 47346,
+      "CSS": 5695
+    },
+    "topics": [],
+    "sitio_web": "https://gestpass.vercel.app",
+    "repositorio": "gestpass"
+  },
+  {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-09-01",
+    "fecha": "2025-09-02",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
@@ -69,25 +103,6 @@
     "repositorio": "api_academ"
   },
   {
-    "titulo": "ACADEM-PROD (TypeScript)",
-    "descripcion": "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
-    "fecha": "2025-08-19",
-    "url": "https://github.com/mtsprznto/academ-prod",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 363645,
-      "CSS": 5580,
-      "JavaScript": 540
-    },
-    "topics": [
-      "fulls",
-      "fullstack",
-      "nextjs"
-    ],
-    "sitio_web": "https://td.mtsprz.org/",
-    "repositorio": "academ-prod"
-  },
-  {
     "titulo": "VISIONARTIFICAL (Python)",
     "descripcion": "Un conjunto de herramientas y módulos para procesamiento de imágenes y visión artificial utilizando tecnologías como YOLO, OpenCV y Roboflow.",
     "fecha": "2025-08-13",
@@ -136,21 +151,6 @@
     ],
     "sitio_web": "https://coffdream.vercel.app",
     "repositorio": "CoffeDream"
-  },
-  {
-    "titulo": "GESTPASS (TypeScript)",
-    "descripcion": "Desarrollé una aplicación de gestión de contraseñas siguiendo las mejores prácticas de seguridad y desarrollo, implementando el patrón MVC para una estructura modular y eficiente. ",
-    "fecha": "2025-07-03",
-    "url": "https://github.com/mtsprznto/gestpass",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 199707,
-      "JavaScript": 47346,
-      "CSS": 5695
-    },
-    "topics": [],
-    "sitio_web": "https://gestpass.vercel.app",
-    "repositorio": "gestpass"
   },
   {
     "titulo": "SCANNDATA- (Python)",
