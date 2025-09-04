@@ -2,13 +2,46 @@ export const PROJECTS = [
   {
     title: "Auto Actualizar Cv",
     image: null,
-    date: "2025-08-29",
-    lenguajes_utilizados: {'Python': 59.52, 'TypeScript': 24.97, 'JavaScript': 7.88, 'CSS': 3.95, 'Batchfile': 3.68},
+    date: "2025-09-04",
+    lenguajes_utilizados: {'TypeScript': 49.65, 'Python': 39.57, 'JavaScript': 5.1, 'CSS': 3.24, 'Batchfile': 2.45},
     topics: ["automatizaciones", "fastapi", "full-stack", "python"],
     description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    technologies: ["Python", "TypeScript", "JavaScript", "CSS", "Batchfile"],
+    technologies: ["TypeScript", "Python", "JavaScript", "CSS", "Batchfile"],
     url_demo: "https://autcv.mtsprz.org/",
     url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
+  },
+  {
+    title: "Academ Prod",
+    image: null,
+    date: "2025-09-02",
+    lenguajes_utilizados: {'TypeScript': 98.34, 'CSS': 1.51, 'JavaScript': 0.15},
+    topics: ["fulls", "fullstack", "nextjs"],
+    description: "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
+    technologies: ["TypeScript", "CSS", "JavaScript"],
+    url_demo: "https://td.mtsprz.org/",
+    url_codigo: "https://github.com/mtsprznto/academ-prod"
+  },
+  {
+    title: "Gestpass",
+    image: null,
+    date: "2025-09-02",
+    lenguajes_utilizados: {'TypeScript': 79.01, 'JavaScript': 18.73, 'CSS': 2.25},
+    topics: [],
+    description: "Desarrollé una aplicación de gestión de contraseñas siguiendo las mejores prácticas de seguridad y desarrollo, implementando el patrón MVC para una estructura modular y eficiente. ",
+    technologies: ["TypeScript", "JavaScript", "CSS"],
+    url_demo: "https://gestpass.vercel.app",
+    url_codigo: "https://github.com/mtsprznto/gestpass"
+  },
+  {
+    title: "Automatizaciones",
+    image: null,
+    date: "2025-08-29",
+    lenguajes_utilizados: {'Python': 98.17, 'Batchfile': 1.83},
+    topics: ["automation", "python", "scraping"],
+    description: "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
+    technologies: ["Python", "Batchfile"],
+    url_demo: "",
+    url_codigo: "https://github.com/mtsprznto/Automatizaciones"
   },
   {
     title: "Docker Qemu Alpine",
@@ -22,17 +55,6 @@ export const PROJECTS = [
     url_codigo: "https://github.com/mtsprznto/docker-qemu-alpine"
   },
   {
-    title: "Automatizaciones",
-    image: null,
-    date: "2025-08-23",
-    lenguajes_utilizados: {'Python': 98.17, 'Batchfile': 1.83},
-    topics: ["automation", "python", "scraping"],
-    description: "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
-    technologies: ["Python", "Batchfile"],
-    url_demo: "",
-    url_codigo: "https://github.com/mtsprznto/Automatizaciones"
-  },
-  {
     title: "Api Academ",
     image: null,
     date: "2025-08-22",
@@ -42,17 +64,6 @@ export const PROJECTS = [
     technologies: ["Python"],
     url_demo: "https://td.mtsprz.org/",
     url_codigo: "https://github.com/mtsprznto/api_academ"
-  },
-  {
-    title: "Academ Prod",
-    image: null,
-    date: "2025-08-19",
-    lenguajes_utilizados: {'TypeScript': 98.34, 'CSS': 1.51, 'JavaScript': 0.15},
-    topics: ["fulls", "fullstack", "nextjs"],
-    description: "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
-    technologies: ["TypeScript", "CSS", "JavaScript"],
-    url_demo: "https://td.mtsprz.org/",
-    url_codigo: "https://github.com/mtsprznto/academ-prod"
   },
   {
     title: "Visionartifical",
@@ -75,16 +86,5 @@ export const PROJECTS = [
     technologies: ["JavaScript", "TypeScript", "CSS", "HTML"],
     url_demo: "https://portafolio.mtsprz.org/",
     url_codigo: "https://github.com/mtsprznto/portafolio-minimalist"
-  },
-  {
-    title: "Coffedream",
-    image: null,
-    date: "2025-07-07",
-    lenguajes_utilizados: {'TypeScript': 95.0, 'CSS': 4.45, 'JavaScript': 0.55},
-    topics: ["nextjs"],
-    description: "CoffeDream es una moderna plataforma de comercio electrónico especializada en la venta de café de alta calidad. La aplicación ofrece una experiencia de compra fluida con características como búsqueda de productos, carrito de compras, favoritos y pagos seguros a través de Stripe.",
-    technologies: ["TypeScript", "CSS", "JavaScript"],
-    url_demo: "https://coffdream.vercel.app",
-    url_codigo: "https://github.com/mtsprznto/CoffeDream"
   },
 ];
