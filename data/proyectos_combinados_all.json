@@ -1,5 +1,27 @@
 [
   {
+    "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
+    "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    "fecha": "2025-09-03",
+    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 89361,
+      "Python": 71227,
+      "JavaScript": 9179,
+      "CSS": 5827,
+      "Batchfile": 4402
+    },
+    "topics": [
+      "automatizaciones",
+      "fastapi",
+      "full-stack",
+      "python"
+    ],
+    "sitio_web": "https://autcv.mtsprz.org/",
+    "repositorio": "auto_actualizar_cv"
+  },
+  {
     "titulo": "ACADEM-PROD (TypeScript)",
     "descripcion": "Academ. plataforma es un entorno amigable para compartir conocimiento y aprender de manera organizada. Los usuarios pueden registrarse y acceder a diversas funcionalidades dependiendo de su rol dentro del sistema",
     "fecha": "2025-09-02",
@@ -32,28 +54,6 @@
     "topics": [],
     "sitio_web": "https://gestpass.vercel.app",
     "repositorio": "gestpass"
-  },
-  {
-    "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
-    "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-09-02",
-    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 89361,
-      "Python": 71227,
-      "JavaScript": 9179,
-      "CSS": 5827,
-      "Batchfile": 4402
-    },
-    "topics": [
-      "automatizaciones",
-      "fastapi",
-      "full-stack",
-      "python"
-    ],
-    "sitio_web": "https://autcv.mtsprz.org/",
-    "repositorio": "auto_actualizar_cv"
   },
   {
     "titulo": "AUTOMATIZACIONES (Python)",
