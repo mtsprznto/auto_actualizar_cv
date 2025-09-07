@@ -2,7 +2,7 @@ export const PROJECTS = [
   {
     title: "Auto Actualizar Cv",
     image: null,
-    date: "2025-09-06",
+    date: "2025-09-07",
     lenguajes_utilizados: {'TypeScript': 49.65, 'Python': 39.57, 'JavaScript': 5.1, 'CSS': 3.24, 'Batchfile': 2.45},
     topics: ["automatizaciones", "fastapi", "full-stack", "python"],
     description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
@@ -44,17 +44,6 @@ export const PROJECTS = [
     url_codigo: "https://github.com/mtsprznto/Automatizaciones"
   },
   {
-    title: "Docker Qemu Alpine",
-    image: null,
-    date: "2025-08-29",
-    lenguajes_utilizados: {'Shell': 100.0},
-    topics: [],
-    description: "BASH ® Fundamentals",
-    technologies: ["Shell"],
-    url_demo: "None",
-    url_codigo: "https://github.com/mtsprznto/docker-qemu-alpine"
-  },
-  {
     title: "Api Academ",
     image: null,
     date: "2025-08-22",
@@ -86,5 +75,16 @@ export const PROJECTS = [
     technologies: ["JavaScript", "TypeScript", "CSS", "HTML"],
     url_demo: "https://portafolio.mtsprz.org/",
     url_codigo: "https://github.com/mtsprznto/portafolio-minimalist"
+  },
+  {
+    title: "Coffedream",
+    image: null,
+    date: "2025-07-07",
+    lenguajes_utilizados: {'TypeScript': 95.0, 'CSS': 4.45, 'JavaScript': 0.55},
+    topics: ["nextjs"],
+    description: "CoffeDream es una moderna plataforma de comercio electrónico especializada en la venta de café de alta calidad. La aplicación ofrece una experiencia de compra fluida con características como búsqueda de productos, carrito de compras, favoritos y pagos seguros a través de Stripe.",
+    technologies: ["TypeScript", "CSS", "JavaScript"],
+    url_demo: "https://coffdream.vercel.app",
+    url_codigo: "https://github.com/mtsprznto/CoffeDream"
   },
 ];

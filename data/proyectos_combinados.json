@@ -2,7 +2,7 @@
   {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-09-06",
+    "fecha": "2025-09-07",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
@@ -74,19 +74,6 @@
     "repositorio": "Automatizaciones"
   },
   {
-    "titulo": "DOCKER-QEMU-ALPINE (None)",
-    "descripcion": "BASH ® Fundamentals",
-    "fecha": "2025-08-29",
-    "url": "https://github.com/mtsprznto/docker-qemu-alpine",
-    "lenguaje": null,
-    "lenguajes_completos": {
-      "Shell": 2964
-    },
-    "topics": [],
-    "sitio_web": null,
-    "repositorio": "docker-qemu-alpine"
-  },
-  {
     "titulo": "API_ACADEM (Python)",
     "descripcion": "API desarrollada en FastAPI que permite transcribir y analizar contenido de videos, con integración a Supabase para el almacenamiento de transcripciones y respuestas generadas por IA.",
     "fecha": "2025-08-22",
@@ -134,5 +121,22 @@
     ],
     "sitio_web": "https://portafolio.mtsprz.org/",
     "repositorio": "portafolio-minimalist"
+  },
+  {
+    "titulo": "COFFEDREAM (TypeScript)",
+    "descripcion": "CoffeDream es una moderna plataforma de comercio electrónico especializada en la venta de café de alta calidad. La aplicación ofrece una experiencia de compra fluida con características como búsqueda de productos, carrito de compras, favoritos y pagos seguros a través de Stripe.",
+    "fecha": "2025-07-07",
+    "url": "https://github.com/mtsprznto/CoffeDream",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 89472,
+      "CSS": 4189,
+      "JavaScript": 518
+    },
+    "topics": [
+      "nextjs"
+    ],
+    "sitio_web": "https://coffdream.vercel.app",
+    "repositorio": "CoffeDream"
   }
 ]
