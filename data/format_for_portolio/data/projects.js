@@ -2,7 +2,7 @@ export const PROJECTS = [
   {
     title: "Auto Actualizar Cv",
     image: null,
-    date: "2025-09-07",
+    date: "2025-09-09",
     lenguajes_utilizados: {'TypeScript': 49.65, 'Python': 39.57, 'JavaScript': 5.1, 'CSS': 3.24, 'Batchfile': 2.45},
     topics: ["automatizaciones", "fastapi", "full-stack", "python"],
     description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
