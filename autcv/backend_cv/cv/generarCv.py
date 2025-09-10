@@ -35,7 +35,7 @@ async def generar_cv(proyectos_destacados: list,experiencias_cv:list , nombre_ar
     
     pdf.set_font("Helvetica", size=10)
 
-    pdf.cell(0,6,"Puerto Varas - Chile - linkedin.com/in/matiaspereznauto/ - +569 75475781 - matiaspereznauto@gmail.com", ln=True, align="C")
+    pdf.cell(0,6,"Puerto Varas - Chile - linkedin.com/in/matiaspereznauto/ - contacto@mtsprz.org", ln=True, align="C")
 
     pdf.line(pdf.l_margin, pdf.get_y(), pdf.w - pdf.r_margin, pdf.get_y())
     
