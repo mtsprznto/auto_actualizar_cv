@@ -1,5 +1,25 @@
 [
   {
+    "titulo": "PORTAFOLIO-MINIMALIST (JavaScript)",
+    "descripcion": "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
+    "fecha": "2025-09-10",
+    "url": "https://github.com/mtsprznto/portafolio-minimalist",
+    "lenguaje": "JavaScript",
+    "lenguajes_completos": {
+      "JavaScript": 24910,
+      "TypeScript": 1419,
+      "CSS": 536,
+      "HTML": 363
+    },
+    "topics": [
+      "react",
+      "react-vite",
+      "vite"
+    ],
+    "sitio_web": "https://portafolio.mtsprz.org/",
+    "repositorio": "portafolio-minimalist"
+  },
+  {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
     "fecha": "2025-09-10",
@@ -7,8 +27,8 @@
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
       "TypeScript": 89361,
-      "Python": 71227,
-      "JavaScript": 9179,
+      "Python": 71204,
+      "JavaScript": 9412,
       "CSS": 5827,
       "Batchfile": 4402
     },
@@ -101,26 +121,6 @@
     "topics": [],
     "sitio_web": "",
     "repositorio": "VisionArtifical"
-  },
-  {
-    "titulo": "PORTAFOLIO-MINIMALIST (JavaScript)",
-    "descripcion": "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
-    "fecha": "2025-08-08",
-    "url": "https://github.com/mtsprznto/portafolio-minimalist",
-    "lenguaje": "JavaScript",
-    "lenguajes_completos": {
-      "JavaScript": 24827,
-      "TypeScript": 1419,
-      "CSS": 536,
-      "HTML": 363
-    },
-    "topics": [
-      "react",
-      "react-vite",
-      "vite"
-    ],
-    "sitio_web": "https://portafolio.mtsprz.org/",
-    "repositorio": "portafolio-minimalist"
   },
   {
     "titulo": "COFFEDREAM (TypeScript)",
