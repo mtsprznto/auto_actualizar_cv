@@ -2,13 +2,24 @@ export const PROJECTS = [
   {
     title: "Auto Actualizar Cv",
     image: null,
-    date: "2025-09-10",
-    lenguajes_utilizados: {'TypeScript': 49.65, 'Python': 39.57, 'JavaScript': 5.1, 'CSS': 3.24, 'Batchfile': 2.45},
+    date: "2025-09-11",
+    lenguajes_utilizados: {'TypeScript': 49.59, 'Python': 39.51, 'JavaScript': 5.22, 'CSS': 3.23, 'Batchfile': 2.44},
     topics: ["automatizaciones", "fastapi", "full-stack", "python"],
     description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
     technologies: ["TypeScript", "Python", "JavaScript", "CSS", "Batchfile"],
     url_demo: "https://autcv.mtsprz.org/",
     url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
+  },
+  {
+    title: "Portafolio Minimalist",
+    image: null,
+    date: "2025-09-10",
+    lenguajes_utilizados: {'JavaScript': 91.49, 'TypeScript': 5.21, 'CSS': 1.97, 'HTML': 1.33},
+    topics: ["react", "react-vite", "vite"],
+    description: "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
+    technologies: ["JavaScript", "TypeScript", "CSS", "HTML"],
+    url_demo: "https://portafolio.mtsprz.org/",
+    url_codigo: "https://github.com/mtsprznto/portafolio-minimalist"
   },
   {
     title: "Academ Prod",
@@ -64,17 +75,6 @@ export const PROJECTS = [
     technologies: ["Python"],
     url_demo: "",
     url_codigo: "https://github.com/mtsprznto/VisionArtifical"
-  },
-  {
-    title: "Portafolio Minimalist",
-    image: null,
-    date: "2025-08-08",
-    lenguajes_utilizados: {'JavaScript': 91.46, 'TypeScript': 5.23, 'CSS': 1.97, 'HTML': 1.34},
-    topics: ["react", "react-vite", "vite"],
-    description: "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
-    technologies: ["JavaScript", "TypeScript", "CSS", "HTML"],
-    url_demo: "https://portafolio.mtsprz.org/",
-    url_codigo: "https://github.com/mtsprznto/portafolio-minimalist"
   },
   {
     title: "Coffedream",
