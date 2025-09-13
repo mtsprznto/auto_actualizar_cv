@@ -1,23 +1,8 @@
 [
   {
-    "titulo": "CABANASPV (TypeScript)",
-    "descripcion": "Este proyecto es una aplicación web desarrollada con Next.js (versión 13.5.6), React (versión 18), y Tailwind CSS para el diseño de estilos. Está orientado a la promoción y arriendo de propiedades, en la región de Puerto Varas, Chile",
-    "fecha": "2025-09-11",
-    "url": "https://github.com/mtsprznto/cabanaspv",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 36851,
-      "CSS": 279,
-      "JavaScript": 174
-    },
-    "topics": [],
-    "sitio_web": "https://dept.mtsprz.org/",
-    "repositorio": "cabanaspv"
-  },
-  {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-09-11",
+    "fecha": "2025-09-12",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
@@ -35,6 +20,21 @@
     ],
     "sitio_web": "https://autcv.mtsprz.org/",
     "repositorio": "auto_actualizar_cv"
+  },
+  {
+    "titulo": "CABANASPV (TypeScript)",
+    "descripcion": "Este proyecto es una aplicación web desarrollada con Next.js (versión 13.5.6), React (versión 18), y Tailwind CSS para el diseño de estilos. Está orientado a la promoción y arriendo de propiedades, en la región de Puerto Varas, Chile",
+    "fecha": "2025-09-11",
+    "url": "https://github.com/mtsprznto/cabanaspv",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 36851,
+      "CSS": 279,
+      "JavaScript": 174
+    },
+    "topics": [],
+    "sitio_web": "https://dept.mtsprz.org/",
+    "repositorio": "cabanaspv"
   },
   {
     "titulo": "PORTAFOLIO-MINIMALIST (JavaScript)",
