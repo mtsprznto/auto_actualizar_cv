@@ -2,7 +2,7 @@
   {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-09-11",
+    "fecha": "2025-09-14",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
@@ -20,6 +20,21 @@
     ],
     "sitio_web": "https://autcv.mtsprz.org/",
     "repositorio": "auto_actualizar_cv"
+  },
+  {
+    "titulo": "CABANASPV (TypeScript)",
+    "descripcion": "Este proyecto es una aplicación web desarrollada con Next.js (versión 13.5.6), React (versión 18), y Tailwind CSS para el diseño de estilos. Está orientado a la promoción y arriendo de propiedades, en la región de Puerto Varas, Chile",
+    "fecha": "2025-09-11",
+    "url": "https://github.com/mtsprznto/cabanaspv",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 36851,
+      "CSS": 279,
+      "JavaScript": 174
+    },
+    "topics": [],
+    "sitio_web": "https://dept.mtsprz.org/",
+    "repositorio": "cabanaspv"
   },
   {
     "titulo": "PORTAFOLIO-MINIMALIST (JavaScript)",
@@ -121,22 +136,5 @@
     "topics": [],
     "sitio_web": "",
     "repositorio": "VisionArtifical"
-  },
-  {
-    "titulo": "COFFEDREAM (TypeScript)",
-    "descripcion": "CoffeDream es una moderna plataforma de comercio electrónico especializada en la venta de café de alta calidad. La aplicación ofrece una experiencia de compra fluida con características como búsqueda de productos, carrito de compras, favoritos y pagos seguros a través de Stripe.",
-    "fecha": "2025-07-07",
-    "url": "https://github.com/mtsprznto/CoffeDream",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 89472,
-      "CSS": 4189,
-      "JavaScript": 518
-    },
-    "topics": [
-      "nextjs"
-    ],
-    "sitio_web": "https://coffdream.vercel.app",
-    "repositorio": "CoffeDream"
   }
 ]

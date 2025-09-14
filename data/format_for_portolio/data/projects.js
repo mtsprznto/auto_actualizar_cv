@@ -2,13 +2,24 @@ export const PROJECTS = [
   {
     title: "Auto Actualizar Cv",
     image: null,
-    date: "2025-09-11",
+    date: "2025-09-14",
     lenguajes_utilizados: {'TypeScript': 49.59, 'Python': 39.51, 'JavaScript': 5.22, 'CSS': 3.23, 'Batchfile': 2.44},
     topics: ["automatizaciones", "fastapi", "full-stack", "python"],
     description: "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
     technologies: ["TypeScript", "Python", "JavaScript", "CSS", "Batchfile"],
     url_demo: "https://autcv.mtsprz.org/",
     url_codigo: "https://github.com/mtsprznto/auto_actualizar_cv"
+  },
+  {
+    title: "Cabanaspv",
+    image: null,
+    date: "2025-09-11",
+    lenguajes_utilizados: {'TypeScript': 98.79, 'CSS': 0.75, 'JavaScript': 0.47},
+    topics: [],
+    description: "Este proyecto es una aplicación web desarrollada con Next.js (versión 13.5.6), React (versión 18), y Tailwind CSS para el diseño de estilos. Está orientado a la promoción y arriendo de propiedades, en la región de Puerto Varas, Chile",
+    technologies: ["TypeScript", "CSS", "JavaScript"],
+    url_demo: "https://dept.mtsprz.org/",
+    url_codigo: "https://github.com/mtsprznto/cabanaspv"
   },
   {
     title: "Portafolio Minimalist",
@@ -75,16 +86,5 @@ export const PROJECTS = [
     technologies: ["Python"],
     url_demo: "",
     url_codigo: "https://github.com/mtsprznto/VisionArtifical"
-  },
-  {
-    title: "Coffedream",
-    image: null,
-    date: "2025-07-07",
-    lenguajes_utilizados: {'TypeScript': 95.0, 'CSS': 4.45, 'JavaScript': 0.55},
-    topics: ["nextjs"],
-    description: "CoffeDream es una moderna plataforma de comercio electrónico especializada en la venta de café de alta calidad. La aplicación ofrece una experiencia de compra fluida con características como búsqueda de productos, carrito de compras, favoritos y pagos seguros a través de Stripe.",
-    technologies: ["TypeScript", "CSS", "JavaScript"],
-    url_demo: "https://coffdream.vercel.app",
-    url_codigo: "https://github.com/mtsprznto/CoffeDream"
   },
 ];
