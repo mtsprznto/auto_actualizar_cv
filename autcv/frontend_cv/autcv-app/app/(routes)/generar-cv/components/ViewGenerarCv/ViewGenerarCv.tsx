@@ -60,6 +60,7 @@ export function ViewGenerarCv({
             <div className="h-full">
               {cvUrl ? (
                 <object
+                  key={cvUrl}
                   data={cvUrl}
                   type="application/pdf"
                   width="100%"

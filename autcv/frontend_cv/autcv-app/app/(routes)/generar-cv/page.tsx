@@ -54,7 +54,7 @@ export default function GenerarCv() {
         body: JSON.stringify({ propuesta }),
       });
       const data = await res.json();
-      setCvUrl(data.cv_url);
+      setCvUrl(`${data.cv_url}?t=${Date.now()}`);
     } catch (err) {
       console.error("❌ Error al generar el CV:", err);
     } finally {
