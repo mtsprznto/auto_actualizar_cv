@@ -1,8 +1,26 @@
 [
   {
+    "titulo": "AUTOMATIZACIONES (Python)",
+    "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
+    "fecha": "2025-10-24",
+    "url": "https://github.com/mtsprznto/Automatizaciones",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 54470,
+      "Batchfile": 1014
+    },
+    "topics": [
+      "automation",
+      "python",
+      "scraping"
+    ],
+    "sitio_web": "",
+    "repositorio": "Automatizaciones"
+  },
+  {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-10-23",
+    "fecha": "2025-10-24",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
@@ -20,24 +38,6 @@
     ],
     "sitio_web": "https://autcv.mtsprz.org/",
     "repositorio": "auto_actualizar_cv"
-  },
-  {
-    "titulo": "AUTOMATIZACIONES (Python)",
-    "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
-    "fecha": "2025-10-03",
-    "url": "https://github.com/mtsprznto/Automatizaciones",
-    "lenguaje": "Python",
-    "lenguajes_completos": {
-      "Python": 54470,
-      "Batchfile": 1014
-    },
-    "topics": [
-      "automation",
-      "python",
-      "scraping"
-    ],
-    "sitio_web": "",
-    "repositorio": "Automatizaciones"
   },
   {
     "titulo": "CABANASPV (TypeScript)",
