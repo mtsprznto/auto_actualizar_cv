@@ -1,8 +1,23 @@
 [
   {
+    "titulo": "GESTPASS (TypeScript)",
+    "descripcion": "Desarrollé una aplicación de gestión de contraseñas siguiendo las mejores prácticas de seguridad y desarrollo, implementando el patrón MVC para una estructura modular y eficiente. ",
+    "fecha": "2025-10-27",
+    "url": "https://github.com/mtsprznto/gestpass",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 199707,
+      "JavaScript": 47346,
+      "CSS": 5695
+    },
+    "topics": [],
+    "sitio_web": "https://gestpass.mtsprz.org",
+    "repositorio": "gestpass"
+  },
+  {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-10-26",
+    "fecha": "2025-10-27",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
@@ -92,21 +107,6 @@
     ],
     "sitio_web": "https://td.mtsprz.org/",
     "repositorio": "academ-prod"
-  },
-  {
-    "titulo": "GESTPASS (TypeScript)",
-    "descripcion": "Desarrollé una aplicación de gestión de contraseñas siguiendo las mejores prácticas de seguridad y desarrollo, implementando el patrón MVC para una estructura modular y eficiente. ",
-    "fecha": "2025-09-02",
-    "url": "https://github.com/mtsprznto/gestpass",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 199707,
-      "JavaScript": 47346,
-      "CSS": 5695
-    },
-    "topics": [],
-    "sitio_web": "https://gestpass.vercel.app",
-    "repositorio": "gestpass"
   },
   {
     "titulo": "API_ACADEM (Python)",
