@@ -1,8 +1,41 @@
 [
   {
+    "titulo": "AUTOMATIZACIONES (Python)",
+    "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
+    "fecha": "2025-11-07",
+    "url": "https://github.com/mtsprznto/Automatizaciones",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 54428,
+      "Batchfile": 1014
+    },
+    "topics": [
+      "automation",
+      "python",
+      "scraping"
+    ],
+    "sitio_web": "",
+    "repositorio": "Automatizaciones"
+  },
+  {
+    "titulo": "GESTPASS (TypeScript)",
+    "descripcion": "Desarrollé una aplicación de gestión de contraseñas, implementando el patrón MVC para una estructura modular y eficiente. ",
+    "fecha": "2025-11-07",
+    "url": "https://github.com/mtsprznto/gestpass",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 199707,
+      "JavaScript": 47346,
+      "CSS": 5695
+    },
+    "topics": [],
+    "sitio_web": "https://gestpass.mtsprz.org",
+    "repositorio": "gestpass"
+  },
+  {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-11-06",
+    "fecha": "2025-11-07",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
@@ -20,39 +53,6 @@
     ],
     "sitio_web": "https://autcv.mtsprz.org/",
     "repositorio": "auto_actualizar_cv"
-  },
-  {
-    "titulo": "AUTOMATIZACIONES (Python)",
-    "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
-    "fecha": "2025-10-31",
-    "url": "https://github.com/mtsprznto/Automatizaciones",
-    "lenguaje": "Python",
-    "lenguajes_completos": {
-      "Python": 54428,
-      "Batchfile": 1014
-    },
-    "topics": [
-      "automation",
-      "python",
-      "scraping"
-    ],
-    "sitio_web": "",
-    "repositorio": "Automatizaciones"
-  },
-  {
-    "titulo": "GESTPASS (TypeScript)",
-    "descripcion": "Desarrollé una aplicación de gestión de contraseñas siguiendo las mejores prácticas de seguridad y desarrollo, implementando el patrón MVC para una estructura modular y eficiente. ",
-    "fecha": "2025-10-27",
-    "url": "https://github.com/mtsprznto/gestpass",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 199707,
-      "JavaScript": 47346,
-      "CSS": 5695
-    },
-    "topics": [],
-    "sitio_web": "https://gestpass.mtsprz.org",
-    "repositorio": "gestpass"
   },
   {
     "titulo": "CABANASPV (TypeScript)",
