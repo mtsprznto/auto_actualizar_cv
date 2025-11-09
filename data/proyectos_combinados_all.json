@@ -1,5 +1,27 @@
 [
   {
+    "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
+    "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    "fecha": "2025-11-08",
+    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 89412,
+      "Python": 75736,
+      "JavaScript": 9355,
+      "CSS": 5827,
+      "Batchfile": 4402
+    },
+    "topics": [
+      "automatizaciones",
+      "fastapi",
+      "full-stack",
+      "python"
+    ],
+    "sitio_web": "https://autcv.mtsprz.org/",
+    "repositorio": "auto_actualizar_cv"
+  },
+  {
     "titulo": "AUTOMATIZACIONES (Python)",
     "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
     "fecha": "2025-11-07",
@@ -31,28 +53,6 @@
     "topics": [],
     "sitio_web": "https://gestpass.mtsprz.org",
     "repositorio": "gestpass"
-  },
-  {
-    "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
-    "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-11-07",
-    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 89412,
-      "Python": 75736,
-      "JavaScript": 9355,
-      "CSS": 5827,
-      "Batchfile": 4402
-    },
-    "topics": [
-      "automatizaciones",
-      "fastapi",
-      "full-stack",
-      "python"
-    ],
-    "sitio_web": "https://autcv.mtsprz.org/",
-    "repositorio": "auto_actualizar_cv"
   },
   {
     "titulo": "CABANASPV (TypeScript)",
