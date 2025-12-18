@@ -1,8 +1,28 @@
 [
   {
+    "titulo": "LLLITMTS (Astro)",
+    "descripcion": "Sitio web oficial de LLLIT. Especializados en video mapping, proyecciones arquitectónicas y experiencias visuales inmersivas.",
+    "fecha": "2025-12-17",
+    "url": "https://github.com/mtsprznto/lllitmts",
+    "lenguaje": "Astro",
+    "lenguajes_completos": {
+      "Astro": 23296,
+      "JavaScript": 1362,
+      "TypeScript": 1288,
+      "CSS": 22
+    },
+    "topics": [
+      "astro",
+      "fronted",
+      "web"
+    ],
+    "sitio_web": "https://lllit.mtsprz.org",
+    "repositorio": "lllitmts"
+  },
+  {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-12-16",
+    "fecha": "2025-12-17",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
