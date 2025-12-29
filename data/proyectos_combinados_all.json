@@ -1,8 +1,26 @@
 [
   {
+    "titulo": "AUTCV (TypeScript)",
+    "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    "fecha": "2025-12-28",
+    "url": "https://github.com/mtsprznto/autcv",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 89413,
+      "Python": 38625,
+      "CSS": 5827,
+      "JavaScript": 4874
+    },
+    "topics": [
+      "fullstack"
+    ],
+    "sitio_web": "https://autcv.mtsprz.org/",
+    "repositorio": "autcv"
+  },
+  {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-12-27",
+    "fecha": "2025-12-28",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
@@ -20,24 +38,6 @@
     ],
     "sitio_web": "https://autcv.mtsprz.org/",
     "repositorio": "auto_actualizar_cv"
-  },
-  {
-    "titulo": "AUTCV (TypeScript)",
-    "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-12-23",
-    "url": "https://github.com/mtsprznto/autcv",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 89412,
-      "Python": 37595,
-      "CSS": 5827,
-      "JavaScript": 4874
-    },
-    "topics": [
-      "fullstack"
-    ],
-    "sitio_web": "https://autcv.mtsprz.org/",
-    "repositorio": "autcv"
   },
   {
     "titulo": "AUTOMATIZACIONES (Python)",
