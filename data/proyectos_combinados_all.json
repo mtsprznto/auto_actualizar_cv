@@ -2,7 +2,7 @@
   {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2026-01-05",
+    "fecha": "2026-01-06",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
