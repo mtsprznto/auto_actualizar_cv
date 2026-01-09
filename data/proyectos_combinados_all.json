@@ -1,8 +1,26 @@
 [
   {
+    "titulo": "VIBRATION-ANALYSIS-PORTAFOLIO (Python)",
+    "descripcion": "Este portafolio demuestra un flujo completo de diagnóstico de fallas en rodamientos utilizando tanto Machine Learning clásico como Deep Learning moderno. El proyecto integra MATLAB y Python en un pipeline reproducible que va desde el preprocesamiento de señales hasta la inferencia masiva y análisis visual de resultados.",
+    "fecha": "2026-01-09",
+    "url": "https://github.com/mtsprznto/Vibration-Analysis-Portafolio",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 18041,
+      "MATLAB": 2875
+    },
+    "topics": [
+      "machine",
+      "matlab",
+      "python"
+    ],
+    "sitio_web": "",
+    "repositorio": "Vibration-Analysis-Portafolio"
+  },
+  {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2026-01-07",
+    "fecha": "2026-01-08",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
