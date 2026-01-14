@@ -1,8 +1,43 @@
 [
   {
+    "titulo": "AUTCV (TypeScript)",
+    "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    "fecha": "2026-01-13",
+    "url": "https://github.com/mtsprznto/autcv",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 89413,
+      "Python": 44091,
+      "CSS": 5827,
+      "JavaScript": 4874
+    },
+    "topics": [
+      "fullstack"
+    ],
+    "sitio_web": "https://autcv.mtsprz.org/",
+    "repositorio": "autcv"
+  },
+  {
+    "titulo": "PARTICLES-PORTAFOLIO (TypeScript)",
+    "descripcion": "Esta aplicación demo combina el poder de Next.js, React y Spline para ofrecer una experiencia visual y dinámica que redefine la forma en que interactuamos con interfaces gráficas en la web",
+    "fecha": "2026-01-13",
+    "url": "https://github.com/mtsprznto/particles-portafolio",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 29098,
+      "CSS": 1353,
+      "JavaScript": 474
+    },
+    "topics": [
+      "nextjs"
+    ],
+    "sitio_web": "https://lllitparticles.netlify.app/",
+    "repositorio": "particles-portafolio"
+  },
+  {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2026-01-12",
+    "fecha": "2026-01-13",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
@@ -56,24 +91,6 @@
     ],
     "sitio_web": "",
     "repositorio": "Automatizaciones"
-  },
-  {
-    "titulo": "AUTCV (TypeScript)",
-    "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2025-12-30",
-    "url": "https://github.com/mtsprznto/autcv",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 89413,
-      "Python": 42281,
-      "CSS": 5827,
-      "JavaScript": 4874
-    },
-    "topics": [
-      "fullstack"
-    ],
-    "sitio_web": "https://autcv.mtsprz.org/",
-    "repositorio": "autcv"
   },
   {
     "titulo": "LLLITMTS (Astro)",
@@ -331,23 +348,6 @@
     ],
     "sitio_web": "https://codeslllit.streamlit.app/",
     "repositorio": "codeslllit"
-  },
-  {
-    "titulo": "PARTICLES-PORTAFOLIO (TypeScript)",
-    "descripcion": "Esta aplicación demo combina el poder de Next.js, React y Spline para ofrecer una experiencia visual y dinámica que redefine la forma en que interactuamos con interfaces gráficas en la web",
-    "fecha": "2025-05-22",
-    "url": "https://github.com/mtsprznto/particles-portafolio",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 29098,
-      "CSS": 1353,
-      "JavaScript": 474
-    },
-    "topics": [
-      "nextjs"
-    ],
-    "sitio_web": "https://lllitparticles.netlify.app/",
-    "repositorio": "particles-portafolio"
   },
   {
     "titulo": "LANDING-REACT (JavaScript)",
