@@ -1,5 +1,47 @@
 [
   {
+    "titulo": "GEOPHYSICAL-IMAGING-FRAMEWORK (Python)",
+    "descripcion": "Framework de alto rendimiento para el procesamiento de señales magnetotelúricas y electromagnéticas. El sistema combina la flexibilidad de Python con la potencia de cómputo de C++ mediante paralelismo con OpenMP.",
+    "fecha": "2026-01-15",
+    "url": "https://github.com/mtsprznto/geophysical-imaging-framework",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 41732,
+      "C++": 5395,
+      "Jupyter Notebook": 264
+    },
+    "topics": [
+      "analytics",
+      "data",
+      "data-analysis",
+      "geophysical"
+    ],
+    "sitio_web": "",
+    "repositorio": "geophysical-imaging-framework"
+  },
+  {
+    "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
+    "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    "fecha": "2026-01-14",
+    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 89412,
+      "Python": 75736,
+      "JavaScript": 9355,
+      "CSS": 5827,
+      "Batchfile": 4402
+    },
+    "topics": [
+      "automatizaciones",
+      "fastapi",
+      "full-stack",
+      "python"
+    ],
+    "sitio_web": "https://autcv.mtsprz.org/",
+    "repositorio": "auto_actualizar_cv"
+  },
+  {
     "titulo": "AUTCV (TypeScript)",
     "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
     "fecha": "2026-01-13",
@@ -33,28 +75,6 @@
     ],
     "sitio_web": "https://lllitparticles.netlify.app/",
     "repositorio": "particles-portafolio"
-  },
-  {
-    "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
-    "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2026-01-13",
-    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 89412,
-      "Python": 75736,
-      "JavaScript": 9355,
-      "CSS": 5827,
-      "Batchfile": 4402
-    },
-    "topics": [
-      "automatizaciones",
-      "fastapi",
-      "full-stack",
-      "python"
-    ],
-    "sitio_web": "https://autcv.mtsprz.org/",
-    "repositorio": "auto_actualizar_cv"
   },
   {
     "titulo": "VIBRATION-ANALYSIS-PORTAFOLIO (Python)",
