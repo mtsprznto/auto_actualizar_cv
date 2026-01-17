@@ -1,5 +1,45 @@
 [
   {
+    "titulo": "AUTCV (TypeScript)",
+    "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    "fecha": "2026-01-16",
+    "url": "https://github.com/mtsprznto/autcv",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 89413,
+      "Python": 44091,
+      "CSS": 5827,
+      "JavaScript": 4874
+    },
+    "topics": [
+      "fullstack"
+    ],
+    "sitio_web": "https://autcv.mtsprz.org/",
+    "repositorio": "autcv"
+  },
+  {
+    "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
+    "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    "fecha": "2026-01-16",
+    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 89412,
+      "Python": 75736,
+      "JavaScript": 9355,
+      "CSS": 5827,
+      "Batchfile": 4402
+    },
+    "topics": [
+      "automatizaciones",
+      "fastapi",
+      "full-stack",
+      "python"
+    ],
+    "sitio_web": "https://autcv.mtsprz.org/",
+    "repositorio": "auto_actualizar_cv"
+  },
+  {
     "titulo": "LLANQUIHUE_ANALYSIS (Python)",
     "descripcion": "Sistema avanzado de monitoreo ambiental que utiliza imágenes satelitales Sentinel-2 (BOA) para el seguimiento del Índice de Clorofila (NDCI) en el Lago Llanquihue, Chile. El proyecto combina Big Data geoespacial, un motor de procesamiento optimizado en C++ e Inteligencia Artificial para predecir la salud del ecosistema lacustre.",
     "fecha": "2026-01-15",
@@ -40,46 +80,6 @@
     ],
     "sitio_web": "",
     "repositorio": "geophysical-imaging-framework"
-  },
-  {
-    "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
-    "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2026-01-15",
-    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 89412,
-      "Python": 75736,
-      "JavaScript": 9355,
-      "CSS": 5827,
-      "Batchfile": 4402
-    },
-    "topics": [
-      "automatizaciones",
-      "fastapi",
-      "full-stack",
-      "python"
-    ],
-    "sitio_web": "https://autcv.mtsprz.org/",
-    "repositorio": "auto_actualizar_cv"
-  },
-  {
-    "titulo": "AUTCV (TypeScript)",
-    "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2026-01-13",
-    "url": "https://github.com/mtsprznto/autcv",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 89413,
-      "Python": 44091,
-      "CSS": 5827,
-      "JavaScript": 4874
-    },
-    "topics": [
-      "fullstack"
-    ],
-    "sitio_web": "https://autcv.mtsprz.org/",
-    "repositorio": "autcv"
   },
   {
     "titulo": "PARTICLES-PORTAFOLIO (TypeScript)",
