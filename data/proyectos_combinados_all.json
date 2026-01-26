@@ -1,23 +1,49 @@
 [
   {
+    "titulo": "GEOPHYSICAL-IMAGING-FRAMEWORK (Python)",
+    "descripcion": "Framework para el procesamiento de señales magnetotelúricas y electromagnéticas. El sistema combina la flexibilidad de Python con la potencia de cómputo de C++ mediante paralelismo con OpenMP.",
+    "fecha": "2026-01-25",
+    "url": "https://github.com/mtsprznto/geophysical-imaging-framework",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 49613,
+      "C++": 6807,
+      "Jupyter Notebook": 264
+    },
+    "topics": [
+      "analytics",
+      "data",
+      "data-analysis",
+      "geophysical"
+    ],
+    "sitio_web": "",
+    "repositorio": "geophysical-imaging-framework"
+  },
+  {
     "titulo": "PHYTOSTREAM (Go)",
-    "descripcion": "None",
-    "fecha": "2026-01-24",
+    "descripcion": "PhytoStream es una plataforma de ingeniería de datos distribuida diseñada para la observabilidad y respuesta automática en cultivos moleculares. Mediante el uso de un Bio-Digital Twin desarrollado en Go, el sistema correlaciona telemetría ambiental crítica (humedad/temperatura) con modelos de síntesis proteica",
+    "fecha": "2026-01-25",
     "url": "https://github.com/mtsprznto/phytostream",
     "lenguaje": "Go",
     "lenguajes_completos": {
-      "Go": 6757,
+      "Go": 8630,
       "Dockerfile": 1141,
       "HCL": 983
     },
-    "topics": [],
-    "sitio_web": null,
+    "topics": [
+      "go",
+      "grpc",
+      "influxdb",
+      "kafka",
+      "redpanda"
+    ],
+    "sitio_web": "",
     "repositorio": "phytostream"
   },
   {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2026-01-24",
+    "fecha": "2026-01-25",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
@@ -75,26 +101,6 @@
     ],
     "sitio_web": "",
     "repositorio": "llanquihue_analysis"
-  },
-  {
-    "titulo": "GEOPHYSICAL-IMAGING-FRAMEWORK (Python)",
-    "descripcion": "Framework de alto rendimiento para el procesamiento de señales magnetotelúricas y electromagnéticas. El sistema combina la flexibilidad de Python con la potencia de cómputo de C++ mediante paralelismo con OpenMP.",
-    "fecha": "2026-01-15",
-    "url": "https://github.com/mtsprznto/geophysical-imaging-framework",
-    "lenguaje": "Python",
-    "lenguajes_completos": {
-      "Python": 49613,
-      "C++": 6807,
-      "Jupyter Notebook": 264
-    },
-    "topics": [
-      "analytics",
-      "data",
-      "data-analysis",
-      "geophysical"
-    ],
-    "sitio_web": "",
-    "repositorio": "geophysical-imaging-framework"
   },
   {
     "titulo": "PARTICLES-PORTAFOLIO (TypeScript)",
