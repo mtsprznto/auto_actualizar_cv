@@ -1,8 +1,30 @@
 [
   {
+    "titulo": "AURCA (Python)",
+    "descripcion": "Un sistema agéntico capaz de realizar autocrítica y refinamiento de pesos matemáticos mediante un bucle de retroalimentación constante con la API de Binance.",
+    "fecha": "2026-02-01",
+    "url": "https://github.com/mtsprznto/aurca",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 24071,
+      "C++": 3452,
+      "Dockerfile": 1631,
+      "PowerShell": 1370,
+      "CMake": 496,
+      "Batchfile": 116
+    },
+    "topics": [
+      "cpp",
+      "machine-learning",
+      "python"
+    ],
+    "sitio_web": "",
+    "repositorio": "aurca"
+  },
+  {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2026-01-31",
+    "fecha": "2026-02-01",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
@@ -38,27 +60,6 @@
     ],
     "sitio_web": "",
     "repositorio": "Automatizaciones"
-  },
-  {
-    "titulo": "AURCA (Python)",
-    "descripcion": "Un sistema agéntico capaz de realizar autocrítica y refinamiento de pesos matemáticos mediante un bucle de retroalimentación constante con la API de Binance.",
-    "fecha": "2026-01-28",
-    "url": "https://github.com/mtsprznto/aurca",
-    "lenguaje": "Python",
-    "lenguajes_completos": {
-      "Python": 18738,
-      "Dockerfile": 2326,
-      "PowerShell": 1370,
-      "C++": 950,
-      "CMake": 668
-    },
-    "topics": [
-      "cpp",
-      "machine-learning",
-      "python"
-    ],
-    "sitio_web": "",
-    "repositorio": "aurca"
   },
   {
     "titulo": "AUTCV (TypeScript)",
