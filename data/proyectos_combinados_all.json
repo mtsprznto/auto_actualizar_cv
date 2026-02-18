@@ -2,12 +2,12 @@
   {
     "titulo": "AURCA (Python)",
     "descripcion": "Un sistema agéntico capaz de realizar autocrítica y refinamiento de pesos matemáticos mediante un bucle de retroalimentación constante con la API de Binance.",
-    "fecha": "2026-02-17",
+    "fecha": "2026-02-18",
     "url": "https://github.com/mtsprznto/aurca",
     "lenguaje": "Python",
     "lenguajes_completos": {
-      "Python": 41205,
-      "Dockerfile": 3838,
+      "Python": 63389,
+      "Dockerfile": 3873,
       "C++": 3704,
       "Shell": 2495,
       "Batchfile": 1471,
@@ -25,7 +25,7 @@
   {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2026-02-16",
+    "fecha": "2026-02-17",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
