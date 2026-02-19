@@ -2,12 +2,12 @@
   {
     "titulo": "AURCA (Python)",
     "descripcion": "Un sistema agéntico capaz de realizar autocrítica y refinamiento de pesos matemáticos mediante un bucle de retroalimentación constante con la API de Binance.",
-    "fecha": "2026-02-18",
+    "fecha": "2026-02-19",
     "url": "https://github.com/mtsprznto/aurca",
     "lenguaje": "Python",
     "lenguajes_completos": {
-      "Python": 63389,
-      "Dockerfile": 3873,
+      "Python": 63791,
+      "Dockerfile": 3961,
       "C++": 3704,
       "Shell": 2495,
       "Batchfile": 1471,
@@ -23,9 +23,27 @@
     "repositorio": "aurca"
   },
   {
+    "titulo": "AUTOMATIZACIONES (Python)",
+    "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
+    "fecha": "2026-02-18",
+    "url": "https://github.com/mtsprznto/Automatizaciones",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 76633,
+      "Batchfile": 1261
+    },
+    "topics": [
+      "automation",
+      "python",
+      "scraping"
+    ],
+    "sitio_web": "",
+    "repositorio": "Automatizaciones"
+  },
+  {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2026-02-17",
+    "fecha": "2026-02-18",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
@@ -43,24 +61,6 @@
     ],
     "sitio_web": "https://autcv.mtsprz.org/",
     "repositorio": "auto_actualizar_cv"
-  },
-  {
-    "titulo": "AUTOMATIZACIONES (Python)",
-    "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
-    "fecha": "2026-02-04",
-    "url": "https://github.com/mtsprznto/Automatizaciones",
-    "lenguaje": "Python",
-    "lenguajes_completos": {
-      "Python": 63182,
-      "Batchfile": 1261
-    },
-    "topics": [
-      "automation",
-      "python",
-      "scraping"
-    ],
-    "sitio_web": "",
-    "repositorio": "Automatizaciones"
   },
   {
     "titulo": "AUTCV (TypeScript)",
