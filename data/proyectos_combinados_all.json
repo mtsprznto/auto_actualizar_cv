@@ -1,5 +1,27 @@
 [
   {
+    "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
+    "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    "fecha": "2026-02-19",
+    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 89412,
+      "Python": 75736,
+      "JavaScript": 9355,
+      "CSS": 5827,
+      "Batchfile": 4402
+    },
+    "topics": [
+      "automatizaciones",
+      "fastapi",
+      "full-stack",
+      "python"
+    ],
+    "sitio_web": "https://autcv.mtsprz.org/",
+    "repositorio": "auto_actualizar_cv"
+  },
+  {
     "titulo": "AURCA (Python)",
     "descripcion": "Un sistema agéntico capaz de realizar autocrítica y refinamiento de pesos matemáticos mediante un bucle de retroalimentación constante con la API de Binance.",
     "fecha": "2026-02-19",
@@ -39,28 +61,6 @@
     ],
     "sitio_web": "",
     "repositorio": "Automatizaciones"
-  },
-  {
-    "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
-    "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2026-02-18",
-    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 89412,
-      "Python": 75736,
-      "JavaScript": 9355,
-      "CSS": 5827,
-      "Batchfile": 4402
-    },
-    "topics": [
-      "automatizaciones",
-      "fastapi",
-      "full-stack",
-      "python"
-    ],
-    "sitio_web": "https://autcv.mtsprz.org/",
-    "repositorio": "auto_actualizar_cv"
   },
   {
     "titulo": "AUTCV (TypeScript)",
