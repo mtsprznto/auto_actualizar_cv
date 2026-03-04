@@ -1,5 +1,27 @@
 [
   {
+    "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
+    "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    "fecha": "2026-03-03",
+    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 89412,
+      "Python": 75736,
+      "JavaScript": 9355,
+      "CSS": 5827,
+      "Batchfile": 4402
+    },
+    "topics": [
+      "automatizaciones",
+      "fastapi",
+      "full-stack",
+      "python"
+    ],
+    "sitio_web": "https://autcv.mtsprz.org/",
+    "repositorio": "auto_actualizar_cv"
+  },
+  {
     "titulo": "AURA-CONTROL (Python)",
     "descripcion": "Un ecosistema de software diseñado para simular el control de alta precisión de actuadores en telescopios de gran escala (como el ELT) o sistemas de diagnóstico en aceleradores de partículas.",
     "fecha": "2026-03-03",
@@ -20,28 +42,6 @@
     ],
     "sitio_web": "",
     "repositorio": "aura-control"
-  },
-  {
-    "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
-    "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2026-03-02",
-    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 89412,
-      "Python": 75736,
-      "JavaScript": 9355,
-      "CSS": 5827,
-      "Batchfile": 4402
-    },
-    "topics": [
-      "automatizaciones",
-      "fastapi",
-      "full-stack",
-      "python"
-    ],
-    "sitio_web": "https://autcv.mtsprz.org/",
-    "repositorio": "auto_actualizar_cv"
   },
   {
     "titulo": "AUTCV (TypeScript)",
