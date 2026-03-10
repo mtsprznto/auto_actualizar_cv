@@ -1,8 +1,21 @@
 [
   {
+    "titulo": "BUSCAFACIL (Python)",
+    "descripcion": "None",
+    "fecha": "2026-03-09",
+    "url": "https://github.com/mtsprznto/buscafacil",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 41446
+    },
+    "topics": [],
+    "sitio_web": null,
+    "repositorio": "buscafacil"
+  },
+  {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2026-03-08",
+    "fecha": "2026-03-09",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
