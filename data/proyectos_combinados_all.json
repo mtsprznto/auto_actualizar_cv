@@ -1,8 +1,24 @@
 [
   {
+    "titulo": "MEDIAPIPE-TOUCHDESIGNER (None)",
+    "descripcion": "GPU Accelerated MediaPipe Plugin for TouchDesigner",
+    "fecha": "2026-04-12",
+    "url": "https://github.com/mtsprznto/mediapipe-touchdesigner",
+    "lenguaje": null,
+    "lenguajes_completos": {
+      "JavaScript": 51511,
+      "Python": 43148,
+      "HTML": 1411,
+      "CSS": 979
+    },
+    "topics": [],
+    "sitio_web": "",
+    "repositorio": "mediapipe-touchdesigner"
+  },
+  {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2026-04-11",
+    "fecha": "2026-04-12",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
