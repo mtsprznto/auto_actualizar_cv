@@ -1,8 +1,25 @@
 [
   {
+    "titulo": "SIM-CIR-INTEGRADO (TypeScript)",
+    "descripcion": "None",
+    "fecha": "2026-05-29",
+    "url": "https://github.com/mtsprznto/sim-cir-integrado",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 171654,
+      "CSS": 24403,
+      "JavaScript": 23172,
+      "Python": 15177,
+      "HTML": 3538
+    },
+    "topics": [],
+    "sitio_web": null,
+    "repositorio": "sim-cir-integrado"
+  },
+  {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2026-05-27",
+    "fecha": "2026-05-28",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
