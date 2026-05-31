@@ -1,26 +1,25 @@
 [
   {
-    "titulo": "AUTOMATIZACIONES (Python)",
-    "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
-    "fecha": "2026-05-29",
-    "url": "https://github.com/mtsprznto/Automatizaciones",
-    "lenguaje": "Python",
+    "titulo": "SIM-CIR-INTEGRADO (TypeScript)",
+    "descripcion": "None",
+    "fecha": "2026-05-30",
+    "url": "https://github.com/mtsprznto/sim-cir-integrado",
+    "lenguaje": "TypeScript",
     "lenguajes_completos": {
-      "Python": 108944,
-      "Batchfile": 1761
+      "TypeScript": 232656,
+      "JavaScript": 30142,
+      "CSS": 28086,
+      "Python": 15177,
+      "HTML": 4851
     },
-    "topics": [
-      "automation",
-      "python",
-      "scraping"
-    ],
-    "sitio_web": "",
-    "repositorio": "Automatizaciones"
+    "topics": [],
+    "sitio_web": null,
+    "repositorio": "sim-cir-integrado"
   },
   {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2026-05-29",
+    "fecha": "2026-05-30",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
@@ -40,21 +39,22 @@
     "repositorio": "auto_actualizar_cv"
   },
   {
-    "titulo": "SIM-CIR-INTEGRADO (TypeScript)",
-    "descripcion": "None",
+    "titulo": "AUTOMATIZACIONES (Python)",
+    "descripcion": "Este repositorio contiene una colección de proyectos de automatización y scraping desarrollados en Python. Cada proyecto está diseñado para optimizar procesos específicos y extraer datos de manera eficiente.",
     "fecha": "2026-05-29",
-    "url": "https://github.com/mtsprznto/sim-cir-integrado",
-    "lenguaje": "TypeScript",
+    "url": "https://github.com/mtsprznto/Automatizaciones",
+    "lenguaje": "Python",
     "lenguajes_completos": {
-      "TypeScript": 171654,
-      "CSS": 24403,
-      "JavaScript": 23172,
-      "Python": 15177,
-      "HTML": 3538
+      "Python": 108944,
+      "Batchfile": 1761
     },
-    "topics": [],
-    "sitio_web": null,
-    "repositorio": "sim-cir-integrado"
+    "topics": [
+      "automation",
+      "python",
+      "scraping"
+    ],
+    "sitio_web": "",
+    "repositorio": "Automatizaciones"
   },
   {
     "titulo": "AUTCV (TypeScript)",
