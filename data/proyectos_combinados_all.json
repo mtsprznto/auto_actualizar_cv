@@ -1,5 +1,40 @@
 [
   {
+    "titulo": "OEFA-SCRAPER (TypeScript)",
+    "descripcion": "TypeScript scraper for OEFA Digital Repository (TFA/DFSAI) — JSF/PrimeFaces, HAR-verified payloads, 429 backoff, atomic resume",
+    "fecha": "2026-07-01",
+    "url": "https://github.com/mtsprznto/oefa-scraper",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 110493
+    },
+    "topics": [],
+    "sitio_web": null,
+    "repositorio": "oefa-scraper"
+  },
+  {
+    "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
+    "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    "fecha": "2026-07-01",
+    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 89412,
+      "Python": 75736,
+      "JavaScript": 9355,
+      "CSS": 5827,
+      "Batchfile": 4402
+    },
+    "topics": [
+      "automatizaciones",
+      "fastapi",
+      "full-stack",
+      "python"
+    ],
+    "sitio_web": "https://autcv.mtsprz.org/",
+    "repositorio": "auto_actualizar_cv"
+  },
+  {
     "titulo": "PORTAFOLIO-MINIMALIST (JavaScript)",
     "descripcion": "Diseñé y desarrollé una aplicación web moderna utilizando React para una estructura modular y eficiente, complementada con TailwindCSS para una interfaz rápida y optimizada",
     "fecha": "2026-06-30",
@@ -18,28 +53,6 @@
     ],
     "sitio_web": "https://portafolio.mtsprz.org/",
     "repositorio": "portafolio-minimalist"
-  },
-  {
-    "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
-    "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2026-06-30",
-    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 89412,
-      "Python": 75736,
-      "JavaScript": 9355,
-      "CSS": 5827,
-      "Batchfile": 4402
-    },
-    "topics": [
-      "automatizaciones",
-      "fastapi",
-      "full-stack",
-      "python"
-    ],
-    "sitio_web": "https://autcv.mtsprz.org/",
-    "repositorio": "auto_actualizar_cv"
   },
   {
     "titulo": "AUTOMATIZACIONES (Python)",
