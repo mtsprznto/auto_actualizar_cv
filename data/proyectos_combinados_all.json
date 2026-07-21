@@ -1,5 +1,44 @@
 [
   {
+    "titulo": "MTSPRZ (Astro)",
+    "descripcion": "Landing page profesional para Mtsprz, agencia de soluciones digitales con enfoque en la Región de Los Lagos, Chile. El sitio presenta servicios de desarrollo web, SEO, automatizaciones, diseño gráfico, marketing digital y consultoría para pymes del sur de Chile.",
+    "fecha": "2026-07-21",
+    "url": "https://github.com/mtsprznto/mtsprz",
+    "lenguaje": "Astro",
+    "lenguajes_completos": {
+      "Astro": 384042,
+      "Python": 134031,
+      "TypeScript": 114357,
+      "JavaScript": 36133,
+      "CSS": 9532
+    },
+    "topics": [],
+    "sitio_web": "https://mtsprz.vercel.app",
+    "repositorio": "mtsprz"
+  },
+  {
+    "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
+    "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    "fecha": "2026-07-20",
+    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 89412,
+      "Python": 75736,
+      "JavaScript": 9355,
+      "CSS": 5827,
+      "Batchfile": 4402
+    },
+    "topics": [
+      "automatizaciones",
+      "fastapi",
+      "full-stack",
+      "python"
+    ],
+    "sitio_web": "https://autcv.mtsprz.org/",
+    "repositorio": "auto_actualizar_cv"
+  },
+  {
     "titulo": "LLLITMTS (Astro)",
     "descripcion": "Sitio web oficial de LLLIT. Especializados en video mapping, proyecciones arquitectónicas y experiencias visuales inmersivas.",
     "fecha": "2026-07-19",
@@ -18,44 +57,6 @@
     ],
     "sitio_web": "https://lllit.mtsprz.org",
     "repositorio": "lllitmts"
-  },
-  {
-    "titulo": "MTSPRZ (Astro)",
-    "descripcion": "Landing page profesional para Mtsprz, agencia de soluciones digitales con enfoque en la Región de Los Lagos, Chile. El sitio presenta servicios de desarrollo web, SEO, automatizaciones, diseño gráfico, marketing digital y consultoría para pymes del sur de Chile.",
-    "fecha": "2026-07-19",
-    "url": "https://github.com/mtsprznto/mtsprz",
-    "lenguaje": "Astro",
-    "lenguajes_completos": {
-      "Astro": 171573,
-      "TypeScript": 12896,
-      "CSS": 9415,
-      "JavaScript": 3812
-    },
-    "topics": [],
-    "sitio_web": "https://mtsprz.vercel.app",
-    "repositorio": "mtsprz"
-  },
-  {
-    "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
-    "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2026-07-19",
-    "url": "https://github.com/mtsprznto/auto_actualizar_cv",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 89412,
-      "Python": 75736,
-      "JavaScript": 9355,
-      "CSS": 5827,
-      "Batchfile": 4402
-    },
-    "topics": [
-      "automatizaciones",
-      "fastapi",
-      "full-stack",
-      "python"
-    ],
-    "sitio_web": "https://autcv.mtsprz.org/",
-    "repositorio": "auto_actualizar_cv"
   },
   {
     "titulo": "LICITAPP (TypeScript)",
