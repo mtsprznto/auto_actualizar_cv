@@ -6,20 +6,20 @@
     "url": "https://github.com/mtsprznto/mtsprz",
     "lenguaje": "Astro",
     "lenguajes_completos": {
-      "Astro": 384042,
-      "Python": 134031,
-      "TypeScript": 114357,
-      "JavaScript": 36133,
+      "Astro": 432813,
+      "TypeScript": 180112,
+      "Python": 162031,
+      "JavaScript": 36884,
       "CSS": 9532
     },
     "topics": [],
-    "sitio_web": "https://mtsprz.vercel.app",
+    "sitio_web": "https://www.mtsprz.org/",
     "repositorio": "mtsprz"
   },
   {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2026-07-20",
+    "fecha": "2026-07-21",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
