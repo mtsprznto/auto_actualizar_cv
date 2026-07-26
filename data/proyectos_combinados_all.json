@@ -1,8 +1,41 @@
 [
   {
+    "titulo": "BACKEND-DEVOPS (Python)",
+    "descripcion": "None",
+    "fecha": "2026-07-26",
+    "url": "https://github.com/mtsprznto/backend-devops",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 46380,
+      "Dockerfile": 4437,
+      "Makefile": 1585,
+      "Go Template": 555
+    },
+    "topics": [],
+    "sitio_web": null,
+    "repositorio": "backend-devops"
+  },
+  {
+    "titulo": "MTSPRZ (Astro)",
+    "descripcion": "Landing page profesional para Mtsprz, agencia de soluciones digitales con enfoque en la Región de Los Lagos, Chile. El sitio presenta servicios de desarrollo web, SEO, automatizaciones, diseño gráfico, marketing digital y consultoría para pymes del sur de Chile.",
+    "fecha": "2026-07-25",
+    "url": "https://github.com/mtsprznto/mtsprz",
+    "lenguaje": "Astro",
+    "lenguajes_completos": {
+      "Astro": 725933,
+      "TypeScript": 277238,
+      "Python": 183661,
+      "JavaScript": 39564,
+      "CSS": 12784
+    },
+    "topics": [],
+    "sitio_web": "https://www.mtsprz.org/",
+    "repositorio": "mtsprz"
+  },
+  {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2026-07-24",
+    "fecha": "2026-07-25",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
@@ -20,23 +53,6 @@
     ],
     "sitio_web": "https://autcv.mtsprz.org/",
     "repositorio": "auto_actualizar_cv"
-  },
-  {
-    "titulo": "MTSPRZ (Astro)",
-    "descripcion": "Landing page profesional para Mtsprz, agencia de soluciones digitales con enfoque en la Región de Los Lagos, Chile. El sitio presenta servicios de desarrollo web, SEO, automatizaciones, diseño gráfico, marketing digital y consultoría para pymes del sur de Chile.",
-    "fecha": "2026-07-23",
-    "url": "https://github.com/mtsprznto/mtsprz",
-    "lenguaje": "Astro",
-    "lenguajes_completos": {
-      "Astro": 719624,
-      "TypeScript": 277238,
-      "Python": 183661,
-      "JavaScript": 36884,
-      "CSS": 9532
-    },
-    "topics": [],
-    "sitio_web": "https://www.mtsprz.org/",
-    "repositorio": "mtsprz"
   },
   {
     "titulo": "PORTAFOLIO-MINIMALIST (JavaScript)",
