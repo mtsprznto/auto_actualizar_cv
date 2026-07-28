@@ -2,40 +2,57 @@
   {
     "titulo": "MTSPRZ (Astro)",
     "descripcion": "Landing page profesional para Mtsprz, agencia de soluciones digitales con enfoque en la Región de Los Lagos, Chile. El sitio presenta servicios de desarrollo web, SEO, automatizaciones, diseño gráfico, marketing digital y consultoría para pymes del sur de Chile.",
-    "fecha": "2026-07-26",
+    "fecha": "2026-07-27",
     "url": "https://github.com/mtsprznto/mtsprz",
     "lenguaje": "Astro",
     "lenguajes_completos": {
-      "Astro": 851969,
-      "TypeScript": 285655,
+      "Astro": 1158012,
+      "TypeScript": 291235,
       "Python": 183661,
-      "JavaScript": 46675,
-      "CSS": 13536
+      "JavaScript": 47091,
+      "CSS": 13595
     },
     "topics": [],
     "sitio_web": "https://www.mtsprz.org/",
     "repositorio": "mtsprz"
   },
   {
-    "titulo": "BACKEND-DEVOPS (Python)",
+    "titulo": "GOOGLE-APPS-SCRIPT-SHEETS (HTML)",
     "descripcion": "None",
-    "fecha": "2026-07-26",
-    "url": "https://github.com/mtsprznto/backend-devops",
-    "lenguaje": "Python",
+    "fecha": "2026-07-27",
+    "url": "https://github.com/mtsprznto/google-apps-script-sheets",
+    "lenguaje": "HTML",
     "lenguajes_completos": {
-      "Python": 103349,
-      "Dockerfile": 4485,
-      "Makefile": 1585,
-      "Go Template": 555
+      "HTML": 223848,
+      "TypeScript": 220484,
+      "JavaScript": 3394
     },
     "topics": [],
     "sitio_web": null,
-    "repositorio": "backend-devops"
+    "repositorio": "google-apps-script-sheets"
+  },
+  {
+    "titulo": "AUTCV (TypeScript)",
+    "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
+    "fecha": "2026-07-27",
+    "url": "https://github.com/mtsprznto/autcv",
+    "lenguaje": "TypeScript",
+    "lenguajes_completos": {
+      "TypeScript": 92306,
+      "Python": 65958,
+      "CSS": 5827,
+      "JavaScript": 4874
+    },
+    "topics": [
+      "fullstack"
+    ],
+    "sitio_web": "https://autcv.mtsprz.org/",
+    "repositorio": "autcv"
   },
   {
     "titulo": "AUTO_ACTUALIZAR_CV (TypeScript)",
     "descripcion": "Resp Respaldo: Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2026-07-26",
+    "fecha": "2026-07-27",
     "url": "https://github.com/mtsprznto/auto_actualizar_cv",
     "lenguaje": "TypeScript",
     "lenguajes_completos": {
@@ -53,6 +70,22 @@
     ],
     "sitio_web": "https://autcv.mtsprz.org/",
     "repositorio": "auto_actualizar_cv"
+  },
+  {
+    "titulo": "BACKEND-DEVOPS (Python)",
+    "descripcion": "None",
+    "fecha": "2026-07-26",
+    "url": "https://github.com/mtsprznto/backend-devops",
+    "lenguaje": "Python",
+    "lenguajes_completos": {
+      "Python": 103349,
+      "Dockerfile": 4485,
+      "Makefile": 1585,
+      "Go Template": 555
+    },
+    "topics": [],
+    "sitio_web": null,
+    "repositorio": "backend-devops"
   },
   {
     "titulo": "PORTAFOLIO-MINIMALIST (JavaScript)",
@@ -139,24 +172,6 @@
     ],
     "sitio_web": "",
     "repositorio": "Automatizaciones"
-  },
-  {
-    "titulo": "AUTCV (TypeScript)",
-    "descripcion": "Una solución automatizada para mantener tu CV profesional siempre actualizado, extrayendo información directamente de tus repositorios de GitHub y generando un documento PDF listo para compartir.",
-    "fecha": "2026-05-15",
-    "url": "https://github.com/mtsprznto/autcv",
-    "lenguaje": "TypeScript",
-    "lenguajes_completos": {
-      "TypeScript": 92306,
-      "Python": 60695,
-      "CSS": 5827,
-      "JavaScript": 4874
-    },
-    "topics": [
-      "fullstack"
-    ],
-    "sitio_web": "https://autcv.mtsprz.org/",
-    "repositorio": "autcv"
   },
   {
     "titulo": "MEDIAPIPE-TOUCHDESIGNER (None)",
